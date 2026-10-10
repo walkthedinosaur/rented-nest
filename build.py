@@ -55,6 +55,7 @@ def page(meta, inner):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(full_title)}</title>
 <meta name="description" content="{desc}">
+<meta name="p:domain_verify" content="9048703ba3079bac67a31789bf0f19ed"/>
 <link rel="canonical" href="{SITE}{meta['url']}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{desc}">
