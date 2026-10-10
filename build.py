@@ -14,7 +14,9 @@ Content lives in content/ as HTML fragments with a small header block:
 Run `python3 build.py`; output goes to docs/, which GitHub Pages serves.
 """
 import html
+import re
 import shutil
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -24,14 +26,25 @@ SITE = "https://therentednest.co.uk"
 LOGO = (ROOT / "static" / "logo.svg").read_text()
 
 DISCLOSURE = (
-    '<p class="disclosure"><strong>Ad</strong> – this guide may contain affiliate links. '
+    '<p class="disclosure"><strong>Ad</strong> – this guide contains affiliate links. '
     'If you buy through them we may earn a small commission, at no extra cost to you. '
     '<a href="/disclosure.html">How we make money</a>.</p>'
 )
 
 
+AMAZON_TAG = "therentednest-21"
+SHORTCODE = re.compile(r"\{\{amazon:([^|}]+)\|([^}]+)\}\}")
+
+
+def amazon_link(m):
+    query = urllib.parse.quote_plus(m.group(1).strip())
+    label = html.escape(m.group(2).strip())
+    url = f"https://www.amazon.co.uk/s?k={query}&tag={AMAZON_TAG}"
+    return f'<a href="{url}" rel="sponsored nofollow noopener" target="_blank">{label} →</a>'
+
+
 def parse(path):
-    raw = path.read_text()
+    raw = SHORTCODE.sub(amazon_link, path.read_text())
     head, body = raw.split("\n---\n", 1)
     meta = {}
     for line in head.strip().splitlines():
@@ -81,7 +94,7 @@ def page(meta, inner):
 {inner}
 </main>
 <footer class="site-footer"><div class="wrap">
-  <div>© 2026 The Rented Nest · Small-space ideas for UK renters</div>
+  <div>© 2026 The Rented Nest · Small-space ideas for UK renters<br>As an Amazon Associate we earn from qualifying purchases.</div>
   <nav aria-label="Footer">
     <a href="/about.html">About</a>
     <a href="/disclosure.html">Affiliate disclosure</a>
