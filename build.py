@@ -130,8 +130,7 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
-    for f in (ROOT / "static").iterdir():
-        shutil.copy(f, OUT / f.name)
+    shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
 
     items = [parse(p) for p in sorted(CONTENT.rglob("*.html"))]
     guides = sorted((i for i in items if i.get("kind") == "guide"),
