@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Rented Nest">
+  <circle cx="32" cy="32" r="31" fill="#7d8f6e"/>
+  <path d="M17 31 L32 18 L47 31" fill="none" stroke="#faf6ef" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 34 Q32 50 43 34" fill="none" stroke="#faf6ef" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M23 38 Q32 46 41 38" fill="none" stroke="#c0704d" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="33" r="2.6" fill="#faf6ef"/>
+  <circle cx="34.5" cy="33" r="2.6" fill="#faf6ef"/>
+</svg>
