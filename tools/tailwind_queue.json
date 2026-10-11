@@ -1,0 +1,11 @@
+{
+ "account_id": "1658314",
+ "note": "Drafts ready to schedule once Tailwind is upgraded. Schedule with useNextOpenSlot, Christmas first. The 10 '-photo' (v1) drafts are SUPERSEDED - do not schedule them.",
+ "schedule_order": [
+  "6acb6c9bAVcnpbNWhw4QU","6acb6cb8WWfnrhyz2-kEF","6acb6ca3iQAYoOQizRlQi","6acb6c9dQyxyspjBUdEKM","6acb6caaRgqgb1G6AvdLI",
+  "6acb6cc4IDUrm9zVVuCyz","6acb6ca0IC5DnHHyNDN3D","6acb6ca5eH0QggGQn5hZh","6acb6cbaTmn3WdhmB22f5","6acb6cacYYp5aR379f_qg",
+  "6acb6ca7RPIl7v89vYjqw","6acb6cc6TiOPBE1NNvgyA","6acb6caePUVgVIIqgzpPy","6acb6cbdbxpcDNl_u9LEN","6acb6cb0tI3qNGSm_kLTh",
+  "6acb6cc8HmxSbKgjfyJ24","6acb6cb6lhBOL01KKz1tE","6acb6cbfnqlCGpJhq7ktQ","6acb6cc1ha8S7xfnQerDD"
+ ],
+ "superseded_v1_drafts": ["6acb69c6ROZTLuHRAUXUZ","6acb69c9iKeSe-XaEeDJc","6acb69cb2jI1-i5wKAfZw","6acb69cdtxy-WhbAbUzrm","6acb69cfkudv88Q5cFBM1","6acb69d2FBLVP3GrVrYHB","6acb69d4hMUf7kZQ_uTbw","6acb69d7l59YZxrbd60EM","6acb69d9WrWEdOE2ybyLL","6acb69dbD_FUmcA2b-T0g"]
+}
