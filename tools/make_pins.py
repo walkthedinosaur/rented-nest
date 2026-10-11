@@ -4,6 +4,7 @@
 Each pin entry: slug, headline, sub, label, theme (sage|clay|oat|pine), layout (a|b|c), guide.
 Run: python3 tools/make_pins.py   (needs Playwright + Chromium)
 """
+import base64
 import html
 import json
 import sys
@@ -41,7 +42,21 @@ def render(p):
     sub = html.escape(p["sub"])
     label = html.escape(p["label"])
     ink = light if p["theme"] != "oat" else dark
-    if p["layout"] == "a":
+    if p["layout"] == "photo":
+        img = base64.b64encode((ROOT / "static" / "photos" / p["photo"]).read_bytes()).decode()
+        body = f"""
+<div class="pin" style="background:#faf6ef;color:{dark};">
+  <div style="height:880px;background:url(data:image/jpeg;base64,{img}) center/cover;position:relative;">
+    <div class="label" style="position:absolute;left:60px;bottom:40px;background:#faf6ef;color:{dark};padding:14px 28px;border-radius:999px;font-size:26px;">{label}</div>
+  </div>
+  <div style="padding:52px 64px 56px;display:flex;flex-direction:column;flex:1;border-top:14px solid {b};">
+    <h1 style="font-size:84px;">{head}</h1>
+    <p class="sub" style="margin-top:22px;color:#6b665d;font-size:36px;">{sub}</p>
+    <div style="flex:1"></div>
+    <div class="foot">{LOGO}<span>therentednest.co.uk</span></div>
+  </div>
+</div>"""
+    elif p["layout"] == "a":
         body = f"""
 <div class="pin" style="background:linear-gradient(160deg,{a},{b});color:{ink};padding:110px 90px 90px;">
   <div class="label" style="opacity:.85">{label}</div>
