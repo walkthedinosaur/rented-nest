@@ -75,6 +75,7 @@ def page(meta, inner):
 <meta property="og:type" content="{'article' if meta.get('kind') == 'guide' else 'website'}">
 <meta property="og:url" content="{SITE}{meta['url']}">
 <meta property="og:site_name" content="The Rented Nest">
+{f'<meta property="og:image" content="{SITE}/photos/{meta["hero"]}">' if meta.get("hero") else f'<meta property="og:image" content="{SITE}/profile-picture.png">'}
 <link rel="icon" href="/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -106,13 +107,23 @@ def page(meta, inner):
 """
 
 
+def anchor_ids(body):
+    def add(m):
+        slug = re.sub(r"[^a-z0-9]+", "-", re.sub(r"^\d+\.\s*", "", m.group(1)).lower()).strip("-")
+        return f'<h3 id="{slug}">{m.group(1)}</h3>'
+    return re.sub(r"<h3>([^<]+)</h3>", add, body)
+
+
 def render_guide(g):
+    hero = (f'<img class="hero" src="/photos/{g["hero"]}" alt="" width="1200" height="800" loading="eager">'
+            if g.get("hero") else "")
     return f"""<article><div class="narrow">
 <p class="eyebrow">Guide</p>
 <h1>{html.escape(g['title'])}</h1>
 <p class="standfirst">{html.escape(g['description'])}</p>
 {DISCLOSURE}
-{g['body']}
+{hero}
+{anchor_ids(g['body'])}
 </div></article>"""
 
 
@@ -126,7 +137,7 @@ def render_page(p):
 def render_home(home, guides):
     cards = "\n".join(
         f"""<a class="card" href="{g['url']}">
-  <div class="swatch {g.get('card', 'sw-sage')}"><span>{html.escape(g.get('label', 'Guide'))}</span></div>
+  <div class="swatch {g.get('card', 'sw-sage')}"{f' style="background:url(/photos/{g["hero"]}) center/cover"' if g.get("hero") else ""}><span>{html.escape(g.get('label', 'Guide'))}</span></div>
   <div class="body"><h3>{html.escape(g['title'])}</h3><p>{html.escape(g['description'])}</p></div>
 </a>"""
         for g in guides

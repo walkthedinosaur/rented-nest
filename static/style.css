@@ -96,3 +96,5 @@ article li { margin: 6px 0; }
   .hero { padding: 40px 0 28px; }
   .nav { gap: 14px; }
 }
+article .hero { display:block; width:100%; height:auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; margin: 0 0 32px; }
+h3[id] { scroll-margin-top: 20px; }

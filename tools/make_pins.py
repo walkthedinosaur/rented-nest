@@ -42,7 +42,19 @@ def render(p):
     sub = html.escape(p["sub"])
     label = html.escape(p["label"])
     ink = light if p["theme"] != "oat" else dark
-    if p["layout"] == "photo":
+    if p["layout"] == "photo2":
+        img = base64.b64encode((ROOT / "static" / "photos" / p["photo"]).read_bytes()).decode()
+        body = f"""
+<div class="pin" style="background:url(data:image/jpeg;base64,{img}) center/cover;color:{dark};">
+  <div style="background:#faf6ef;padding:62px 64px 52px;border-bottom:12px solid {b};">
+    <div class="label" style="color:{b if p["theme"] != "oat" else "#8a6d45"};font-size:26px;">{label}</div>
+    <h1 style="font-size:{p.get('size', 92)}px;margin-top:22px;">{head}</h1>
+    <p class="sub" style="margin-top:20px;color:#6b665d;font-size:34px;">{sub}</p>
+  </div>
+  <div style="flex:1"></div>
+  <div style="margin:0 0 48px 48px;align-self:flex-start;background:rgba(250,246,239,.94);border-radius:999px;padding:14px 30px 14px 16px;" class="foot">{LOGO}<span style="font-size:30px;">therentednest.co.uk</span></div>
+</div>"""
+    elif p["layout"] == "photo":
         img = base64.b64encode((ROOT / "static" / "photos" / p["photo"]).read_bytes()).decode()
         body = f"""
 <div class="pin" style="background:#faf6ef;color:{dark};">
