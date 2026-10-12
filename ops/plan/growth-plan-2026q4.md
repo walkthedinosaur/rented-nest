@@ -23,9 +23,13 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
   the January 2027 cap is announced, expected late Nov) – by 26 Oct; (b) "Renter winter damp" data page from the
   English Housing Survey – by 2 Nov.
 
-## Engine 3 – Owned audience (blocked until Dylan creates Kit and sends an API key)
-- Build now anyway: "Move-out deposit checklist" and "Winter damp & warmth checklist" PDFs + sign-up copy, ready to
-  switch on. Price-drop alert sign-up later.
+## Engine 3 – Owned audience (LIVE 12 Oct 2026 – Kit free plan)
+- Kit inline form 10035184 "Winter damp & warmth checklist" (embed uid 20b07e3af6), double opt-in, confirm redirects to
+  /checklists/winter-damp-warmth.html (PDF download). Embedded on dehumidifiers, heated airers, stay-warm and Black Friday guides.
+- Checklist source: tools/checklists/*.html -> `python3 tools/checklists/render.py` -> static/checklists/*.pdf.
+- NO broadcasts/sequences until Dylan resolves the postal address Kit requires in email footers (not his home address).
+- Never store Kit API keys or webhook URLs in this repo.
+- Next: "Move-out deposit checklist" lead magnet for storage/decor guides. Price-drop alert sign-up later.
 
 ## Engine 4 – Short video (blocked until Dylan sets up Buffer + IG/TikTok/YouTube and sends an API key)
 - Prepare 3 test slideshow videos (python/ffmpeg from our photos + copy, "Ad" label first). 60-day test once live.
