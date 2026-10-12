@@ -14,6 +14,7 @@ Content lives in content/ as HTML fragments with a small header block:
 Run `python3 build.py`; output goes to docs/, which GitHub Pages serves.
 """
 import html
+import json
 import re
 import shutil
 import urllib.parse
@@ -76,6 +77,7 @@ def page(meta, inner):
 <meta property="og:url" content="{SITE}{meta['url']}">
 <meta property="og:site_name" content="The Rented Nest">
 {f'<meta property="og:image" content="{SITE}/photos/{meta["hero"]}">' if meta.get("hero") else f'<meta property="og:image" content="{SITE}/profile-picture.png">'}
+{jsonld(meta)}
 <link rel="icon" href="/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,6 +110,53 @@ def page(meta, inner):
 """
 
 
+GROUPS = [("dehumidifier", "airer", "warm"), ("christmas", "santa", "gift"), ("storage", "living-room")]
+
+
+def group_of(url):
+    for i, keys in enumerate(GROUPS):
+        if any(k in url for k in keys):
+            return i
+    return -1
+
+
+def jsonld(meta):
+    org = {"@type": "Organization", "name": "The Rented Nest", "url": SITE + "/",
+           "logo": SITE + "/profile-picture.png"}
+    if meta.get("kind") == "guide":
+        data = [{
+            "@context": "https://schema.org", "@type": "Article",
+            "headline": meta["title"], "description": meta.get("description", ""),
+            "datePublished": meta.get("date", ""), "dateModified": meta.get("updated", meta.get("date", "")),
+            "image": [f"{SITE}/photos/{meta['hero']}"] if meta.get("hero") else [],
+            "author": org, "publisher": org,
+            "mainEntityOfPage": SITE + meta["url"],
+        }, {
+            "@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+                {"@type": "ListItem", "position": 2, "name": meta["title"], "item": SITE + meta["url"]},
+            ],
+        }]
+    elif meta.get("kind") == "home":
+        data = [dict(org, **{"@context": "https://schema.org"}),
+                {"@context": "https://schema.org", "@type": "WebSite", "name": "The Rented Nest", "url": SITE + "/"}]
+    else:
+        return ""
+    return "\n".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>' for d in data)
+
+
+def related_block(g, guides):
+    mine = group_of(g["url"])
+    others = [o for o in guides if o["url"] != g["url"]]
+    others.sort(key=lambda o: (group_of(o["url"]) != mine, o.get("date", "")), reverse=False)
+    same = [o for o in others if group_of(o["url"]) == mine]
+    rest = [o for o in others if group_of(o["url"]) != mine]
+    pick = (same + rest)[:3]
+    items = "\n".join(f'<li><a href="{o["url"]}">{html.escape(o["title"])}</a> – {html.escape(o["description"])}</li>' for o in pick)
+    return f'<section class="related"><h2>More guides for renters</h2><ul>{items}</ul></section>'
+
+
 def anchor_ids(body):
     def add(m):
         slug = re.sub(r"[^a-z0-9]+", "-", re.sub(r"^\d+\.\s*", "", m.group(1)).lower()).strip("-")
@@ -115,8 +164,8 @@ def anchor_ids(body):
     return re.sub(r"<h3>([^<]+)</h3>", add, body)
 
 
-def render_guide(g):
-    hero = (f'<img class="hero" src="/photos/{g["hero"]}" alt="" width="1200" height="800" loading="eager">'
+def render_guide(g, guides=()):
+    hero = (f'<img class="hero" src="/photos/{g["hero"]}" alt="{html.escape(g.get("hero_alt", g["title"]))}" width="1200" height="800" loading="eager">'
             if g.get("hero") else "")
     return f"""<article><div class="narrow">
 <p class="eyebrow">Guide</p>
@@ -125,6 +174,7 @@ def render_guide(g):
 {DISCLOSURE}
 {hero}
 {anchor_ids(g['body'])}
+{related_block(g, guides)}
 </div></article>"""
 
 
@@ -167,7 +217,7 @@ def main():
         if kind == "home":
             inner = render_home(item, guides)
         elif kind == "guide":
-            inner = render_guide(item)
+            inner = render_guide(item, guides)
         else:
             inner = render_page(item)
         item["out"].parent.mkdir(parents=True, exist_ok=True)
@@ -176,7 +226,10 @@ def main():
     (OUT / "CNAME").write_text("therentednest.co.uk\n")
     (OUT / ".nojekyll").write_text("")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-    urls = "\n".join(f"  <url><loc>{SITE}{i['url']}</loc></url>" for i in items)
+    urls = "\n".join(
+        f"  <url><loc>{SITE}{i['url']}</loc>"
+        + (f"<lastmod>{i.get('updated', i['date'])}</lastmod>" if i.get("date") else "")
+        + "</url>" for i in items)
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

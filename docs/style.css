@@ -99,3 +99,5 @@ article li { margin: 6px 0; }
 article .hero { display:block; width:100%; height:auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; margin: 0 0 32px; }
 h3[id] { scroll-margin-top: 20px; }
 article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; margin: 4px 0 18px; }
+.related { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); }
+.related h2 { font-size: 22px; margin-top: 0; }
