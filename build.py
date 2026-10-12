@@ -35,6 +35,9 @@ DISCLOSURE = (
 
 AMAZON_TAG = "therentednest-21"
 SHORTCODE = re.compile(r"\{\{amazon:([^|}]+)\|([^}]+)\}\}")
+# {{awin:<advertiser id>|<destination url>|<label>}} -> Awin tracked deep link
+AWIN_PUBLISHER = "3120264"
+AWIN_SHORTCODE = re.compile(r"\{\{awin:(\d+)\|([^|}]+)\|([^}]+)\}\}")
 
 
 def amazon_link(m):
@@ -44,8 +47,16 @@ def amazon_link(m):
     return f'<a href="{url}" rel="sponsored nofollow noopener" target="_blank">{label} →</a>'
 
 
+def awin_link(m):
+    mid, dest, label = m.group(1), m.group(2).strip(), html.escape(m.group(3).strip())
+    url = ("https://www.awin1.com/cread.php?awinmid=" + mid + "&amp;awinaffid=" + AWIN_PUBLISHER
+           + "&amp;ued=" + urllib.parse.quote(dest, safe=""))
+    return f'<a href="{url}" rel="sponsored nofollow noopener" target="_blank">{label} →</a>'
+
+
 def parse(path):
     raw = SHORTCODE.sub(amazon_link, path.read_text())
+    raw = AWIN_SHORTCODE.sub(awin_link, raw)
     head, body = raw.split("\n---\n", 1)
     meta = {}
     for line in head.strip().splitlines():

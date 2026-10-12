@@ -79,7 +79,7 @@ article li { margin: 6px 0; }
 .idea .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .idea .tags span { font-size: 12.5px; background: var(--cream); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; color: var(--muted); }
 
-.idea .shop { margin: 12px 0 0; }
+.idea .shop { margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .idea .shop a { display: inline-block; font-size: 14.5px; font-weight: 600; text-decoration: none; background: var(--sage-deep); color: #fff; padding: 7px 14px; border-radius: 999px; }
 .idea .shop a:hover { background: var(--clay); color: #fff; }
 
@@ -105,3 +105,4 @@ article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 
 .signup { background: #f4f1ea; border-radius: 12px; padding: 20px 22px; margin: 36px 0; }
 .signup .signup-title { margin-top: 0; }
 .btn { display: inline-block; background: #4F5F45; color: #fff !important; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+.shop-line a { display:inline-block; font-size:14.5px; font-weight:600; text-decoration:none; background: var(--sage-deep); color:#fff; padding:7px 14px; border-radius:999px; margin-left:4px; }
