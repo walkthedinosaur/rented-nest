@@ -23,7 +23,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
   the January 2027 cap is announced, expected late Nov) – by 26 Oct; (b) "Renter winter damp" data page from the
   English Housing Survey – by 2 Nov.
 
-## Engine 3 – Owned audience (LIVE 12 Oct 2026 – Kit free plan)
+## Engine 3 – Owned audience (LIVE 12 Oct 2026 – Kit free plan; end-to-end test passed 12 Oct, Dylan)
 - Kit inline form 10035184 "Winter damp & warmth checklist" (embed uid 20b07e3af6), double opt-in, confirm redirects to
   /checklists/winter-damp-warmth.html (PDF download). Embedded on dehumidifiers, heated airers, stay-warm and Black Friday guides.
 - Checklist source: tools/checklists/*.html -> `python3 tools/checklists/render.py` -> static/checklists/*.pdf.
