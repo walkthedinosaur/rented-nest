@@ -34,5 +34,20 @@
     "6acb69d9WrWEdOE2ybyLL",
     "6acb69dbD_FUmcA2b-T0g"
   ],
-  "status": "All 19 v2 pins scheduled 2026-10-12 via useNextOpenSlot (Mon 19:21 to Fri 16 Oct ~07:45 BST). Plan: Pin Scheduling & Creation, 300 credits/month."
+  "status": "All 19 v2 pins scheduled 2026-10-12 via useNextOpenSlot (Mon 19:21 to Fri 16 Oct ~07:45 BST). Plan: Pin Scheduling & Creation, 300 credits/month.",
+  "batch_2026_10_12_winter": {
+    "board_warm_dry": "1111474451727980361",
+    "post_ids": [
+      "6accc2c2JLV6xGCaNOrUy",
+      "6accc2c7zEWxTPGfr4rG5",
+      "6accc2ccugF29o2ofxVX9",
+      "6accc2d1VtrdWAtFxd9aU",
+      "6accc2d6bejxRZPcLxtsa",
+      "6accc2dbeZQx9Lgxs96Ci",
+      "6accc2dfsmdSzdu9lBnFo",
+      "6accc2e4G2JXHSS8aieca",
+      "6accc2e9RLg1DhEx2LJJU"
+    ],
+    "window": "Fri 16 Oct 12:15 to Sat 17 Oct 21:56 BST"
+  }
 }
