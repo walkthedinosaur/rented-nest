@@ -101,6 +101,7 @@ def page(meta, inner):
   <nav aria-label="Footer">
     <a href="/about.html">About</a>
     <a href="/disclosure.html">Affiliate disclosure</a>
+    <a href="/editorial-policy.html">Editorial policy</a>
     <a href="/privacy.html">Privacy</a>
   </nav>
 </div></footer>
@@ -225,7 +226,11 @@ def main():
 
     (OUT / "CNAME").write_text("therentednest.co.uk\n")
     (OUT / ".nojekyll").write_text("")
-    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    (OUT / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\n"
+        "# Search and AI answer engines are welcome\n"
+        "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\n"
+        f"Sitemap: {SITE}/sitemap.xml\n")
     urls = "\n".join(
         f"  <url><loc>{SITE}{i['url']}</loc>"
         + (f"<lastmod>{i.get('updated', i['date'])}</lastmod>" if i.get("date") else "")
