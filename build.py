@@ -102,7 +102,7 @@ def page(meta, inner):
     <a href="/privacy.html">Privacy</a>
   </nav>
 </div></footer>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "20c59278defa48748115ad49217b7e0d"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "20c59278defa48748115ad49217b7e0d"}}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 """

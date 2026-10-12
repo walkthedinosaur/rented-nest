@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://therentednest.co.uk/sitemap.xml
