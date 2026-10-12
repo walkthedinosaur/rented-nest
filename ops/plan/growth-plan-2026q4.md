@@ -11,7 +11,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Boards: grow from 6 to 12–15 keyword-named boards (e.g. "Condensation & Damp Fixes UK", "Small Bedroom Storage
   Ideas", "Renting Tips UK", "Black Friday Home Deals UK", "Student House Share Ideas"), 2 per content run until done.
 - Topics: pick new guides from Pinterest Trends + Search Console.
-- Ads test (approved in principle? NO – awaiting Dylan): £50–75, 16 Nov–6 Dec. Do not start without his yes.
+- Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Do not propose paid ads again unless organic data shows a clear case.
 
 ## Engine 2 – Search (SEO)
 - Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
