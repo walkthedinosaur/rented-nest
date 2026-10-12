@@ -14,7 +14,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Do not propose paid ads again unless organic data shows a clear case.
 
 ## Engine 2 – Search (SEO)
-- Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
+- Bing Webmaster Tools verified 12 Oct 2026 (imported from Search Console). Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
 - Trust layer live (About + /editorial-policy.html). Keep "last reviewed" dates current. Never invent authors.
 - Cluster: 3–4 renter-question pages a week from ops/seo/target-queries.md (damp, deposits, storage rules, Renters'
   Rights Act changes from 1 May 2026) – target 30–50 pages by mid-January. Answer first, sources, next steps. No
