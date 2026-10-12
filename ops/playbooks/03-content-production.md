@@ -3,7 +3,7 @@ Trigger: Tuesday and Friday ~10:30 UK.
 Inputs: latest ops/reports/growth-*.md plan, tools/pins.json, Tailwind schedule.
 
 Steps
-1. Read 00-standing-context.md and the latest growth review plan.
+1. Read 00-standing-context.md, the latest growth review plan and any unwritten briefs in ops/seo/briefs/ (an SEO brief takes priority for the one new guide per run; mark it [x] in ops/seo/target-queries.md when published).
 2. Check queue: Tailwind get_schedule for the next 7 days and get_account_usage. Target: queue covers at least the
    next 5 days at the allowed daily volume. Work out how many pins to make (normally 8–15).
 3. If the plan includes a new guide (max 1 per run), write it in the house format (see existing guides): 900–1,400

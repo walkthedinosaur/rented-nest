@@ -27,6 +27,7 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
 - Forecast model: ops/revenue-forecast-24m.xlsx. Business plan (Claude Doc):
   https://claude.ai/code/artifact/e476296e-9304-4d2c-b147-fde93c1ea75b
 - Email: read-only, per ops/email-monitoring.md.
+- SEO: ops/playbooks/04-seo-specialist.md, target list ops/seo/target-queries.md, briefs in ops/seo/briefs/. Every guide gets JSON-LD, a related-guides block and sitemap lastmod automatically from build.py; set `updated: YYYY-MM-DD` in front-matter when a guide changes materially.
 
 ## Rules that always apply
 - Every pin description and guide carries the "Ad" disclosure (UK ASA). Never claim "we tested". Never invent prices,
