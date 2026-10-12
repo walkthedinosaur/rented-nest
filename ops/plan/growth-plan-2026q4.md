@@ -27,7 +27,8 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Kit inline form 10035184 "Winter damp & warmth checklist" (embed uid 20b07e3af6), double opt-in, confirm redirects to
   /checklists/winter-damp-warmth.html (PDF download). Embedded on dehumidifiers, heated airers, stay-warm and Black Friday guides.
 - Checklist source: tools/checklists/*.html -> `python3 tools/checklists/render.py` -> static/checklists/*.pdf.
-- NO broadcasts/sequences until Dylan resolves the postal address Kit requires in email footers (not his home address).
+- Footer postal address: Kit's own mailing address (Dylan's choice, 12 Oct). Kit time zone: London, default send 8am.
+- Next: draft a 2–3 email welcome sequence in Kit (drafts only) for Dylan to review before it's switched on.
 - Never store Kit API keys or webhook URLs in this repo.
 - Next: "Move-out deposit checklist" lead magnet for storage/decor guides. Price-drop alert sign-up later.
 
