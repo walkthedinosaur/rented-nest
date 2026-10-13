@@ -2,10 +2,10 @@
 Status: [ ] not started · [b] brief written · [x] published. Volumes not verified – prioritise by fit and gaps.
 
 ## Damp, condensation, heating (winter priority)
-- [ ] is condensation the landlord's responsibility uk
+- [x] is condensation the landlord's responsibility uk
 - [ ] black mould in rented flat what to do
 - [ ] can i use a dehumidifier in a rented flat / best small dehumidifier for a bedroom uk
-- [ ] how to dry clothes in a flat without a balcony
+- [x] how to dry clothes in a flat without a balcony
 - [ ] is it cheaper to use a heated airer or tumble dryer uk
 - [ ] how to keep a rented flat warm without central heating
 - [ ] draught proofing a rented flat without damaging it
