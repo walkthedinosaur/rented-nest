@@ -57,5 +57,26 @@
     "6acce75e3MiEB48VwJ1Oo",
     "6acce761bhBu8RYlBj5oe",
     "6acce763USb-5MLeK1X0R"
-  ]
+  ],
+  "batch_2026_10_13_content": {
+    "boards_created": {
+      "Condensation & Damp Fixes UK": "1111474451727984063",
+      "Renting Tips UK": "1111474451727984064"
+    },
+    "post_ids": {
+      "v2-cond-who": "6acdfbc0tIQlH59VThgbm",
+      "v2-nobalc-routine": "6acdfbc5pDRzxIibE192Q",
+      "v2-dh-hygro": "6acdfbcadsM5DNKsWZBdV",
+      "v2-air-winged": "6acdfbcfTOr5uTt_R5ijJ",
+      "v2-warm-blanket": "6acdfbd4OQ_63DjfhRsCE",
+      "v2-cond-mould": "6acdfbd8SkQh2ClFpbqgt",
+      "v2-nobalc-dehum": "6acdfbddrO2LRD_Cs3Y08",
+      "v2-dh-bedroom": "6acdfbe2pdtmj2VE6dzbj",
+      "v2-air-cover": "6acdfbe7xviq35OpbWaVf",
+      "v2-warm-fanheater": "6acdfbecoyIC0yJxtXG5V",
+      "v2-cond-report": "6acdfbf1JYrJNJX8IOaOw",
+      "v2-nobalc-radiator": "6acdfbf6x2TqEm4YHmvEC"
+    },
+    "window": "Mon 19 Oct ~08:51 to Wed 21 Oct ~19:03 BST (useNextOpenSlot)"
+  }
 }
