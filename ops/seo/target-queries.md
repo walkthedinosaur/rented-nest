@@ -12,11 +12,11 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk
 
 ## Storage and decor (renter rules)
-- [ ] can you use command strips in a rented flat uk
+- [b] can you use command strips in a rented flat uk (brief: ops/seo/briefs/command-strips-in-a-rented-flat-uk.md)
 - [ ] can i put shelves up in a rented flat without drilling
 - [ ] how to make a rented flat feel like home without decorating
 - [ ] how to cover magnolia walls in a rental
-- [ ] how to remove adhesive hooks without damaging paint (deposit)
+- [b] how to remove adhesive hooks without damaging paint (deposit) – folded into the command-strips brief
 
 ## Moving and deposits
 - [ ] how to get your full deposit back uk checklist
