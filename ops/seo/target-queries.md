@@ -8,7 +8,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] how to dry clothes in a flat without a balcony
 - [ ] is it cheaper to use a heated airer or tumble dryer uk
 - [ ] how to keep a rented flat warm without central heating
-- [ ] draught proofing a rented flat without damaging it
+- [b] draught proofing a rented flat without damaging it (brief: ops/seo/briefs/draught-proofing-a-rented-flat-uk.md)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk
 
 ## Storage and decor (renter rules)
