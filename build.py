@@ -112,6 +112,7 @@ def page(meta, inner):
   <nav aria-label="Footer">
     <a href="/about.html">About</a>
     <a href="/disclosure.html">Affiliate disclosure</a>
+    <a href="/tools/drying-heating-cost-calculator.html">Running-cost calculator</a>
     <a href="/editorial-policy.html">Editorial policy</a>
     <a href="/privacy.html">Privacy</a>
   </nav>
@@ -183,7 +184,7 @@ def render_guide(g, guides=()):
 <p class="eyebrow">Guide</p>
 <h1>{html.escape(g['title'])}</h1>
 <p class="standfirst">{html.escape(g['description'])}</p>
-{DISCLOSURE}
+{'' if g.get('ads') == 'none' else DISCLOSURE}
 {hero}
 {anchor_ids(g['body'])}
 {related_block(g, guides)}

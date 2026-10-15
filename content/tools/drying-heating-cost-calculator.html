@@ -1,0 +1,146 @@
+title: Drying & heating running-cost calculator (UK)
+description: Work out what a heated airer, tumble dryer, dehumidifier or plug-in heater costs to run per use, week, month and winter at the current UK price cap rate.
+kind: page
+date: 2026-10-15
+---
+<p class="meta">Last reviewed 15 October 2026 · Default rate: Ofgem price cap, 1 October to 31 December 2026 · Estimates only.</p>
+<p><strong>The short answer:</strong> on Which?'s figures, a heated airer costs roughly 6–8p an hour, so a typical load comes to around 35–40p at today's rate. A vented or condenser tumble dryer uses about 3.4kWh a load (around 89p), and a heat-pump tumble dryer about 1.3kWh (around 34p). So a heated airer is usually much cheaper than an ordinary tumble dryer, but costs about the same as a heat-pump dryer. Use the calculator below to plug in your own appliance, tariff and habits.</p>
+
+<style>
+.calc{background:#f6f3ee;border-radius:14px;padding:1.2rem;margin:1.5rem 0}
+.calc label{display:block;font-weight:600;margin:.8rem 0 .25rem}
+.calc select,.calc input{width:100%;padding:.55rem .6rem;font:inherit;border:1px solid #c9c2b6;border-radius:8px;background:#fff}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.calc .hint{font-size:.85rem;color:#5c574f;margin:.25rem 0 0}
+.calc .out{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin-top:1rem}
+.calc .out div{background:#fff;border-radius:10px;padding:.6rem;text-align:center}
+.calc .out b{display:block;font-size:1.25rem}
+.calc .working{font-size:.9rem;margin-top:.8rem}
+.cmp{width:100%;border-collapse:collapse;font-size:.92rem;margin:.8rem 0}
+.cmp th,.cmp td{border-bottom:1px solid #ddd6ca;padding:.45rem .35rem;text-align:left}
+.cmp td.n,.cmp th.n{text-align:right}
+@media (max-width:560px){.calc .row{grid-template-columns:1fr}.calc .out{grid-template-columns:1fr 1fr}}
+</style>
+
+<div class="calc" id="calc">
+  <label for="preset">Appliance</label>
+  <select id="preset"></select>
+  <p class="hint" id="presetNote"></p>
+  <div class="row">
+    <div><label for="power" id="powerLabel">Power (watts)</label><input id="power" type="number" min="0" step="1" inputmode="decimal"></div>
+    <div id="hoursWrap"><label for="hours">Hours per use</label><input id="hours" type="number" min="0" step="0.25" inputmode="decimal"></div>
+  </div>
+  <div class="row">
+    <div><label for="uses">Uses per week</label><input id="uses" type="number" min="0" step="1" value="3" inputmode="decimal"></div>
+    <div><label for="rate">Electricity unit rate (p per kWh)</label><input id="rate" type="number" min="0" step="0.01" value="26.32" inputmode="decimal"></div>
+  </div>
+  <p class="hint">26.32p is Ofgem's average electricity unit rate for 1 October to 31 December 2026 (Direct Debit). Your tariff may differ – check a recent bill.</p>
+  <div class="out" aria-live="polite">
+    <div>Per use<b id="oUse">–</b></div>
+    <div>Per week<b id="oWeek">–</b></div>
+    <div>Per month<b id="oMonth">–</b></div>
+    <div>Per winter<b id="oWinter">–</b></div>
+  </div>
+  <p class="working" id="working"></p>
+  <h3>Compare at the same uses per week and unit rate</h3>
+  <table class="cmp">
+    <thead><tr><th>Appliance</th><th class="n">Energy per use</th><th class="n">Per use</th><th class="n">Per winter</th></tr></thead>
+    <tbody id="cmpBody"></tbody>
+  </table>
+  <p class="hint">Per month = per week × 52 ÷ 12. Per winter = October to March, 26 weeks. Standing charges are not included.</p>
+</div>
+
+<script>
+(function(){
+  // kind "w": power in watts × hours. kind "kwh": energy per cycle (tumble dryers).
+  var P=[
+    {id:"airer-winged",name:"Heated airer – winged",kind:"w",v:240,h:6,note:"About 240W – worked out from Which?'s average running cost for winged airers (6p an hour at 24.67p/kWh). Which? found a small cotton load took about 5 hours 54 minutes."},
+    {id:"airer-tower",name:"Heated airer – tower / tiered",kind:"w",v:320,h:4.75,note:"About 320W – worked out from Which?'s average for tower airers (8p an hour at 24.67p/kWh). Which? found a small cotton load took about 4 hours 40 minutes."},
+    {id:"pod",name:"Drying pod",kind:"w",v:1040,h:2.25,note:"About 1,040W – worked out from Which?'s average of 57p for a small cotton load taking about 2 hours 13 minutes, at 24.67p/kWh."},
+    {id:"dh-comp",name:"Dehumidifier – compressor (20L example)",kind:"w",v:216,h:6,note:"216W – Meaco's figure for its Arete One 20L at 20°C and 60% humidity. Smaller models may use less. Hours are an example – change them to suit."},
+    {id:"dh-des",name:"Dehumidifier – desiccant, lowest fan",kind:"w",v:360,h:6,note:"About 360W – worked out from Meaco's estimate of about 9p an hour for its DD8L desiccant model on fan speed 1 (at 25p/kWh). Higher fan speeds use more. Hours are an example."},
+    {id:"td-vented",name:"Tumble dryer – vented",kind:"kwh",v:3.4,note:"About 3.4kWh a load – worked out from Which?'s average annual cost for vented dryers (£139.74 for three cotton loads a week at 26.32p/kWh)."},
+    {id:"td-cond",name:"Tumble dryer – condenser",kind:"kwh",v:3.4,note:"About 3.4kWh a load – worked out from Which?'s average annual cost for condenser dryers (£138.91 for three cotton loads a week at 26.32p/kWh)."},
+    {id:"td-hp",name:"Tumble dryer – heat pump",kind:"kwh",v:1.3,note:"About 1.3kWh a load – worked out from Which?'s average annual cost for heat-pump dryers (£54.32 for three cotton loads a week at 26.32p/kWh)."},
+    {id:"ofr",name:"Oil-filled radiator",kind:"w",v:1500,h:3,note:"1,500W – the midpoint of the 500–2,500W range Ideal Home gives. With the thermostat on, it cycles off once warm, so real use is often lower. Hours are an example."},
+    {id:"fan",name:"Fan heater (2kW)",kind:"w",v:2000,h:1,note:"2,000W – a common rating (Ideal Home says fan heaters typically use 2kW). Running on a lower setting uses less. Hours are an example."}
+  ];
+  var $=function(id){return document.getElementById(id)};
+  var sel=$("preset");
+  P.forEach(function(p){var o=document.createElement("option");o.value=p.id;o.textContent=p.name;sel.appendChild(o)});
+  function money(p){return p<100?Math.round(p)+"p":"£"+(p/100).toFixed(2)}
+  function num(id){var x=parseFloat($(id).value);return isFinite(x)&&x>=0?x:0}
+  function cur(){for(var i=0;i<P.length;i++)if(P[i].id===sel.value)return P[i];return P[0]}
+  function load(){
+    var p=cur();
+    $("power").value=p.v;
+    $("powerLabel").textContent=p.kind==="kwh"?"Energy per load (kWh)":"Power (watts)";
+    $("power").step=p.kind==="kwh"?"0.1":"1";
+    $("hoursWrap").style.display=p.kind==="kwh"?"none":"";
+    if(p.kind!=="kwh")$("hours").value=p.h;
+    $("presetNote").textContent=p.note;
+    calc();
+  }
+  function kwhPerUse(kind,v,h){return kind==="kwh"?v:v/1000*h}
+  function calc(){
+    var p=cur(),v=num("power"),h=num("hours"),u=num("uses"),r=num("rate");
+    var k=kwhPerUse(p.kind,v,h),use=k*r,week=use*u;
+    $("oUse").textContent=money(use);$("oWeek").textContent=money(week);
+    $("oMonth").textContent=money(week*52/12);$("oWinter").textContent=money(week*26);
+    $("working").textContent=p.kind==="kwh"
+      ?"Working: "+v+" kWh per load × "+r+"p = "+use.toFixed(1)+"p per load; × "+u+" loads a week = "+week.toFixed(1)+"p a week."
+      :"Working: "+v+"W ÷ 1,000 × "+h+" hours = "+k.toFixed(2)+" kWh; × "+r+"p = "+use.toFixed(1)+"p per use; × "+u+" uses a week = "+week.toFixed(1)+"p a week.";
+    var rows="";
+    P.forEach(function(q){
+      var kk=kwhPerUse(q.kind,q.v,q.h);
+      rows+="<tr><td>"+q.name+(q.kind==="w"?" ("+q.h+"h)":"")+"</td><td class='n'>"+kk.toFixed(2)+" kWh</td><td class='n'>"+money(kk*r)+"</td><td class='n'>"+money(kk*r*u*26)+"</td></tr>";
+    });
+    $("cmpBody").innerHTML=rows;
+  }
+  sel.addEventListener("change",load);
+  ["power","hours","uses","rate"].forEach(function(id){$(id).addEventListener("input",calc)});
+  load();
+})();
+</script>
+<noscript><p>The calculator needs JavaScript. To work it out by hand: watts ÷ 1,000 × hours × your unit rate in pence = pence per use.</p></noscript>
+
+<h2>Heated airer or tumble dryer – which is cheaper?</h2>
+<img class="section-img" src="/photos/1604177420682-0c840feb01de.jpg" alt="Rows of electricity meters mounted on a wall" loading="lazy" width="1200" height="675">
+<p>Using the calculator's own figures at 26.32p per kWh, for one load:</p>
+<ul>
+  <li><strong>Winged heated airer</strong> (about 240W for 6 hours): 1.44kWh – around <strong>38p</strong>.</li>
+  <li><strong>Tower heated airer</strong> (about 320W for 4¾ hours): 1.52kWh – around <strong>40p</strong>.</li>
+  <li><strong>Drying pod</strong> (about 1,040W for 2¼ hours): 2.34kWh – around <strong>62p</strong>.</li>
+  <li><strong>Vented or condenser tumble dryer</strong>: about 3.4kWh – around <strong>89p</strong>.</li>
+  <li><strong>Heat-pump tumble dryer</strong>: about 1.3kWh – around <strong>34p</strong>.</li>
+</ul>
+<p>So at three loads a week, a heated airer comes to roughly £5 a month, against nearer £11–12 for an ordinary tumble dryer. Which?'s own testing points the same way: it found heated airers average about 39p per cotton load. It also found a heat-pump tumble dryer costs about £41 a year for three large loads a week, while drying big loads on a heated airer (which often needs more than one run) costs about £117 a year – about the same as a vented or condenser dryer.</p>
+<p>A few things the numbers don't show:</p>
+<ul>
+  <li><strong>Load size.</strong> Airers hold less than a drum, so a big wash may need two runs.</li>
+  <li><strong>Moisture.</strong> Airers (and drying pods) put the water from your clothes into the air, which can mean condensation in a small flat. A vented dryer needs a hose to the outside, which many rentals don't have. See <a href="/guides/dry-clothes-in-a-flat-without-a-balcony-uk.html">how to dry clothes in a flat without a balcony</a>.</li>
+  <li><strong>Dehumidifiers.</strong> Running one next to an unheated airer helps clothes dry and keeps humidity down at the same time – compare models in our <a href="/guides/dehumidifiers-for-rented-flats-uk.html">dehumidifiers for rented flats</a> guide.</li>
+  <li><strong>Electric blankets and heated throws</strong> aren't in the calculator, because we couldn't find reliable wattage figures. Which? puts electric blankets at about 2–6p an hour and heated throws at about 2–3p an hour.</li>
+</ul>
+<p>More on choosing one: <a href="/guides/heated-clothes-airers-uk.html">heated clothes airers for UK flats</a> and <a href="/guides/stay-warm-cold-rented-flat-uk.html">how to stay warm in a cold rented flat</a>.</p>
+
+<h2>How the calculator works</h2>
+<img class="section-img" src="/photos/1766925064104-a37b51388aa0.jpg" alt="Clothes and towels drying on a folding rack against a rough wall" loading="lazy" width="1200" height="675">
+<ul>
+  <li><strong>Cost per use</strong> = watts ÷ 1,000 × hours × unit rate. For tumble dryers it's kWh per load × unit rate.</li>
+  <li><strong>The presets are estimates.</strong> Where a source gave a running cost rather than a wattage, we worked back to watts using the unit rate the source used, and say so in the note under each preset. Your own appliance's label or manual is always better – type its figure in.</li>
+  <li><strong>Thermostats and humidistats</strong> switch heaters and dehumidifiers off and on, so they often use less than their rated power.</li>
+  <li><strong>Not included:</strong> the daily standing charge (54.83p a day for electricity under the October–December 2026 cap), which you pay whatever you use.</li>
+  <li><strong>Nothing is stored.</strong> The calculator runs in your browser and doesn't save or send what you type.</li>
+</ul>
+<p>We'll update the default rate when Ofgem announces the cap for January to March 2027.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026" rel="nofollow">Ofgem – Changes to energy price cap between 1 October and 31 December 2026</a> (26.32p/kWh, 54.83p/day; checked 15 October 2026)</li>
+  <li><a href="https://which.co.uk/news/article/are-heated-airers-worth-it-anZ006K965Pj" rel="nofollow">Which? – Are heated airers worth it? (March 2026)</a></li>
+  <li><a href="https://www.which.co.uk/news/article/which-type-of-tumble-dryers-are-cheapest-to-run-aUOSv7x39Rdo" rel="nofollow">Which? – Which type of tumble dryers are cheapest to run? (October 2026)</a></li>
+  <li><a href="https://www.which.co.uk/news/article/hot-water-bottle-or-electric-blanket-whats-best-and-cheapest-for-keeping-you-warm-in-bed-alwIf3N5e4G5" rel="nofollow">Which? – Hot water bottle or electric blanket? (September 2026)</a></li>
+  <li><a href="https://blog.meaco.com/cost-to-run-dehumidifier/" rel="nofollow">Meaco – How much does it cost to run a dehumidifier?</a></li>
+  <li><a href="https://www.idealhome.co.uk/house-manual/heating/oil-filled-radiator-vs-fan-heater-which-is-best" rel="nofollow">Ideal Home – Oil-filled radiator vs fan heater</a></li>
+</ul>

@@ -6,7 +6,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] black mould in rented flat what to do
 - [ ] can i use a dehumidifier in a rented flat / best small dehumidifier for a bedroom uk
 - [x] how to dry clothes in a flat without a balcony
-- [ ] is it cheaper to use a heated airer or tumble dryer uk
+- [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
 - [ ] how to keep a rented flat warm without central heating
 - [b] draught proofing a rented flat without damaging it (brief: ops/seo/briefs/draught-proofing-a-rented-flat-uk.md)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk
@@ -19,7 +19,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [b] how to remove adhesive hooks without damaging paint (deposit) – folded into the command-strips brief
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
-- [b] renters rights act what does it mean for tenants (brief: ops/seo/briefs/renters-rights-act-explained-uk.md)
+- [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
 - [ ] section 21 abolished – what happens now
 - [ ] can my landlord put the rent up – new rules
 - [ ] can my landlord refuse a pet uk
@@ -27,7 +27,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] damp and mould rules for private landlords (Awaab's Law – check status)
 
 ## Tools (link magnets)
-- [b] heated airer vs tumble dryer cost calculator (brief: ops/seo/briefs/running-cost-calculator.md – due 26 Oct)
+- [x] heated airer vs tumble dryer cost calculator (/tools/drying-heating-cost-calculator.html, 15 Oct)
 - [ ] renter winter damp data page from the English Housing Survey (due 2 Nov – SEO run 21 Oct writes the brief)
 
 ## Moving and deposits

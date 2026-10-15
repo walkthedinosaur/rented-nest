@@ -892,5 +892,61 @@
   "description": "Ad – can't change the heating in your rental? When a fan heater or oil-filled radiator makes sense, how to use one safely (wall socket, no extension leads, never drying clothes on it) and cheaper ways to keep warm first.",
   "alt": "A slim plug-in electric heater beside a side table in a bright room.",
   "layout": "photo2"
+ },
+ {
+  "slug": "v2-rra-section21",
+  "theme": "sage",
+  "label": "Renting tips",
+  "headline": "Section 21 is gone. What now?",
+  "sub": "Renters' Rights Act, England",
+  "photo": "1733244766159-f58f4184fd38.jpg",
+  "guide": "/guides/renters-rights-act-what-changed-uk.html#section-21",
+  "board": "Renting Tips UK",
+  "title": "Renters' Rights Act Explained – What Changed for Tenants in England",
+  "description": "No more section 21 'no fault' evictions, rolling tenancies, rent rises once a year with 2 months' notice, and the right to ask for a pet. A plain-English guide for private renters in England, with links to Shelter and GOV.UK. Not legal advice.",
+  "alt": "A hand holding a house key with a small house keyring in an open doorway.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-rra-pets",
+  "theme": "clay",
+  "label": "Renting tips",
+  "headline": "Can your landlord say no to pets?",
+  "sub": "New rules for renters in England",
+  "photo": "1522444195799-478538b28823.jpg",
+  "guide": "/guides/renters-rights-act-what-changed-uk.html#pets",
+  "board": "Renting Tips UK",
+  "title": "Can My Landlord Refuse a Pet? New Renters' Rights Rules in England",
+  "description": "Since 1 May 2026, private renters in England can ask to keep a pet and a landlord who refuses has to give a reason. How to ask in writing, what to include, and where to get free advice – plus the other Renters' Rights Act changes. Not legal advice.",
+  "alt": "A French bulldog resting on a white fluffy bed beside a green armchair in a bright room.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-calc-airer-dryer",
+  "theme": "pine",
+  "label": "Keeping warm",
+  "headline": "Heated airer or tumble dryer?",
+  "sub": "Free running-cost calculator",
+  "photo": "1766925064104-a37b51388aa0.jpg",
+  "guide": "/tools/drying-heating-cost-calculator.html#calc",
+  "board": "Warm & Dry Flat Ideas UK",
+  "title": "Heated Airer vs Tumble Dryer – Which Is Cheaper to Run? (UK Calculator)",
+  "description": "Is a heated airer cheaper than a tumble dryer? Work out the cost per load, week and winter at the current UK price cap rate with our free calculator – heated airers, drying pods, dehumidifiers, tumble dryers and plug-in heaters, with the working shown.",
+  "alt": "Clothes and towels drying on a folding rack against a rough stone wall.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-calc-heater-cost",
+  "theme": "oat",
+  "label": "Keeping warm",
+  "headline": "What does your heater really cost?",
+  "sub": "Per hour, week and winter",
+  "photo": "1527332756452-1ebef4a55fb1.jpg",
+  "guide": "/tools/drying-heating-cost-calculator.html#calc",
+  "board": "Warm & Dry Flat Ideas UK",
+  "title": "How Much Does an Electric Heater Cost to Run? Free UK Calculator",
+  "description": "Oil-filled radiator, fan heater or dehumidifier – how much does it cost to run per hour, week and winter? Plug in your own wattage and tariff in our free UK running-cost calculator, set to the October–December 2026 price cap rate.",
+  "alt": "Close-up of an electricity meter mounted on a wall.",
+  "layout": "photo2"
  }
 ]

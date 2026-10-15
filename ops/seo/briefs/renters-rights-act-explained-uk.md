@@ -1,5 +1,5 @@
 # Brief: Renters' Rights Act – what's changed for renters in England (plain-English explainer)
-Written: 2026-10-15 (CEO) · For: content run Tue 20 Oct (PRIORITY 2) · Status: brief written
+Written: 2026-10-15 (CEO) · For: content run Tue 20 Oct (PRIORITY 2) · Status: PUBLISHED 15 Oct (Thursday renter-questions run)
 Suggested slug: /guides/renters-rights-act-what-changed-uk.html · Label: Renting tips
 
 ## Target queries

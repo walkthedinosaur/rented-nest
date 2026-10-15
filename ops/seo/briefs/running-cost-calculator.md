@@ -1,5 +1,5 @@
 # Brief: Drying & heating running-cost calculator (link magnet)
-Written: 2026-10-15 (CEO) · For: content run Fri 16 Oct (PRIORITY 1 – due live by Mon 26 Oct) · Status: brief written
+Written: 2026-10-15 (CEO) · For: content run Fri 16 Oct (PRIORITY 1 – due live by Mon 26 Oct) · Status: PUBLISHED 15 Oct (Thursday renter-questions run)
 Suggested slug: /tools/drying-heating-cost-calculator.html (kind: page, add to footer + home "Tools" link) · Label: Keeping warm
 
 ## Target queries
