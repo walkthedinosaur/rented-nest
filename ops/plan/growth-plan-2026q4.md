@@ -16,7 +16,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 ## Engine 2 – Search (SEO)
 - Bing Webmaster Tools verified 12 Oct 2026 (imported from Search Console). Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
 - Trust layer live (About + /editorial-policy.html). Keep "last reviewed" dates current. Never invent authors.
-- Cluster: 3–4 renter-question pages a week from ops/seo/target-queries.md (damp, deposits, storage rules, Renters'
+- Cluster: 5–6 renter-question pages a week (Tue + Fri content runs, plus Thursday "renter questions" run added 15 Oct) from ops/seo/target-queries.md (damp, deposits, storage rules, Renters'
   Rights Act changes from 1 May 2026) – target 30–50 pages by mid-January. Answer first, sources, next steps. No
   legal advice – link Shelter / Citizens Advice / GOV.UK.
 - Link magnets: (a) running-cost calculator heated airer v tumble dryer v dehumidifier (Ofgem cap rate; update when
