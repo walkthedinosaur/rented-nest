@@ -18,6 +18,18 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] how to cover magnolia walls in a rental
 - [b] how to remove adhesive hooks without damaging paint (deposit) – folded into the command-strips brief
 
+## Renters' Rights Act (England) – YMYL, verify on GOV.UK
+- [b] renters rights act what does it mean for tenants (brief: ops/seo/briefs/renters-rights-act-explained-uk.md)
+- [ ] section 21 abolished – what happens now
+- [ ] can my landlord put the rent up – new rules
+- [ ] can my landlord refuse a pet uk
+- [ ] what is a periodic tenancy
+- [ ] damp and mould rules for private landlords (Awaab's Law – check status)
+
+## Tools (link magnets)
+- [b] heated airer vs tumble dryer cost calculator (brief: ops/seo/briefs/running-cost-calculator.md – due 26 Oct)
+- [ ] renter winter damp data page from the English Housing Survey (due 2 Nov – SEO run 21 Oct writes the brief)
+
 ## Moving and deposits
 - [ ] how to get your full deposit back uk checklist
 - [ ] moving out cleaning checklist for renters uk
