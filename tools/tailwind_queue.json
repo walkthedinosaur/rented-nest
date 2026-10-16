@@ -85,5 +85,26 @@
     "v2-rra-pets": "6ad09ed8U9763ENvszY7-",
     "v2-calc-heater-cost": "6ad09edb8Ptrk_ZvUaR7g",
     "scheduled": "useNextOpenSlot, Wed 21 Oct 20:33 BST to Thu 22 Oct 12:14 BST"
+  },
+  "batch_2026_10_16_content": {
+    "boards_created": {
+      "Draught Proofing Ideas UK": "1111474451727996510",
+      "Renter Friendly Wall Decor UK": "1111474451727996511"
+    },
+    "post_ids": {
+      "v2-draught-peeloff": "6ad1f082n4aixJ1Oz3QYP",
+      "v2-cmd-allowed": "6ad1f089zLrBdUXm0hw21",
+      "v2-warm-hwb": "6ad1f090EecaO7_P7GikS",
+      "v2-draught-windows": "6ad1f097GRg43Z59PKTKY",
+      "v2-cmd-remove": "6ad1f09d8DvbcLd7lVqyD",
+      "v2-dh-absorber": "6ad1f0a4CtTrwmb4wcYS-",
+      "v2-draught-find": "6ad1f0abPMNzkRYRbnBAZ",
+      "v2-cmd-lean": "6ad1f0b2ODdEnNgBCSgKC",
+      "v2-air-timer": "6ad1f0b8kUVcb2j-9pk9p",
+      "v2-draught-curtains": "6ad1f0bfiKKEPdyibkrJr",
+      "v2-cmd-gallery": "6ad1f0c6z03XA6FgdL3QY",
+      "v2-nobalc-bath": "6ad1f0cdNfg8j_pemWqSj"
+    },
+    "window": "Thu 22 Oct 19:04 BST to Sat 24 Oct 20:36 BST (useNextOpenSlot)"
   }
 }
