@@ -1,5 +1,5 @@
 # Brief: How to draught-proof a rented flat without damaging it (UK)
-Written: 2026-10-14 (SEO run) · For: next content run · Status: brief written, not yet drafted
+Written: 2026-10-14 (SEO run) · For: next content run · Status: published 2026-10-16
 Suggested slug: /guides/draught-proofing-a-rented-flat-uk.html · Suggested label: Keeping warm
 
 ## Target query

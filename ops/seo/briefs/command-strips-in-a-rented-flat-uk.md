@@ -1,5 +1,5 @@
 # Brief: Can you use Command strips in a rented flat? (UK)
-Written: 2026-10-13 (SEO run) · For: next content run · Status: brief written, not yet drafted
+Written: 2026-10-13 (SEO run) · For: next content run · Status: published 2026-10-16
 Suggested slug: /guides/command-strips-rented-flat-uk.html · Suggested label: Renting rules / storage
 
 ## Target query

@@ -8,15 +8,15 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] how to dry clothes in a flat without a balcony
 - [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
 - [ ] how to keep a rented flat warm without central heating
-- [b] draught proofing a rented flat without damaging it (brief: ops/seo/briefs/draught-proofing-a-rented-flat-uk.md)
+- [x] draught proofing a rented flat without damaging it (/guides/draught-proofing-a-rented-flat-uk.html, 16 Oct)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk
 
 ## Storage and decor (renter rules)
-- [b] can you use command strips in a rented flat uk (brief: ops/seo/briefs/command-strips-in-a-rented-flat-uk.md)
+- [x] can you use command strips in a rented flat uk (/guides/command-strips-rented-flat-uk.html, 16 Oct)
 - [ ] can i put shelves up in a rented flat without drilling
 - [ ] how to make a rented flat feel like home without decorating
 - [ ] how to cover magnolia walls in a rental
-- [b] how to remove adhesive hooks without damaging paint (deposit) – folded into the command-strips brief
+- [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
