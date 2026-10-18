@@ -14,6 +14,8 @@ Steps
    Rejected) and any clicks/commission; update ops/awin-applications.xlsx Status + Date decided. Amazon: from
    forwarded Associates emails only (no login) – note the 3-sale deadline (~early April 2027) and any warnings.
 5. Email sweep per ops/email-monitoring.md (read-only).
+6a. Plan register: run the "CEO weekly check" in ops/playbooks/05-plan-register.md – list late items with
+   reasons, add rows for any new commitments, and check new Awin approvals have links (item 18).
 6. Compare actuals with the base case in ops/revenue-forecast-24m.xlsx (impressions, visits, clicks, commission).
 7. Write ops/reports/ceo-YYYY-MM-DD.md, commit and push.
 8. Send Dylan ONE short message (push notification if available), max ~12 lines:

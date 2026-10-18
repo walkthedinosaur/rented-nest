@@ -32,6 +32,12 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
 ## Current plan
 Read ops/plan/growth-plan-2026q4.md every run – it sets pin volume, board growth, SEO cluster pace and launches.
 
+## Plan register (added 18 Oct 2026)
+- After this file, read ops/playbooks/05-plan-register.md. Do every OPEN item your run owns that is due, tick it in
+  the same commit, and add a row for any new commitment you make. No owner + date = it won't happen.
+- When an output is wrong or something was missed, fix the playbook or register so it can't recur – don't just
+  patch the one output.
+
 ## Rules that always apply
 - Every pin description and guide carries the "Ad" disclosure (UK ASA). Never claim "we tested". Never invent prices,
   stats, quotes or sources; give price bands as "typically around £X–£Y at the time of writing – check current price".
