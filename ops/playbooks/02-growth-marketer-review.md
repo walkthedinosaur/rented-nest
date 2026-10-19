@@ -1,16 +1,36 @@
 # Playbook: Growth Marketer weekly review
 Trigger: every Sunday ~18:00 UK.
 Inputs: Tailwind pin analytics, Cloudflare top pages/referrers, Search Console queries (built-in browser,
-search.google.com/search-console), guide list in content/guides/.
+search.google.com/search-console), guide list in content/guides/, real renter questions (Reddit/Quora).
+Output: ops/reports/growth-YYYY-MM-DD.md with a numbered plan the Tue/Thu/Fri runs follow, plus any owned register
+items (e.g. #7 welcome emails, #9 community answers) done and ticked.
 
-Steps
-1. Read 00-standing-context.md and last week's growth review.
-2. Rank pins by outbound clicks and saves; rank guides by visits and affiliate-link clicks (Awin/Amazon where visible).
-3. Search Console: note queries with impressions; flag pages with impressions but low clicks (title/description fixes).
-4. Decide next week's content plan (feeds the content production playbook): which guides get new pins (winners get
-   more), 1–2 new guide topics (prefer narrow renter search questions, e.g. "is condensation my landlord's
-   responsibility"), any title/description rewrites, whether pin volume can step up per the volume rule.
-5. Write ops/reports/growth-YYYY-MM-DD.md with: top/bottom performers, plan for the week (numbered, specific), and
-   any approved retailer (Awin) whose links should be added. Commit and push. No message to Dylan (the CEO report
-   carries it).
-Output: the growth review file.
+## A. Read
+1. Read 00-standing-context.md, ops/plan/growth-plan-2026q4.md, last week's growth review and the latest ceo-*.md
+   (its focus-metric recommendation, if any, goes into this week's plan).
+2. Read 05-plan-register.md and list every OPEN item owned by GROWTH that is due by next Sunday. Do them in this run.
+
+## B. Measure
+3. Rank pins by outbound clicks, then saves.
+4. Rank guides by visits and affiliate-link clicks (Awin/Amazon where visible). Mark the top 3 guides for Amazon
+   clicks – they matter most for the 3-sale deadline.
+5. Search Console: note queries with impressions; flag pages with impressions but low clicks (title/description fixes).
+
+## C. Listen
+6. Find 10 open Reddit/Quora renter questions and write link-free draft answers in
+   ops/reports/community-YYYY-MM-DD.md (register #9 – never post). Note the exact wording renters use – it feeds
+   topics and titles.
+
+## D. Decide
+7. List 3–5 candidate new topics from Search Console queries, the community questions and Pinterest Trends. For each,
+   note the evidence (impressions, how often it's asked, gap vs existing guides). Pick the best 1–2 – don't just take
+   the first idea.
+8. Decide the pin mix: which guides get new pins (winners by outbound clicks get more; Amazon-click guides first if
+   the CEO report says sales are behind), plus any title/description rewrites, and whether volume can step up per
+   the growth plan.
+
+## E. Write
+9. Write ops/reports/growth-YYYY-MM-DD.md: top/bottom performers, the plan for the week (numbered, specific, one
+   action per line), the chosen topics with their evidence, and any approved Awin retailer whose links should be
+   added. Add a register row for any new commitment that has a date.
+10. Commit and push. No message to Dylan (the CEO report carries it).

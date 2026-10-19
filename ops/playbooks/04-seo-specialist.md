@@ -8,6 +8,8 @@ We cannot outrank Which?/Ideal Home on "best X UK" – target the long tail inst
 
 Steps
 1. Read 00-standing-context.md, ops/seo/target-queries.md and last week's ops/reports/seo-*.md.
+1b. Read 05-plan-register.md and do every OPEN item owned by SEO that is due by next Wednesday (tick each in the
+   same commit). Also read the latest community-*.md – real renter questions are good brief candidates.
 2. Search Console (last 28 days): queries and pages with impressions, clicks, CTR, average position; Pages report for
    indexing problems; Sitemaps status. If not signed in or unreachable, note it and continue with steps 4–6.
 2b. Bing Webmaster Tools (built-in browser: bing.com/webmasters, property therentednest.co.uk – verified by import
@@ -15,7 +17,8 @@ Steps
    indexing issues. Note anything Google and Bing disagree on.
 3. Quick wins: for pages with impressions but CTR < 2% or position 8–20, rewrite the title (≤60 chars, query first)
    and description (≤155 chars, a clear benefit); add an FAQ section answering the exact queries seen.
-4. Pick ONE new target query from target-queries.md (or a new one found via Google autocomplete / "People also ask"
+4. Write briefs until at least 4 unwritten briefs are waiting in ops/seo/briefs/ (register #6 – the Tue/Thu/Fri
+   runs use 5–6 a week; fixed 19 Oct: the old "ONE" let the pipeline run dry). For each, pick a target query from target-queries.md (or a new one found via Google autocomplete / "People also ask"
    checks with WebSearch). Check the current top results: if they're all big publishers answering it well, pick
    another. Write a brief in ops/seo/briefs/<slug>.md (query, intent, angle, outline, internal links, sources) for the
    next content run to write.

@@ -27,6 +27,10 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
 - Forecast model: ops/revenue-forecast-24m.xlsx. Business plan (Claude Doc):
   https://claude.ai/code/artifact/e476296e-9304-4d2c-b147-fde93c1ea75b
 - Email: read-only, per ops/email-monitoring.md.
+- Playbooks (one per run, each step one action – trigger, inputs, steps, output): 01 CEO (Mon), 02 Growth (Sun),
+  03 Content (Tue/Fri), 04 SEO (Wed), 06 Renter questions (Thu); 05 is the plan register every run reads.
+- Focus metric: 3 qualifying Amazon sales before the Associates deadline (~early April 2027). When choosing between
+  two equally good tasks, pick the one more likely to produce an Amazon click.
 - SEO: ops/playbooks/04-seo-specialist.md, target list ops/seo/target-queries.md, briefs in ops/seo/briefs/. Every guide gets JSON-LD, a related-guides block and sitemap lastmod automatically from build.py; set `updated: YYYY-MM-DD` in front-matter when a guide changes materially.
 
 ## Current plan

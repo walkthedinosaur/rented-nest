@@ -35,6 +35,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers (CEO 19 Oct: Awin is signed out too – please sign in to both) | DYLAN | before Sun 25 Oct | DONE 19 Oct (both signed in; Google sign-in is blocked in the pane – use email + password) |
 | 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | OPEN |
 | 25 | Search Console indexing: identify the "Page with redirect" URL (15 Oct email) and check coverage (only 1 of ~16 pages indexed on 19 Oct) – request indexing / check sitemap; links to #22 | SEO | Wed 21 Oct | OPEN |
+| 26 | Playbooks restructured (one action per step, register read in every run, Thursday playbook 06 moved out of its scheduled-task prompt, SEO keeps ≥4 briefs, Amazon 3-sale focus metric in the CEO report) | – | 19 Oct | DONE 19 Oct |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
