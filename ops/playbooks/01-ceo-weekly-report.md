@@ -27,7 +27,8 @@ Second line: outbound clicks to retailers (Amazon + Awin), the leading indicator
 7. Compare actuals with the base case in ops/revenue-forecast-24m.xlsx (impressions, visits, clicks, commission).
 8. Plan register: run the "CEO weekly check" in 05-plan-register.md – list late items with reasons, add rows for any
    new commitments, check new Awin approvals have links (item 18). Note any playbook changes made this week
-   (git log ops/playbooks/) in one line.
+   (git log ops/playbooks/) in one line. If the last two growth reviews both say "Trends: not checked", list it as a
+   risk with the reason.
 9. If Amazon sales are behind the path to 3 by the deadline (none by end Dec is "behind"), add one specific
    recommendation for next week's growth review (e.g. shift pins to the guides with the most Amazon clicks).
 
