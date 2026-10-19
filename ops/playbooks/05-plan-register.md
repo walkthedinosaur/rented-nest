@@ -30,6 +30,10 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 18 | Add new Awin approvals' links within 3 days of the approval email; update ops/awin-applications.xlsx | CONTENT (CEO checks) | rolling | OPEN |
 | 19 | Meaco links in the dehumidifier guide (approved 15 Oct) | CEO | 18 Oct | DONE 18 Oct |
 | 20 | Short-video test (3 slideshow videos) | parked – needs Buffer + accounts from Dylan | – | PARKED |
+| 21 | Condensation guide: add a ventilation h2 (extractor fans, trickle vents, whose job) – first Google query is "landlord responsibility ventilation" (growth review 18 Oct) | CONTENT | Tue 20 Oct | OPEN |
+| 22 | http:// pages return 200 without redirect and show in Search Console – tick "Enforce HTTPS" in GitHub repo Settings → Pages | DYLAN (CEO flags) | ASAP | OPEN |
+| 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers | DYLAN | before Sun 25 Oct | OPEN |
+| 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.

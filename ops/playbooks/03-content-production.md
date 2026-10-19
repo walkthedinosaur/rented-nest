@@ -5,7 +5,9 @@ Inputs: latest ops/reports/growth-*.md plan, tools/pins.json, Tailwind schedule.
 Steps
 1. Read 00-standing-context.md, the latest growth review plan and any unwritten briefs in ops/seo/briefs/ (an SEO brief takes priority for the one new guide per run; mark it [x] in ops/seo/target-queries.md when published).
 2. Check queue: Tailwind get_schedule for the next 7 days and get_account_usage. Target: queue covers at least the
-   next 5 days at the allowed daily volume. Work out how many pins to make (normally 8–15).
+   next 5 days at the allowed daily volume. Work out how many pins to make: enough to fill every open slot to ~6 days ahead – at 8/day that is ~26–30 per run,
+   at 10/day ~33–37 (fixed 19 Oct: the old "8–15" could not keep up with the approved volume). Follow the latest growth
+   review's per-guide mix – winners get more pins.
 3. Write up to 2 new pages per run (SEO briefs and plan topics first – target 3–4 a week), write it in the house format (see existing guides): 900–1,400
    words, 4–5 h2 sections each with a section photo, 8–14 .idea cards with Amazon shortcodes, renter-specific advice,
    price bands sourced, a Sources list. Add a "Bigger buys" angle where natural. Cross-link from 1–2 related guides.
