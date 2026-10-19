@@ -32,7 +32,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 20 | Short-video test (3 slideshow videos) | parked – needs Buffer + accounts from Dylan | – | PARKED |
 | 21 | Condensation guide: add a ventilation h2 (extractor fans, trickle vents, whose job) – first Google query is "landlord responsibility ventilation" (growth review 18 Oct) | CONTENT | Tue 20 Oct | OPEN |
 | 22 | http:// pages return 200 without redirect and show in Search Console – tick "Enforce HTTPS" in GitHub repo Settings → Pages | DYLAN (CEO flags) | ASAP | OPEN |
-| 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers (CEO 19 Oct: Awin is signed out too – please sign in to both) | DYLAN | before Sun 25 Oct | OPEN |
+| 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers (CEO 19 Oct: Awin is signed out too – please sign in to both) | DYLAN | before Sun 25 Oct | DONE 19 Oct (both signed in; Google sign-in is blocked in the pane – use email + password) |
 | 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | OPEN |
 | 25 | Search Console indexing: identify the "Page with redirect" URL (15 Oct email) and check coverage (only 1 of ~16 pages indexed on 19 Oct) – request indexing / check sitemap; links to #22 | SEO | Wed 21 Oct | OPEN |
 
