@@ -39,6 +39,8 @@ Read ops/plan/growth-plan-2026q4.md every run – it sets pin volume, board grow
   patch the one output.
 
 ## Rules that always apply
+- The 4 early pins (10–11 Oct) without an "Ad" label: closed by Dylan 19 Oct. Never flag or mention them again in any
+  report or message. (New pins still carry "Ad" as below.)
 - Every pin description and guide carries the "Ad" disclosure (UK ASA). Never claim "we tested". Never invent prices,
   stats, quotes or sources; give price bands as "typically around £X–£Y at the time of writing – check current price".
 - Pin volume: as set in ops/plan/growth-plan-2026q4.md (5/day now, 8/day from 19 Oct, 10/day from 2 Nov; more needs

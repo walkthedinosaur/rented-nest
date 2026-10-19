@@ -26,7 +26,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 14 | Update the running-cost calculator to the January 2027 Ofgem cap once announced | SEO | within a week of the announcement (expected late Nov) | OPEN |
 | 15 | January sales page | CONTENT | Tue 22 Dec | OPEN |
 | 16 | Flag Sovrn Commerce application when ~20 guides are live (14 guides + 1 tool on 18 Oct) | CEO | when count ≥20 | OPEN |
-| 17 | Fix 4 published pins missing the "Ad" label (from 10–11 Oct – listed in ops/reports/engagement-2026-10-14.md) | DYLAN | ASAP | OPEN |
+| 17 | Fix 4 published pins missing the "Ad" label (from 10–11 Oct – listed in ops/reports/engagement-2026-10-14.md) | DYLAN | ASAP | CLOSED 19 Oct – Dylan: drop it, never raise again |
 | 18 | Add new Awin approvals' links within 3 days of the approval email; update ops/awin-applications.xlsx | CONTENT (CEO checks) | rolling | OPEN |
 | 19 | Meaco links in the dehumidifier guide (approved 15 Oct) | CEO | 18 Oct | DONE 18 Oct |
 | 20 | Short-video test (3 slideshow videos) | parked – needs Buffer + accounts from Dylan | – | PARKED |
