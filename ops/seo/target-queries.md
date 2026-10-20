@@ -15,7 +15,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] can you use command strips in a rented flat uk (/guides/command-strips-rented-flat-uk.html, 16 Oct)
 - [ ] can i put shelves up in a rented flat without drilling
 - [ ] how to make a rented flat feel like home without decorating
-- [ ] how to cover magnolia walls in a rental
+- [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
@@ -37,4 +37,4 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Gifts (Nov–Dec)
 - [ ] gifts for someone moving into their first flat uk
-- [ ] secret santa ideas for housemates under £10
+- [x] secret santa ideas for housemates under £10 (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)
