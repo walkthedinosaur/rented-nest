@@ -10,9 +10,9 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 
 | # | Item | Owner | Due | Status |
 |---|------|-------|-----|--------|
-| 1 | Add Tailwind timeslots to reach 8 pins/day (spread 07:00–22:00, ≥60 min apart) | CONTENT | Tue 20 Oct | OPEN |
+| 1 | Add Tailwind timeslots to reach 8 pins/day (spread 07:00–22:00, ≥60 min apart) | CONTENT | Tue 20 Oct | DONE 20 Oct – 21 slots added (10:15, 14:30, 16:45 UK, every day); 35 → 56 slots = 8/day |
 | 2 | Add timeslots to reach 10 pins/day | CONTENT | first run on/after Mon 2 Nov | OPEN |
-| 3 | Grow boards to 12–15 (2 per run) – 10 now | CONTENT | until done | OPEN |
+| 3 | Grow boards to 12–15 (2 per run) – 12 keyword boards now (Secret Santa Ideas UK + Black Friday Home Deals UK added 20 Oct); Fri 23 Oct: Student House Share Ideas + Small Bedroom Storage Ideas | CONTENT | until done | OPEN |
 | 4 | Brief for "renter winter damp" data page (English Housing Survey) | SEO | Wed 21 Oct | OPEN |
 | 5 | Write and publish the winter damp data page | QUESTIONS | Thu 29 Oct (deadline 2 Nov) | OPEN |
 | 6 | Keep briefs flowing: at least 4 unwritten briefs in ops/seo/briefs/ after every SEO run (pipeline ran dry 16 Oct) | SEO | every Wed | OPEN |
@@ -30,7 +30,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 18 | Add new Awin approvals' links within 3 days of the approval email; update ops/awin-applications.xlsx | CONTENT (CEO checks) | rolling | OPEN |
 | 19 | Meaco links in the dehumidifier guide (approved 15 Oct) | CEO | 18 Oct | DONE 18 Oct |
 | 20 | Short-video test (3 slideshow videos) | parked – needs Buffer + accounts from Dylan | – | PARKED |
-| 21 | Condensation guide: add a ventilation h2 (extractor fans, trickle vents, whose job) – first Google query is "landlord responsibility ventilation" (growth review 18 Oct) | CONTENT | Tue 20 Oct | OPEN |
+| 21 | Condensation guide: add a ventilation h2 (extractor fans, trickle vents, whose job) – first Google query is "landlord responsibility ventilation" (growth review 18 Oct) | CONTENT | Tue 20 Oct | DONE 20 Oct – h2 "Ventilation: extractor fans, trickle vents and whose job it is" (Shelter + NRLA), updated: 2026-10-20, IndexNow 200 |
 | 22 | http:// pages return 200 without redirect and show in Search Console – tick "Enforce HTTPS" in GitHub repo Settings → Pages | DYLAN (CEO flags) | ASAP | DONE 19 Oct – Dylan ticked Enforce HTTPS; http:// now 301s to https (checked) |
 | 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers (CEO 19 Oct: Awin is signed out too – please sign in to both) | DYLAN | before Sun 25 Oct | DONE 19 Oct (both signed in; Google sign-in is blocked in the pane – use email + password) |
 | 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | OPEN |

@@ -106,5 +106,43 @@
       "v2-nobalc-bath": "6ad1f0cdNfg8j_pemWqSj"
     },
     "window": "Thu 22 Oct 19:04 BST to Sat 24 Oct 20:36 BST (useNextOpenSlot)"
+  },
+  "batch_2026_10_20_content": {
+    "boards_created": {
+      "Secret Santa Ideas UK": "1111474451728011845",
+      "Black Friday Home Deals UK": "1111474451728011846"
+    },
+    "post_ids": {
+      "v2-ss-fridge": "6ad73865jXldHGnYA1l6v",
+      "v2-lr-lamps": "6ad7386eyn27BntssIkAT",
+      "v2-xg-sunrise": "6ad73871DnnAtGrl35kka",
+      "v2-s10-hero": "6ad73875abmJB5P_XgJ70",
+      "v2-u20-socks": "6ad73878edYpctJV9VAcw",
+      "v2-mag-hero": "6ad73881YLyaUaTvEulDk",
+      "v2-ss-mug": "6ad73884WU1_NsFefMT8d",
+      "v2-lr-rug": "6ad73887KlYIrnTdmErlE",
+      "v2-xg-planter": "6ad7388bisMX68xekNY5K",
+      "v2-st-bathroom": "6ad7388e93xVAfAHZF7QW",
+      "v2-s10-cosy": "6ad73891xAcriGEG8MwVx",
+      "v2-u20-mug": "6ad738957nxFa2kWpuBE3",
+      "v2-ss-cards": "6ad73898gA6PKwg5C87EO",
+      "v2-mag-light": "6ad738a0llD3tvwUawmtk",
+      "v2-xg-laptop": "6ad738a36fCgGjfNf4goh",
+      "v2-lr-divider": "6ad738a71QBkPNj9GP2z_",
+      "v2-u20-cable": "6ad738aaExqYAoHrCsiLW",
+      "v2-ss-hotchoc": "6ad738aewlNHV6sSdzK-h",
+      "v2-s10-wrap": "6ad738b1kw-ooqxL0EzEJ",
+      "v2-xg-frother": "6ad738b4AAN3_TKIUTlDV",
+      "v2-lr-footstool": "6ad738b8x90O9DlfHx6NH",
+      "v2-u20-game": "6ad738c24L0EDegb_fczv",
+      "v2-mag-colour": "6ad738c5YFgK-VqwDnefz",
+      "v2-ss-spice": "6ad738c9EOY1Z8CD1IMw1",
+      "v2-st-worktop": "6ad738ceBr2DszkPMHUMz",
+      "v2-xg-board": "6ad738d2HxI4c3WMGtpKh",
+      "v2-lr-peel": "6ad738d5gUoYj3pEgs_LF",
+      "v2-u20-sunrise": "6ad738d9uXGn-Xcq2USae",
+      "v2-ss-boardgame": "6ad738e7DRs3Md-0WAtxZ"
+    },
+    "window": "Tue 20 Oct 14:30 BST to Mon 26 Oct 19:01 GMT (useNextOpenSlot)"
   }
 }
