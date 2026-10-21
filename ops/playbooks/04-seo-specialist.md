@@ -12,6 +12,9 @@ Steps
    same commit). Also read the latest community-*.md – real renter questions are good brief candidates.
 2. Search Console (last 28 days): queries and pages with impressions, clicks, CTR, average position; Pages report for
    indexing problems; Sitemaps status. If not signed in or unreachable, note it and continue with steps 4–6.
+2a. URL Inspection (added 21 Oct: the Pages report lagged 9 days and hid unindexed pages): inspect every page published
+   or materially updated since the last SEO run. "Unknown to Google" or changed → Request indexing (keep to ≤8 a day;
+   requesting is free and changes no settings). Note each result in the report.
 2b. Bing Webmaster Tools (built-in browser: bing.com/webmasters, property therentednest.co.uk – verified by import
    from Search Console on 12 Oct 2026): search performance, the AI Performance / Copilot citations report, crawl or
    indexing issues. Note anything Google and Bing disagree on.
