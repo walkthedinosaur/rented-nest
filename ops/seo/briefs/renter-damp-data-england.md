@@ -1,5 +1,5 @@
 # Brief: Damp and mould in rented homes – the numbers (England, English Housing Survey)
-Written: 2026-10-21 (SEO run, register #4) · For: Thursday renter-questions run (register #5 – publish by Thu 29 Oct, deadline 2 Nov) · Status: brief
+Written: 2026-10-21 (SEO run, register #4) · For: Thursday renter-questions run (register #5 – publish by Thu 29 Oct, deadline 2 Nov) · Status: PUBLISHED 22 Oct 2026 (Thursday run)
 Suggested slug: /guides/damp-mould-rented-homes-england-data.html · Suggested label: Damp & condensation (data)
 Type: link magnet (growth plan Engine 2b). No affiliate links needed – use `ads: none` unless a product block is added.
 

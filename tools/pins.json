@@ -1522,5 +1522,61 @@
     "description": "Ad – Not enough worktop in a small rented kitchen? A kitchen trolley with drawers adds prep space and storage on wheels and moves with you when you leave. More no-drill kitchen storage ideas for UK renters.",
     "alt": "A bright kitchen with grey cabinets and a white island.",
     "layout": "photo2"
+  },
+  {
+    "slug": "v2-dd-1in10",
+    "theme": "pine",
+    "label": "Damp & mould data",
+    "headline": "1 in 10 rented homes has damp",
+    "sub": "The official numbers – and what to do",
+    "photo": "1693594560383-8292e83de622.jpg",
+    "guide": "/guides/damp-mould-rented-homes-england-data.html#by-tenure",
+    "board": "Condensation & Damp Fixes UK",
+    "title": "Damp in Rented Homes: 1 in 10 Private Rentals in England (Official Figures)",
+    "description": "About 1 in 10 private rented homes in England had a damp problem in 2024, says the government's English Housing Survey – more than social or owner-occupied homes. See the official figures in plain English, why renters report far more damp than surveyors find, and four steps if your flat is affected.",
+    "alt": "Close-up of a wall with damp, peeling paint and plaster.",
+    "layout": "photo2"
+  },
+  {
+    "slug": "v2-dd-46pc",
+    "theme": "sage",
+    "label": "Damp & mould data",
+    "headline": "46% of renters report damp or mould",
+    "sub": "Why that's higher than the survey finds",
+    "photo": "1492138623748-a1b1f758a762.jpg",
+    "guide": "/guides/damp-mould-rented-homes-england-data.html#self-reported",
+    "board": "Warm & Dry Flat Ideas UK",
+    "title": "Condensation, Damp and Mould in Rented Flats – What the Official Survey Found (UK)",
+    "description": "46% of private renting households in England said their home had condensation, damp or mould in 2024 – but surveyors found a damp problem in 10%. What the gap means, how ventilation links to damp, and when to report it to your landlord. England figures from the English Housing Survey.",
+    "alt": "Raindrops and condensation on a window with blurred city lights behind.",
+    "layout": "photo2"
+  },
+  {
+    "slug": "v2-pet-ask",
+    "theme": "oat",
+    "label": "Renting rules",
+    "headline": "Can your landlord refuse a pet?",
+    "sub": "The 28-day rule for renters in England",
+    "photo": "1613685396238-852abd2b6d36.jpg",
+    "guide": "/guides/ask-landlord-for-a-pet-england.html#the-rules",
+    "board": "Renting Tips UK",
+    "title": "Can My Landlord Refuse a Pet? Renters' Rights Rules Explained (England)",
+    "description": "Ad – Renting in England and want a pet? Since 1 May 2026 you can ask in writing, your landlord has 28 days to reply and needs a fair reason to say no. Fair v unfair reasons, what to do if refused, and pet-proofing tips to protect your deposit.",
+    "alt": "A tabby kitten sitting on the arm of a grey sofa.",
+    "layout": "photo2"
+  },
+  {
+    "slug": "v2-pet-template",
+    "theme": "clay",
+    "label": "Renting rules",
+    "headline": "Pet request email for renters",
+    "sub": "Copy, adapt and send to your landlord",
+    "photo": "1605774337646-71e7f5113b45.jpg",
+    "guide": "/guides/ask-landlord-for-a-pet-england.html#template",
+    "board": "Renting Tips UK",
+    "title": "Pet Request Letter to Landlord – Free Template for UK Renters (England)",
+    "description": "Ad – A copy-and-adapt email to ask your landlord for permission to keep a dog or cat, plus what to include so it's easy to say yes: pet details, vaccinations, a reference and how you'll handle cleaning. Based on GOV.UK and Shelter guidance for renters in England.",
+    "alt": "A small black terrier lying on a knitted pouffe in a living room.",
+    "layout": "photo2"
   }
 ]

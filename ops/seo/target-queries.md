@@ -22,13 +22,13 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
 - [ ] section 21 abolished – what happens now
 - [ ] can my landlord put the rent up – new rules
-- [b] can my landlord refuse a pet uk (brief ask-landlord-for-a-pet-england.md, 21 Oct)
+- [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
 - [ ] what is a periodic tenancy
 - [ ] damp and mould rules for private landlords (Awaab's Law – check status)
 
 ## Tools (link magnets)
 - [x] heated airer vs tumble dryer cost calculator (/tools/drying-heating-cost-calculator.html, 15 Oct)
-- [b] renter winter damp data page from the English Housing Survey (brief renter-damp-data-england.md, 21 Oct – Thursday run, due 2 Nov)
+- [x] renter winter damp data page from the English Housing Survey (/guides/damp-mould-rented-homes-england-data.html, 22 Oct)
 
 ## Moving and deposits
 - [ ] how to get your full deposit back uk checklist (SERP 21 Oct: Shelter has a strong page + moving-out checklist; serve it via the register #11 deposit-checklist page rather than a separate guide)

@@ -14,7 +14,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 2 | Add timeslots to reach 10 pins/day | CONTENT | first run on/after Mon 2 Nov | OPEN |
 | 3 | Grow boards to 12–15 (2 per run) – 12 keyword boards now (Secret Santa Ideas UK + Black Friday Home Deals UK added 20 Oct); Fri 23 Oct: Student House Share Ideas + Small Bedroom Storage Ideas | CONTENT | until done | OPEN |
 | 4 | Brief for "renter winter damp" data page (English Housing Survey) | SEO | Wed 21 Oct | DONE 21 Oct – ops/seo/briefs/renter-damp-data-england.md (EHS 2024-25 figures, to re-verify at writing) |
-| 5 | Write and publish the winter damp data page | QUESTIONS | Thu 29 Oct (deadline 2 Nov) | OPEN |
+| 5 | Write and publish the winter damp data page | QUESTIONS | Thu 29 Oct (deadline 2 Nov) | DONE 22 Oct – /guides/damp-mould-rented-homes-england-data.html (EHS 2024-25 figures re-checked on GOV.UK 22 Oct, stat row + bar chart, Kit form, ads: none); linked from condensation + dehumidifier guides |
 | 6 | Keep briefs flowing: at least 4 unwritten briefs in ops/seo/briefs/ after every SEO run (pipeline ran dry 16 Oct) | SEO | every Wed | OPEN – 21 Oct: 4 unwritten briefs (damp data, first-flat gifts, first-flat essentials, pet request) |
 | 7 | Welcome email sequence: 3 emails (deliver checklist; damp/warmth tips + calculator; best guides + Black Friday page). Drafts only, in ops/email/welcome-sequence.md, "Ad" label where affiliate links appear | GROWTH | Sun 25 Oct | OPEN |
 | 8 | Paste the welcome sequence into Kit as a sequence (drafts) and switch it on once happy | DYLAN | after #7 | OPEN |

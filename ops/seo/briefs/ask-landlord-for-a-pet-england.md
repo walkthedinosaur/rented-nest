@@ -1,5 +1,5 @@
 # Brief: How to ask your landlord for a pet (England, Renters' Rights Act)
-Written: 2026-10-21 (SEO run) · For: Thursday renter-questions run or next Tue/Fri run · Status: brief
+Written: 2026-10-21 (SEO run) · For: Thursday renter-questions run or next Tue/Fri run · Status: PUBLISHED 22 Oct 2026 (Thursday run)
 Suggested slug: /guides/ask-landlord-for-a-pet-england.html · Suggested label: Renting rules · YMYL – verify every fact on GOV.UK
 
 ## Target query

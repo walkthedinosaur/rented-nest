@@ -19,7 +19,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Cluster: 5–6 renter-question pages a week (Tue + Fri content runs, plus Thursday "renter questions" run added 15 Oct) from ops/seo/target-queries.md (damp, deposits, storage rules, Renters'
   Rights Act changes from 1 May 2026) – target 30–50 pages by mid-January. Answer first, sources, next steps. No
   legal advice – link Shelter / Citizens Advice / GOV.UK.
-- Monthly re-check (first run of each month): /guides/renters-rights-act-what-changed-uk.html against GOV.UK (database roll-out, ombudsman, Awaab's Law PRS consultation closes 18 Dec 2026, Decent Homes) – update facts and the "Last reviewed" date.
+- Monthly re-check (first run of each month): /guides/renters-rights-act-what-changed-uk.html and /guides/ask-landlord-for-a-pet-england.html against GOV.UK (database roll-out, ombudsman, Awaab's Law PRS consultation closes 18 Dec 2026, Decent Homes) – update facts and the "Last reviewed" date.
 - Link magnets: (a) running-cost calculator heated airer v tumble dryer v dehumidifier (Ofgem cap rate; update when
   the January 2027 cap is announced, expected late Nov) – LIVE 15 Oct at /tools/drying-heating-cost-calculator.html (default 26.32p/kWh, Oct–Dec 2026 cap; update the default rate, the 54.83p standing charge line and the worked examples when the Jan–Mar 2027 cap is announced); (b) "Renter winter damp" data page from the
   English Housing Survey – by 2 Nov.

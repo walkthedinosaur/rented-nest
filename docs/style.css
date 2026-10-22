@@ -106,3 +106,21 @@ article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 
 .signup .signup-title { margin-top: 0; }
 .btn { display: inline-block; background: #4F5F45; color: #fff !important; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; }
 .shop-line a { display:inline-block; font-size:14.5px; font-weight:600; text-decoration:none; background: var(--sage-deep); color:#fff; padding:7px 14px; border-radius:999px; margin-left:4px; }
+
+/* Data pages (added 22 Oct 2026) */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0 28px; }
+.stats .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.stats .stat b { display: block; font-family: var(--serif); font-size: 32px; line-height: 1.1; color: var(--sage-deep); }
+.stats .stat span { display: block; font-size: 14px; color: var(--muted); margin-top: 4px; }
+.barchart { margin: 16px 0 8px; }
+.barchart .row { display: grid; grid-template-columns: 120px 1fr 44px; align-items: center; gap: 10px; margin: 8px 0; font-size: 15px; }
+.barchart .track { background: var(--cream); border-radius: 6px; height: 22px; overflow: hidden; }
+.barchart .fill { background: var(--sage); height: 100%; border-radius: 6px; }
+.barchart .row.hl .fill { background: var(--clay); }
+.barchart .val { font-weight: 600; text-align: right; }
+.chart-caption { font-size: 14px; color: var(--muted); margin: 4px 0 24px; }
+.facts { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15.5px; }
+.facts th, .facts td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.facts th { background: var(--cream); font-weight: 600; }
+.template { background: var(--paper); border: 1px dashed var(--sage); border-radius: 12px; padding: 16px 20px; margin: 16px 0 24px; font-size: 15.5px; }
+@media (max-width: 560px) { .barchart .row { grid-template-columns: 92px 1fr 40px; font-size: 14px; } }
