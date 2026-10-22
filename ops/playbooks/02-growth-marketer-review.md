@@ -20,6 +20,9 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
 6. Find 10 open Reddit/Quora renter questions and write link-free draft answers in
    ops/reports/community-YYYY-MM-DD.md (register #9 – never post). Note the exact wording renters use – it feeds
    topics and titles.
+   Access (22 Oct 2026): Reddit is blocked for WebFetch and the built-in browser. Use Quora search in the built-in
+   browser (https://www.quora.com/search?q=<terms>&type=question; read question links with javascript_tool), plus
+   Google "People also ask" for target queries. Skip US/Canada questions.
 6b. Pinterest Trends (added 19 Oct 2026): in the built-in browser open
    https://trends.pinterest.com/detail/?country=GB&terms=<keyword> for each keyword in
    ops/seo/pinterest-trends-keywords.md (the fixed list, plus up to 3 new candidates from steps 5–6). For each, record
