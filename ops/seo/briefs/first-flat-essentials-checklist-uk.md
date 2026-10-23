@@ -1,5 +1,5 @@
 # Brief: First flat essentials checklist (UK renters)
-Written: 2026-10-21 (SEO run) · For: next Tue/Fri content run · Status: brief
+Written: 2026-10-21 (SEO run) · For: next Tue/Fri content run · Status: WRITTEN 23 Oct 2026
 Suggested slug: /guides/first-flat-essentials-checklist-uk.html · Suggested label: Moving in
 
 ## Target query

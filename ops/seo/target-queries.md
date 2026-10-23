@@ -33,8 +33,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Moving and deposits
 - [ ] how to get your full deposit back uk checklist (SERP 21 Oct: Shelter has a strong page + moving-out checklist; serve it via the register #11 deposit-checklist page rather than a separate guide)
 - [ ] moving out cleaning checklist for renters uk
-- [b] first flat essentials checklist uk (brief first-flat-essentials-checklist-uk.md, 21 Oct)
+- [x] first flat essentials checklist uk (brief first-flat-essentials-checklist-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-essentials-checklist-uk.html
 
 ## Gifts (Nov–Dec)
-- [b] gifts for someone moving into their first flat uk (brief first-flat-gifts-uk.md, 21 Oct)
+- [x] gifts for someone moving into their first flat uk (brief first-flat-gifts-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-gifts-uk.html
 - [x] secret santa ideas for housemates under £10 (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)

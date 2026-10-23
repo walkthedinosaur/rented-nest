@@ -1,5 +1,5 @@
 # Brief: Gifts for someone moving into their first flat (UK, renter-friendly)
-Written: 2026-10-21 (SEO run) · For: next Tue/Fri content run (seasonal – publish by early Nov for Christmas + Jan moves) · Status: brief
+Written: 2026-10-21 (SEO run) · For: next Tue/Fri content run (seasonal – publish by early Nov for Christmas + Jan moves) · Status: WRITTEN 23 Oct 2026
 Suggested slug: /guides/first-flat-gifts-uk.html · Suggested label: Gifts / moving in
 
 ## Target query
