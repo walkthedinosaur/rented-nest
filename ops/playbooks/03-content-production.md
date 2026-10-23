@@ -31,6 +31,9 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 10. For each Awin retailer marked Approved in ops/awin-applications.xlsx that isn't yet linked where it fits, add its
     link (deep link generated in Awin – if that needs the browser and it's unavailable, skip and note it) alongside
     Amazon in the matching guides, with rel="sponsored nofollow noopener".
+    Test the destination page first. Homebase and La Redoute show a bot check (403) to cloud runs, so their new
+    destination URLs can't be verified here – never guess a category URL; hand it to a run with the built-in browser
+    (added 23 Oct 2026).
 
 ## E. Pins
 11. Work out how many pins to make: Tailwind get_schedule (next 7 days) and get_account_usage. Make enough to fill

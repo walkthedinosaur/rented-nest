@@ -12,7 +12,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 |---|------|-------|-----|--------|
 | 1 | Add Tailwind timeslots to reach 8 pins/day (spread 07:00–22:00, ≥60 min apart) | CONTENT | Tue 20 Oct | DONE 20 Oct – 21 slots added (10:15, 14:30, 16:45 UK, every day); 35 → 56 slots = 8/day |
 | 2 | Add timeslots to reach 10 pins/day | CONTENT | first run on/after Mon 2 Nov | OPEN |
-| 3 | Grow boards to 12–15 (2 per run) – 12 keyword boards now (Secret Santa Ideas UK + Black Friday Home Deals UK added 20 Oct); Fri 23 Oct: Student House Share Ideas + Small Bedroom Storage Ideas | CONTENT | until done | OPEN |
+| 3 | Grow boards to 12–15 (2 per run) | CONTENT | until done | DONE 23 Oct – Student House Share Ideas (1111474451728025256) + Small Bedroom Storage Ideas (1111474451728025257) created; 14 keyword boards, target met |
 | 4 | Brief for "renter winter damp" data page (English Housing Survey) | SEO | Wed 21 Oct | DONE 21 Oct – ops/seo/briefs/renter-damp-data-england.md (EHS 2024-25 figures, to re-verify at writing) |
 | 5 | Write and publish the winter damp data page | QUESTIONS | Thu 29 Oct (deadline 2 Nov) | DONE 22 Oct – /guides/damp-mould-rented-homes-england-data.html (EHS 2024-25 figures re-checked on GOV.UK 22 Oct, stat row + bar chart, Kit form, ads: none); linked from condensation + dehumidifier guides |
 | 6 | Keep briefs flowing: at least 4 unwritten briefs in ops/seo/briefs/ after every SEO run (pipeline ran dry 16 Oct) | SEO | every Wed | OPEN – 21 Oct: 4 unwritten briefs (damp data, first-flat gifts, first-flat essentials, pet request) |
@@ -33,7 +33,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 21 | Condensation guide: add a ventilation h2 (extractor fans, trickle vents, whose job) – first Google query is "landlord responsibility ventilation" (growth review 18 Oct) | CONTENT | Tue 20 Oct | DONE 20 Oct – h2 "Ventilation: extractor fans, trickle vents and whose job it is" (Shelter + NRLA), updated: 2026-10-20, IndexNow 200 |
 | 22 | http:// pages return 200 without redirect and show in Search Console – tick "Enforce HTTPS" in GitHub repo Settings → Pages | DYLAN (CEO flags) | ASAP | DONE 19 Oct – Dylan ticked Enforce HTTPS; http:// now 301s to https (checked) |
 | 23 | Cloudflare dashboard signed out in the built-in browser – sign back in so the Sunday review gets visits/referrers (CEO 19 Oct: Awin is signed out too – please sign in to both) | DYLAN | before Sun 25 Oct | DONE 19 Oct (both signed in; Google sign-in is blocked in the pane – use email + password) |
-| 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | OPEN |
+| 24 | Awin gaps: Homebase + La Redoute links in draught-proofing guide; Meaco in dry-clothes guide (laundry-mode dehumidifier) | CONTENT | Fri 23 Oct | PART DONE 23 Oct – Meaco (compressor range) added to the laundry-mode card, Awin redirect tested 302 → meaco.com. Homebase + La Redoute NOT added: both sites return a bot-check (403) to the cloud run, so a new destination URL can't be verified; moved to #32 |
 | 25 | Search Console indexing: identify the "Page with redirect" URL (15 Oct email) and check coverage (only 1 of ~16 pages indexed on 19 Oct) – request indexing / check sitemap; links to #22 | SEO | Wed 21 Oct | DONE 21 Oct – redirect URL is http://www.therentednest.co.uk/ (correct, no fix); Pages report stale (last update 12 Oct); URL Inspection: condensation, RRA, calculator indexed; magnolia, Secret Santa under £10, Command strips, draught-proofing "unknown to Google" → indexing requested; sitemap read 19 Oct, 21 URLs, Success |
 | 26 | Playbooks restructured (one action per step, register read in every run, Thursday playbook 06 moved out of its scheduled-task prompt, SEO keeps ≥4 briefs, Amazon 3-sale focus metric in the CEO report) | – | 19 Oct | DONE 19 Oct |
 | 27 | Re-inspect the 4 URLs given "Request indexing" on 21 Oct (magnolia, Secret Santa under £10, Command strips, draught-proofing) + any new pages; if still "unknown to Google" check sitemap/internal links and note it | SEO | Wed 28 Oct | OPEN |
@@ -41,6 +41,7 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 29 | Page: "Black mould in a rented flat – what to do" (target-queries line 6; Search Console damp cluster + 5/10 Quora questions) – angle per growth-2026-10-22.md | CONTENT | Tue 27 Oct | OPEN |
 | 30 | Page: "Can I put shelves up in a rented flat without drilling?" (line 16) | CONTENT | Tue 27 Oct | OPEN |
 | 31 | Page: "Can my landlord put the rent up? New rules (England)" (line 24; Quora questions 6–8 as FAQ) | QUESTIONS | Thu 29 Oct | OPEN |
+| 32 | Homebase (draught excluders/strips) + La Redoute (thermal curtains, category URL) links in the draught-proofing guide – find and test the destination URLs in the built-in browser (cloud runs get a bot check), then add | SEO (Wed run uses the built-in browser) | Wed 28 Oct | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
