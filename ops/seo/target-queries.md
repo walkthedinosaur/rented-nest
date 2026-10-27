@@ -3,7 +3,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Damp, condensation, heating (winter priority)
 - [x] is condensation the landlord's responsibility uk
-- [ ] black mould in rented flat what to do
+- [x] black mould in rented flat what to do (/guides/black-mould-rented-flat-what-to-do-uk.html, 27 Oct)
 - [ ] can i use a dehumidifier in a rented flat / best small dehumidifier for a bedroom uk
 - [x] how to dry clothes in a flat without a balcony
 - [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
@@ -13,7 +13,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Storage and decor (renter rules)
 - [x] can you use command strips in a rented flat uk (/guides/command-strips-rented-flat-uk.html, 16 Oct)
-- [ ] can i put shelves up in a rented flat without drilling
+- [x] can i put shelves up in a rented flat without drilling (/guides/put-up-shelves-rented-flat-without-drilling-uk.html, 27 Oct)
 - [ ] how to make a rented flat feel like home without decorating
 - [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
