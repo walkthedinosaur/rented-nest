@@ -47,8 +47,11 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 35 | CEO weekly report + Growth review scheduled tasks were auto-disabled ("computer not available") on 25–26 Oct; no reports for 9 days. Re-enabled 28 Oct; watchdog added to 03 step 2a | CEO | 28 Oct | DONE 28 Oct |
 | 36 | Outlook rule: auto-forward mail from tailwindapp.com and Amazon Associates (Hotmail) to walkthedinosaur@gmail.com so billing/credit/sale notices reach the agents | DYLAN | Sun 1 Nov | OPEN |
 | 37 | Send the 4 discount-code requests in ops/outreach/discount-requests.md via Awin (edit as you like) | DYLAN | Fri 6 Nov (codes needed by 20 Nov) | OPEN |
-| 38 | Decide: apply to Sovrn Commerce (free; auto-affiliates links to retailers we can't join, e.g. Argos, Dunelm, John Lewis; Dylan accepts terms) | DYLAN | Sun 1 Nov | OPEN |
+| 38 | Decide: apply to Sovrn Commerce (Dylan accepts terms) | DYLAN | Sun 1 Nov | DONE 28 Oct – Dylan: go ahead → #40, #41 |
 | 39 | Pinterest check: clicks fell from 19 (11–16 Oct) to 7 (19–25 Oct) while pins rose to 8/day – growth review to compare clicks per pin by guide/creative and say whether to keep 10/day from 3 Nov or shift the mix | GROWTH | Sun 1 Nov | OPEN |
+| 40 | Sovrn sign-up, done in the Claude app's built-in browser so agents can read Settings later: platform.sovrn.com → sign up with email + password (Google sign-in is blocked in the pane) → confirm email → Commerce → Get started → Website → accept terms → site https://therentednest.co.uk. Tell the CEO agent when done | DYLAN | Wed 4 Nov | OPEN |
+| 41 | After #40: copy the JS snippet from Sovrn Settings (built-in browser); add it to build.py ONLY on pages with affiliate links (never `ads: none` pages – undisclosed links); add Sovrn to the About/editorial disclosure; build, push, make 2–3 test clicks on merchant links (Sovrn needs clicks to review); watch Gmail for approval (up to 5 business days, check spam) | SEO (Wed run, has the browser) | first Wed after #40 | OPEN |
+| 42 | Once approved: check which UK merchants Sovrn actually covers (Argos, Dunelm, John Lewis, IKEA, B&Q – not verified) and its revenue share/payout terms; report in the CEO report | CEO | first Mon after approval | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
