@@ -1,6 +1,6 @@
 # Playbook: Growth Marketer weekly review
 Trigger: every Sunday ~18:00 UK.
-Inputs: Tailwind pin analytics, Cloudflare top pages/referrers, Search Console queries (built-in browser,
+Inputs: Tailwind pin analytics, GoatCounter top pages/referrers (https://therentednest.goatcounter.com, public – no login), Search Console queries (built-in browser,
 search.google.com/search-console), guide list in content/guides/, real renter questions (Reddit/Quora).
 Output: ops/reports/growth-YYYY-MM-DD.md with a numbered plan the Tue/Thu/Fri runs follow, plus any owned register
 items (e.g. #7 welcome emails, #9 community answers) done and ticked.

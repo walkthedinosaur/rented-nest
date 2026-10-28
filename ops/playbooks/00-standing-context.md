@@ -21,7 +21,7 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
   Plan: Pin Scheduling & Creation, 300 credits/month, 1 credit per scheduled pin. Never buy credits or change plan.
 - Affiliate: Amazon UK Associates (tag therentednest-21; Dylan's account email is his Hotmail; Associates emails are
   forwarded to Gmail). Awin publisher 3120264 – applications tracked in ops/awin-applications.xlsx.
-- Analytics: Cloudflare Web Analytics (beacon on every page); Google Search Console (domain property verified);
+- Analytics: GoatCounter (every page, from 28 Oct; public stats at https://therentednest.goatcounter.com – no login) and Cloudflare Web Analytics (fallback; needs the built-in browser); Google Search Console (domain property verified);
   Pinterest analytics. Built-in browser on Dylan's computer is signed in to Awin, Pinterest and Cloudflare (only
   reachable when his computer is on with the Claude app open – if not, say so and carry on).
 - Forecast model: ops/revenue-forecast-24m.xlsx. Business plan (Claude Doc):

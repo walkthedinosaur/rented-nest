@@ -15,8 +15,8 @@ Second line: outbound clicks to retailers (Amazon + Awin), the leading indicator
 2. Pinterest: Tailwind get_account_usage (credits left), get_schedule next 7 days (open slots), list_posts status
    sent for the last 7 days (count), list_posts status failed/missed, get_account_analytics / get_pin_analytics if
    available (impressions, saves, outbound clicks).
-3. Website: Cloudflare Web Analytics (built-in browser, dash.cloudflare.com → Web analytics, last 7 days): visits,
-   page views, top pages, referrers (Pinterest/Google). If the browser is unreachable or signed out, say so.
+3. Website: GoatCounter (public, no login, works from the cloud even when Dylan's computer is offline): https://therentednest.goatcounter.com/?period-start=YYYY-MM-DD&period-end=YYYY-MM-DD – read it with WebFetch or curl. Counts start 28 Oct 2026; Cloudflare (built-in browser, often signed out) is only a fallback for earlier dates.
+   Last 7 days: visits, top pages, referrers (Pinterest/Google).
 4. Awin (built-in browser, ui.awin.com/awin/affiliate/3120264): programme statuses (Joined/Pending/Rejected) and
    any clicks/commission; update ops/awin-applications.xlsx Status + Date decided.
 5. Amazon: from forwarded Associates emails only (no login) – qualifying sales so far, days left to the deadline,

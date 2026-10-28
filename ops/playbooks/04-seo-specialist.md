@@ -1,7 +1,7 @@
 # Playbook: SEO Specialist weekly run
 Trigger: every Wednesday ~10:30 UK.
 Inputs: Google Search Console (built-in browser: search.google.com/search-console, property therentednest.co.uk),
-ops/seo/target-queries.md, content/guides/, Cloudflare top pages.
+ops/seo/target-queries.md, content/guides/, GoatCounter top pages (https://therentednest.goatcounter.com, public).
 
 Goal: grow free Google traffic by owning narrow, renter-specific UK questions the big publishers ignore.
 We cannot outrank Which?/Ideal Home on "best X UK" – target the long tail instead.
