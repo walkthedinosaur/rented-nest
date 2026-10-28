@@ -11,7 +11,8 @@ pre-launch runs only write drafts here.
 - Not covered: vet/health advice (always "speak to your vet"; cite BHS/vet sources only for general facts),
   competition news, product testing.
 - Audience: leisure and riding-club riders, parents of pony-mad children, returning adult riders, gift buyers.
-- Brand: not chosen yet – shortlist in the launch plan; register #45 checks availability.
+- Brand: not chosen yet. Shortlist (register #45 checks each): The Tack Room Edit, Yard & Rein, Muddy Boots Guide,
+  The Horsey Edit, Saddle & Sundry. Avoid anything close to Horse & Hound, Your Horse or retailer brands.
 
 ## Money
 - Awin (publisher 3120264, shared with The Rented Nest – a second "promotional space" will be added for the new
