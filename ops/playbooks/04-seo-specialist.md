@@ -15,6 +15,9 @@ Steps
 2a. URL Inspection (added 21 Oct: the Pages report lagged 9 days and hid unindexed pages): inspect every page published
    or materially updated since the last SEO run. "Unknown to Google" or changed → Request indexing (keep to ≤8 a day;
    requesting is free and changes no settings). Note each result in the report.
+   Only log "requested" when Search Console shows its "Indexing requested" confirmation (28 Oct: with the pane hidden the
+   live-test dialog closed with no result – log it as "attempted, unconfirmed" and re-try next run). Use the top search box;
+   inspect/?id= URLs can't be typed directly (404).
 2b. Bing Webmaster Tools (built-in browser: bing.com/webmasters, property therentednest.co.uk – verified by import
    from Search Console on 12 Oct 2026): search performance, the AI Performance / Copilot citations report, crawl or
    indexing issues. Note anything Google and Bing disagree on.

@@ -14,16 +14,16 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Storage and decor (renter rules)
 - [x] can you use command strips in a rented flat uk (/guides/command-strips-rented-flat-uk.html, 16 Oct)
 - [x] can i put shelves up in a rented flat without drilling (/guides/put-up-shelves-rented-flat-without-drilling-uk.html, 27 Oct)
-- [ ] how to make a rented flat feel like home without decorating
+- [b] how to make a rented flat feel like home without decorating (brief rented-flat-feel-like-home-no-decorating-uk.md, 28 Oct)
 - [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
 - [ ] section 21 abolished – what happens now
-- [ ] can my landlord put the rent up – new rules
+- [b] can my landlord put the rent up – new rules (brief rent-increase-rules-england.md, 28 Oct – register #31)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
-- [ ] what is a periodic tenancy
+- [b] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
 - [ ] damp and mould rules for private landlords (Awaab's Law – check status)
 
 ## Tools (link magnets)
@@ -31,10 +31,17 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] renter winter damp data page from the English Housing Survey (/guides/damp-mould-rented-homes-england-data.html, 22 Oct)
 
 ## Moving and deposits
+- [b] how much notice do i need to give my landlord uk (brief give-notice-to-landlord-england.md, 28 Oct)
 - [ ] how to get your full deposit back uk checklist (SERP 21 Oct: Shelter has a strong page + moving-out checklist; serve it via the register #11 deposit-checklist page rather than a separate guide)
-- [ ] moving out cleaning checklist for renters uk
+- [b] moving out cleaning checklist for renters uk (brief move-out-deposit-checklist-england.md, 28 Oct – the register #11 page)
 - [x] first flat essentials checklist uk (brief first-flat-essentials-checklist-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-essentials-checklist-uk.html
 
 ## Gifts (Nov–Dec)
 - [x] gifts for someone moving into their first flat uk (brief first-flat-gifts-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-gifts-uk.html
 - [x] secret santa ideas for housemates under £10 (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)
+
+## Seen in Search Console (28 Oct, last 28 days) – watch, no page yet
+- "small heated clothes dryer" (pos 45 → heated airers guide), "tenant christmas gift ideas" (pos 45 → Christmas gifts guide),
+  "tenement flat cold" (pos 47 – Scottish wording; stay-warm guide is England/UK-general), "blinds for landlords" (pos 97, off-target)
+- Skipped 28 Oct: "pet-proof a rented flat" (already a full section on /guides/ask-landlord-for-a-pet-england.html#pet-proofing),
+  "best small dehumidifier for a bedroom" (dehumidifier guide covers it; Meaco blog + Ideal Home rank)
