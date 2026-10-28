@@ -7,6 +7,7 @@ Rule: a commitment that isn't in this table with an owner and a date doesn't exi
 fix the playbook (or this register), not just the output.
 
 Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUESTIONS = Thu run · SEO = Wed run · DYLAN
+Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/equestrian/playbooks/E1-content-bank.md) · KICKOFF = one-off Mon 4 Jan 2027 run
 
 | # | Item | Owner | Due | Status |
 |---|------|-------|-----|--------|
@@ -54,6 +55,12 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 42 | Once approved: install the Sovrn JavaScript (Getting started → "Install the JavaScript", built-in browser, Dylan is signed in) on ads pages only, never `ads: none` pages; then check which UK merchants Sovrn actually covers (Argos, Dunelm, John Lewis, IKEA, B&Q – not verified) and its revenue share/payout terms; report in the CEO report | CEO | first Mon after approval | OPEN |
 | 43 | Watch Gmail for replies from Meaco, Beldray, Dimplex, Homebase (sent 28 Oct). Any code → add to the relevant guide + Black Friday page with its expiry date; report replies in the CEO report. No reply by Mon 9 Nov → flag once to Dylan (a nudge is his call) | CEO (CONTENT adds codes) | from Mon 2 Nov | OPEN |
 | 44 | Click the "verify your email" link GoatCounter sent to walkthedinosaur@gmail.com (password resets need it) | DYLAN | this week | DONE 28 Oct – Dylan clicked the verification link |
+| 45 | EQ – Name check for the 5 shortlisted names (launch plan doc): .co.uk availability via a registrar's public search (if no tool can check, write "not verified – Dylan checks at purchase"), UK Companies House name search, obvious trademark/retailer clashes, Pinterest username free? → sites/equestrian/name-check.md ranked | CONTENT-BANK | Sat 31 Oct | OPEN |
+| 46 | EQ – Content bank: 16–20 finished drafts in sites/equestrian/drafts/ (2 per Saturday run) | CONTENT-BANK | Sat 9 Jan 2027 | OPEN |
+| 47 | EQ – Launch-week kickoff: message Dylan his launch checklist (sites/equestrian/launch-checklist.md) with the name-check result and Tailwind plan options/prices checked that day | KICKOFF | Mon 4 Jan 2027 | OPEN |
+| 48 | EQ – Launch week build: site from template, drafts live, photos, pins, DNS, IndexNow; create site #2 scheduled runs (Content Mon+Thu, SEO Sat) from sites/equestrian/playbooks/; add Site #2 sections to 01 CEO and 02 Growth playbooks; Awin applications after Dylan's yes | CEO (with Dylan) | Mon 11 Jan 2027 | OPEN |
+| 49 | EQ – Dylan's launch checklist (domain, GitHub repo, Pinterest, Tailwind plan, Awin space, Amazon tracking ID, GoatCounter site, Search Console) | DYLAN | w/c Mon 4 Jan 2027 | OPEN |
+| 50 | EQ – 3-month gate: visits, pin clicks, approvals, first sales vs The Rented Nest at the same age → keep / change / stop | CEO | Mon 12 Apr 2027 | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
