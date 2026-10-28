@@ -11,7 +11,7 @@ Only read threads matching this Gmail query (adjust the date window to the perio
 
 Also read forwards from Dylan's Hotmail (Tailwind and Amazon Associates mail goes there, not to Gmail):
     from:white_dylan@hotmail.com subject:(Fw tailwind OR amazon OR associates) newer_than:8d
-Until Dylan sets an Outlook auto-forward rule (register #36), assume Tailwind billing/credit and Amazon notices may be missed.
+Since 28 Oct an Outlook rule auto-forwards Tailwind and Amazon Associates mail from Hotmail to Gmail (register #36). Forwards arrive from white_dylan@hotmail.com with "Fw:" in the subject – read them like the originals.
 
 What to extract for the CEO weekly report:
 - Awin: programme approvals / rejections (update ops/awin-applications.xlsx), payment notices, policy changes.
