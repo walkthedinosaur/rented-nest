@@ -1,4 +1,5 @@
-# Discount-code requests – drafts for Dylan to send (register #10)
+# Discount-code requests (register #10, #37)
+SENT 28 Oct 2026 via Awin "Send an Email" for all four (reply-to walkthedinosaur@gmail.com), with a "Dylan White / The Rented Nest – therentednest.co.uk" sign-off added.
 Written 28 Oct 2026 by the CEO agent at the board meeting (the 26 Oct CEO run didn't happen – see board-2026-10-28.md).
 Send from the Awin dashboard: Advertisers → My Programmes → [retailer] → Contact (or the account manager's email
 where we have one). Agents can't send email. Edit freely – no figures are claimed beyond what's true today.
