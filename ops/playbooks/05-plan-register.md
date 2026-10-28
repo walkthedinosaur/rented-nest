@@ -19,13 +19,13 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 7 | Welcome email sequence: 3 emails (deliver checklist; damp/warmth tips + calculator; best guides + Black Friday page). Drafts only, in ops/email/welcome-sequence.md, "Ad" label where affiliate links appear | GROWTH | Sun 25 Oct |DONE 22 Oct – 3 drafts in ops/email/welcome-sequence.md (no affiliate links – Amazon bars them in email; Ad line on emails 2–3; 11 links 200) |
 | 8 | Paste the welcome sequence into Kit as a sequence (drafts) and switch it on once happy | DYLAN | after #7 | OPEN |
 | 9 | Community answers: 10 open Reddit/Quora renter questions with link-free draft answers → ops/reports/community-YYYY-MM-DD.md (never post) | GROWTH | every Sun from 25 Oct |OPEN (recurring) – 22 Oct batch done: ops/reports/community-2026-10-22.md (Quora only – Reddit blocked) |
-| 10 | Discount-code request emails to approved Awin retailers (Meaco, Beldray, Dimplex, Homebase; Ebac/Pro Breeze when approved) → ops/outreach/discount-requests.md for Dylan to send | CEO | Mon 26 Oct | OPEN |
+| 10 | Discount-code request emails to approved Awin retailers (Meaco, Beldray, Dimplex, Homebase; Ebac/Pro Breeze when approved) → ops/outreach/discount-requests.md for Dylan to send | CEO | Mon 26 Oct | DONE 28 Oct (late – CEO run disabled) – 4 drafts in ops/outreach/discount-requests.md; sending = #37 |
 | 11 | "Move-out deposit checklist" lead magnet (tools/checklists → PDF) + page for the second Kit form; page FAQ answers the deposit-deduction questions (repainting, carpet, cleaning, process/dispute service – community-2026-10-22.md #9–10) | QUESTIONS | Thu 5 Nov | OPEN |
 | 12 | Create the second Kit form for the deposit checklist and send the embed code | DYLAN | after #11 | OPEN |
 | 13 | Black Friday page: add live, checked deals with date stamps (daily from 20 Nov) | CONTENT | from 20 Nov | OPEN |
 | 14 | Update the running-cost calculator to the January 2027 Ofgem cap once announced | SEO | within a week of the announcement (expected late Nov) | OPEN |
 | 15 | January sales page | CONTENT | Tue 22 Dec | OPEN |
-| 16 | Flag Sovrn Commerce application when ~20 guides are live (14 guides + 1 tool on 18 Oct) | CEO | when count ≥20 | OPEN |
+| 16 | Flag Sovrn Commerce application when ~20 guides are live (14 guides + 1 tool on 18 Oct) | CEO | when count ≥20 | DONE 28 Oct – flagged at board (22 guides + 1 tool); decision = #38 |
 | 17 | Fix 4 published pins missing the "Ad" label (from 10–11 Oct – listed in ops/reports/engagement-2026-10-14.md) | DYLAN | ASAP | CLOSED 19 Oct – Dylan: drop it, never raise again |
 | 18 | Add new Awin approvals' links within 3 days of the approval email; update ops/awin-applications.xlsx | CONTENT (CEO checks) | rolling | OPEN |
 | 19 | Meaco links in the dehumidifier guide (approved 15 Oct) | CEO | 18 Oct | DONE 18 Oct |
@@ -44,6 +44,11 @@ Owners: CEO = Mon report · GROWTH = Sun review · CONTENT = Tue/Fri run · QUES
 | 32 | Homebase (draught excluders/strips) + La Redoute (thermal curtains, category URL) links in the draught-proofing guide – find and test the destination URLs in the built-in browser (cloud runs get a bot check), then add | SEO (Wed run uses the built-in browser) | Wed 28 Oct | PART DONE 28 Oct – Homebase AND La Redoute both show a Cloudflare "verify you are human" check in the built-in browser too (agents can't pass it), so no new destinations. Added the already-live, tested category links (Awin 302s re-checked 28 Oct): La Redoute door curtains (door-curtain card), Homebase curtains + La Redoute blackout curtains (thermal curtains card), Homebase rugs + La Redoute rugs (rug card). Homebase draught excluders/strips categories still missing – only possible if Dylan opens homebase.co.uk in the built-in browser and passes the check once (optional, low value) |
 | 33 | Re-inspect shelves-without-drilling, black mould and first-flat gifts in URL Inspection; if still unknown, Request indexing again and confirm the "Indexing requested" message (28 Oct the button gave no confirmation); also check stay-warm + Black Friday ("Discovered – currently not indexed" in the 23 Oct Pages report) | SEO | Wed 4 Nov | OPEN |
 | 34 | Bing Webmaster Tools signed out in the built-in browser (28 Oct – shows the sign-up page) – sign back in so the Wed SEO run gets Bing data | DYLAN (CEO flags) | before Wed 4 Nov | OPEN |
+| 35 | CEO weekly report + Growth review scheduled tasks were auto-disabled ("computer not available") on 25–26 Oct; no reports for 9 days. Re-enabled 28 Oct; watchdog added to 03 step 2a | CEO | 28 Oct | DONE 28 Oct |
+| 36 | Outlook rule: auto-forward mail from tailwindapp.com and Amazon Associates (Hotmail) to walkthedinosaur@gmail.com so billing/credit/sale notices reach the agents | DYLAN | Sun 1 Nov | OPEN |
+| 37 | Send the 4 discount-code requests in ops/outreach/discount-requests.md via Awin (edit as you like) | DYLAN | Fri 6 Nov (codes needed by 20 Nov) | OPEN |
+| 38 | Decide: apply to Sovrn Commerce (free; auto-affiliates links to retailers we can't join, e.g. Argos, Dunelm, John Lewis; Dylan accepts terms) | DYLAN | Sun 1 Nov | OPEN |
+| 39 | Pinterest check: clicks fell from 19 (11–16 Oct) to 7 (19–25 Oct) while pins rose to 8/day – growth review to compare clicks per pin by guide/creative and say whether to keep 10/day from 3 Nov or shift the mix | GROWTH | Sun 1 Nov | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.

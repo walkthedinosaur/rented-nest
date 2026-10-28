@@ -12,6 +12,11 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 3. Read the latest growth review plan (its numbered list is this run's to-do list) and any unwritten briefs in
    ops/seo/briefs/.
 
+2a. Watchdog (added 28 Oct): check the last 8 days have a ops/reports/ceo-*.md and a ops/reports/growth-*.md, and
+   that Tailwind credits and the queue look sane. If either report is missing, send Dylan ONE line: "<report> didn't
+   run – check the scheduled task is enabled". (26 Oct: CEO + growth tasks were auto-disabled for 9 days when the
+   computer was offline and nobody noticed.)
+
 ## B. Register items
 4. Do each due CONTENT item from step 2 (e.g. timeslots, boards, guide fixes, Awin gaps). Tick each in the register
    in the same commit as the work ("DONE <date> – what was done"). If one can't be done, write why in its Status.

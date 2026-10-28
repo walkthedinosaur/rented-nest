@@ -9,6 +9,10 @@ Only read threads matching this Gmail query (adjust the date window to the perio
      OR from:account.pinterest.com OR from:tailwindapp.com OR from:sc-noreply@google.com
      OR from:cloudflare.com OR from:github.com) newer_than:8d
 
+Also read forwards from Dylan's Hotmail (Tailwind and Amazon Associates mail goes there, not to Gmail):
+    from:white_dylan@hotmail.com subject:(Fw tailwind OR amazon OR associates) newer_than:8d
+Until Dylan sets an Outlook auto-forward rule (register #36), assume Tailwind billing/credit and Amazon notices may be missed.
+
 What to extract for the CEO weekly report:
 - Awin: programme approvals / rejections (update ops/awin-applications.xlsx), payment notices, policy changes.
 - Amazon Associates: qualifying-sale deadline, account warnings, payment/tax notices.
