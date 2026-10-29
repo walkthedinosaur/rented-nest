@@ -221,5 +221,14 @@
       "v2-cond-report2": "6ae0812cKtWKv3MRCU7MY"
     },
     "window": "Fri 30 Oct 20:35 GMT to Mon 2 Nov 21:51 GMT (useNextOpenSlot)"
+  },
+  "batch_2026_10_29_renter_questions": {
+    "post_ids": {
+      "v2-rent-rules": "6ae3205a1zAT63UTSUlfS",
+      "v2-dep-clean": "6ae3205cE8YR9UYS5YzPX",
+      "v2-rent-text": "6ae3205dSNPFf4Q913r3N",
+      "v2-dep-deduct": "6ae3205fH-7uTdmL7DZAE"
+    },
+    "window": "Tue 3 Nov 07:42 to 14:30 GMT (useNextOpenSlot)"
   }
 }
