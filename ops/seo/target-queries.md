@@ -21,7 +21,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
 - [ ] section 21 abolished – what happens now
-- [b] can my landlord put the rent up – new rules (brief rent-increase-rules-england.md, 28 Oct – register #31)
+- [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
 - [b] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
 - [ ] damp and mould rules for private landlords (Awaab's Law – check status)
@@ -32,8 +32,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Moving and deposits
 - [b] how much notice do i need to give my landlord uk (brief give-notice-to-landlord-england.md, 28 Oct)
-- [ ] how to get your full deposit back uk checklist (SERP 21 Oct: Shelter has a strong page + moving-out checklist; serve it via the register #11 deposit-checklist page rather than a separate guide)
-- [b] moving out cleaning checklist for renters uk (brief move-out-deposit-checklist-england.md, 28 Oct – the register #11 page)
+- [x] how to get your full deposit back uk checklist – served by /guides/move-out-deposit-checklist-england.html (29 Oct)
+- [x] moving out cleaning checklist for renters uk – answered on /guides/move-out-deposit-checklist-england.html (29 Oct, + PDF)
 - [x] first flat essentials checklist uk (brief first-flat-essentials-checklist-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-essentials-checklist-uk.html
 
 ## Gifts (Nov–Dec)

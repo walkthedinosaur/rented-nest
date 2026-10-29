@@ -1,5 +1,5 @@
 # Brief: Can my landlord put the rent up? The new rules (England)
-Written: 2026-10-28 (SEO run) · For: Thursday renter-questions run, Thu 29 Oct (register #31) · Status: UNWRITTEN
+Written: 2026-10-28 (SEO run) · For: Thursday renter-questions run, Thu 29 Oct (register #31) · Status: WRITTEN 29 Oct 2026
 Suggested slug: /guides/can-landlord-put-rent-up-england.html · Suggested label: Renting rules · YMYL – re-verify every fact on GOV.UK/Shelter at writing
 
 ## Target query

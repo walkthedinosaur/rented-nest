@@ -1,5 +1,5 @@
 # Brief: Move-out deposit checklist page (register #11 – lead magnet page + FAQ)
-Written: 2026-10-28 (SEO run) · For: Thursday renter-questions run, Thu 5 Nov (register #11) · Status: UNWRITTEN
+Written: 2026-10-28 (SEO run) · For: Thursday renter-questions run, Thu 5 Nov (register #11) · Status: WRITTEN 29 Oct 2026
 Suggested slug: /guides/move-out-deposit-checklist-england.html (+ PDF from tools/checklists, Kit form #2 when Dylan
 creates it – register #12; until then no form, or the existing winter form) · Label: Renting rules · YMYL – verify at writing
 

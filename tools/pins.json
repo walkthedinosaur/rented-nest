@@ -2334,5 +2334,61 @@
   "description": "Ad – condensation turned into damp? Report it to your landlord in writing, gather dated photos and humidity readings, allow access, chase in writing and contact your council if nothing happens. Steps for UK renters.",
   "alt": "Water droplets on a window with green trees behind.",
   "layout": "photo2"
+ },
+ {
+  "slug": "v2-rent-rules",
+  "theme": "sage",
+  "label": "Renting rules",
+  "headline": "Can your landlord put the rent up?",
+  "sub": "The new rules for renters in England",
+  "photo": "1783503503115-e78c2ee103d5.jpg",
+  "guide": "/guides/can-landlord-put-rent-up-england.html#short-version",
+  "board": "Renting Tips UK",
+  "title": "Can My Landlord Put the Rent Up? New Rent Increase Rules (England)",
+  "description": "Renting in England? Since 1 May 2026 rent can only go up once a year, not in the first year, on form 4A with at least 2 months' notice. How to check the notice is valid, how to challenge a rise at the tribunal (apply before the new rent starts) and where to get free advice. Not legal advice.",
+  "alt": "A row of dark red-brick terraced houses with black railings and front gardens.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-rent-text",
+  "theme": "clay",
+  "label": "Renting rules",
+  "headline": "Rent rise by text? Read this first",
+  "sub": "No section 13 notice, no new rent",
+  "photo": "1696769032055-8abf76858889.jpg",
+  "guide": "/guides/can-landlord-put-rent-up-england.html#by-text",
+  "board": "Renting Tips UK",
+  "title": "Landlord Put the Rent Up by Text or Email? What Renters in England Can Do",
+  "description": "A text saying the rent is going up isn't a valid rent increase. Shelter says you don't need to pay or agree to a rise without a section 13 notice (form 4A), and pressure to agree could be harassment. What to say back, and how to challenge a proper notice. England only, not legal advice.",
+  "alt": "A row of painted wooden terraced houses along a quiet street on a cloudy day.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-dep-clean",
+  "theme": "pine",
+  "label": "Moving out",
+  "headline": "Move-out cleaning checklist for renters",
+  "sub": "Get your deposit back – free printable",
+  "photo": "1758273238415-01ec03d9ef27.jpg",
+  "guide": "/guides/move-out-deposit-checklist-england.html#cleaning-checklist",
+  "board": "Student House Share Ideas",
+  "title": "Move-Out Cleaning Checklist for Renters – Get Your Deposit Back (Free PDF)",
+  "description": "Ad – Moving out of a rented flat or house share? A room-by-room cleaning checklist (kitchen, bathroom, every room), a 4-week timeline and a free printable PDF. Clean to your check-in inventory standard – not better – and keep dated photos. For renters in England.",
+  "alt": "A woman mopping the floor of a bright white living room.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-dep-deduct",
+  "theme": "oat",
+  "label": "Moving out",
+  "headline": "What can come off your deposit?",
+  "sub": "Repainting, carpets, cleaning – England",
+  "photo": "1528740561666-dc2479dc08ab.jpg",
+  "guide": "/guides/move-out-deposit-checklist-england.html#deductions",
+  "board": "Renting Tips UK",
+  "title": "Can My Landlord Deduct for Repainting, Carpets or Cleaning? Deposit Rules",
+  "description": "Ad – Fair wear and tear can't come off your deposit, and a landlord can't make you pay for professional cleaning. What landlords can and can't deduct, the evidence that wins disputes, and how the free deposit dispute service works. Based on Shelter and GOV.UK, England.",
+  "alt": "Two amber glass spray bottles and a wooden brush on a kitchen worktop.",
+  "layout": "photo2"
  }
 ]
