@@ -33,6 +33,9 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
   two equally good tasks, pick the one more likely to produce an Amazon click.
 - SEO: ops/playbooks/04-seo-specialist.md, target list ops/seo/target-queries.md, briefs in ops/seo/briefs/. Every guide gets JSON-LD, a related-guides block and sitemap lastmod automatically from build.py; set `updated: YYYY-MM-DD` in front-matter when a guide changes materially.
 
+- Instagram: @therentednestonline (from 30 Oct). Agents make 3 carousel posts a week (playbook 07, Fridays) into
+  static/social/ → therentednest.co.uk/social/ (noindex); Dylan schedules them. Bio link page: /links.
+
 ## Current plan
 Read ops/plan/growth-plan-2026q4.md every run – it sets pin volume, board growth, SEO cluster pace and launches.
 

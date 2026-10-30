@@ -199,6 +199,22 @@ def render_page(p):
 </div></article>"""
 
 
+def render_links(p, guides):
+    """Link-in-bio page for Instagram: featured links from the page body, then the 12 newest guides."""
+    items = "\n".join(
+        f'<li><a class="linkbtn" href="{g["url"]}?utm_source=instagram&amp;utm_medium=bio">{html.escape(g["title"])}</a></li>'
+        for g in guides[:12])
+    return f"""<article><div class="narrow linkspage">
+<h1>{html.escape(p['title'])}</h1>
+{p['body']}
+<h2>Newest guides</h2>
+<ul class="linklist">
+{items}
+</ul>
+<p><a href="/?utm_source=instagram&amp;utm_medium=bio">All guides →</a></p>
+</div></article>"""
+
+
 def render_home(home, guides):
     cards = "\n".join(
         f"""<a class="card" href="{g['url']}">
@@ -232,6 +248,8 @@ def main():
             inner = render_home(item, guides)
         elif kind == "guide":
             inner = render_guide(item, guides)
+        elif kind == "links":
+            inner = render_links(item, guides)
         else:
             inner = render_page(item)
         item["out"].parent.mkdir(parents=True, exist_ok=True)
@@ -240,7 +258,7 @@ def main():
     (OUT / "CNAME").write_text("therentednest.co.uk\n")
     (OUT / ".nojekyll").write_text("")
     (OUT / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\n"
+        "User-agent: *\nAllow: /\nDisallow: /social/\n\n"
         "# Search and AI answer engines are welcome\n"
         "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\n"
         f"Sitemap: {SITE}/sitemap.xml\n")

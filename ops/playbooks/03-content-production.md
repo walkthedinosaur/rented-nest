@@ -59,6 +59,9 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 18. Schedule each pin: Tailwind create_post with mediaUrl https://therentednest.co.uk/pins/<slug>.png, title,
     description, url, boardId, altText, useNextOpenSlot:true. Record post IDs in tools/tailwind_queue.json.
 
+## F2. Instagram (Fridays only)
+18a. Follow ops/playbooks/07-instagram.md – make next week's 3 Instagram carousel posts.
+
 ## G. Log
 19. Append a 3-line run log to ops/reports/content-log.md: (1) pages added/changed and register items ticked,
     (2) pins scheduled and queue end date, (3) credits left and any playbook fix made this run.

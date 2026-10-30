@@ -124,3 +124,8 @@ article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 
 .facts th { background: var(--cream); font-weight: 600; }
 .template { background: var(--paper); border: 1px dashed var(--sage); border-radius: 12px; padding: 16px 20px; margin: 16px 0 24px; font-size: 15.5px; }
 @media (max-width: 560px) { .barchart .row { grid-template-columns: 92px 1fr 40px; font-size: 14px; } }
+
+/* Instagram link-in-bio page (/links) */
+.linklist { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 12px; }
+.linkbtn { display: block; padding: 16px 18px; border-radius: 14px; border: 1.5px solid currentColor; text-decoration: none; font-weight: 600; line-height: 1.35; }
+.linklist.featured .linkbtn { background: var(--sage-deep); color: #faf6ef; border-color: transparent; }

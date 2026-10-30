@@ -67,6 +67,9 @@ Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/e
 | 54 | Pinterest recovery gate every Sunday: avg impressions per new pin (first 7 days), outbound clicks; hold / step up / drop back per growth plan Engine 1 | GROWTH | every Sun from 1 Nov | OPEN |
 | 55 | Two new pin layouts in tools/make_pins.py (e.g. list/checklist style and big-photo-minimal) so pins don't all share one template; rotate them | CONTENT | Fri 6 Nov | OPEN |
 | 56 | Board review of the reset: if avg impressions per new pin is still under 5 on Sun 15 Nov, escalate to Dylan with options (fresh-pin creative test, board clean-up incl. "Quick saves" board, Pinterest support ticket) | CEO | Mon 16 Nov | OPEN |
+| 57 | Instagram @therentednestonline: switch to Professional → Business; set bio link to therentednest.co.uk/links?utm_source=instagram; short bio ("Renter-friendly ideas for small UK homes – no drilling, deposit-safe"); profile photo = the house-key logo | DYLAN | Sun 1 Nov | OPEN |
+| 58 | Instagram weekly: Dylan schedules the 3 posts from therentednest.co.uk/social/ (first: Secret Santa under £10, ready now; more from Fri 6 Nov) | DYLAN (CEO reminds Mondays) | weekly from Mon 2 Nov | OPEN |
+| 59 | Instagram review after 6 weeks: visits from utm_source=instagram (GoatCounter, needs #51), follower count from Dylan; keep / change / stop | GROWTH | Sun 13 Dec | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.

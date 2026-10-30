@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /social/
 
 # Search and AI answer engines are welcome
 User-agent: OAI-SearchBot
