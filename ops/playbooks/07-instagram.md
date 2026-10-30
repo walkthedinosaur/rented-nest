@@ -46,3 +46,6 @@ featured list is content/links.html – keep it to the 4 most timely guides).
   when Dylan asks. Not found / wrong account: @shelter (Australian gym), @generationrent, @citizensadvice, @dunelm,
   @livingetc (Australian shop) – don't follow these.
 - Growth comes from comments: a helpful, non-salesy comment on @stephkaluza / @emmajanepalin posts beats more follows.
+- Comments: agents may DRAFT comments (1–2 sentences, helpful, on-topic, no links, no selling, no claims of personal
+  experience the brand doesn't have) but post only after Dylan says yes to each one – posting is public. Max ~5 a day.
+  30 Oct: posted 1 approved comment on @emmajanepalin's secondhand-shopping reel (p/DfAkb1FIICQ).
