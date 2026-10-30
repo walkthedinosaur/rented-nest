@@ -14,7 +14,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Storage and decor (renter rules)
 - [x] can you use command strips in a rented flat uk (/guides/command-strips-rented-flat-uk.html, 16 Oct)
 - [x] can i put shelves up in a rented flat without drilling (/guides/put-up-shelves-rented-flat-without-drilling-uk.html, 27 Oct)
-- [b] how to make a rented flat feel like home without decorating (brief rented-flat-feel-like-home-no-decorating-uk.md, 28 Oct)
+- [x] how to make a rented flat feel like home without decorating → /guides/make-rented-flat-feel-like-home-uk.html (30 Oct)
 - [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
 
@@ -23,7 +23,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] section 21 abolished – what happens now
 - [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
-- [b] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
+- [x] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
 - [ ] damp and mould rules for private landlords (Awaab's Law – check status)
 
 ## Tools (link magnets)
@@ -31,7 +31,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] renter winter damp data page from the English Housing Survey (/guides/damp-mould-rented-homes-england-data.html, 22 Oct)
 
 ## Moving and deposits
-- [b] how much notice do i need to give my landlord uk (brief give-notice-to-landlord-england.md, 28 Oct)
+- [x] how much notice do i need to give my landlord uk → /guides/give-notice-to-landlord-england.html (30 Oct)
 - [x] how to get your full deposit back uk checklist – served by /guides/move-out-deposit-checklist-england.html (29 Oct)
 - [x] moving out cleaning checklist for renters uk – answered on /guides/move-out-deposit-checklist-england.html (29 Oct, + PDF)
 - [x] first flat essentials checklist uk (brief first-flat-essentials-checklist-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-essentials-checklist-uk.html

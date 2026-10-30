@@ -1,5 +1,5 @@
 # Brief: How much notice do I need to give my landlord? (England, with template)
-Written: 2026-10-28 (SEO run) · For: next Tue/Fri content run · Status: UNWRITTEN
+Written: 2026-10-28 (SEO run) · For: next Tue/Fri content run · Status: WRITTEN 30 Oct 2026 (content run)
 Suggested slug: /guides/give-notice-to-landlord-england.html · Suggested label: Renting rules · YMYL – re-verify on GOV.UK at writing
 
 ## Target query
