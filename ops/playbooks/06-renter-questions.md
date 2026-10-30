@@ -32,8 +32,9 @@ Goal: grow the renter-question SEO cluster to 30–50 pages by mid-January 2027.
 
 ## D. Publish
 10. Build, commit, push, check 200s and run IndexNow exactly as in 03-content-production.md steps 15–17.
-11. Pins: at most 2 per new page, only if Tailwind credits (get_account_usage, account 1658314) are above 60. Same pin
-    rules and checks as 03 steps 13–14 and 18.
+11. Pins: make at most 1 pin per new page and SAVE IT AS A DRAFT (create_post without useNextOpenSlot/sendAt) – the
+    Tue/Fri content runs schedule drafts under the 1-a-day limit and 7-day spacing rule (growth plan, reset 30 Oct).
+    Same pin rules and checks as 03 steps 13–14.
 
 ## E. Log
 12. Append a 3-line entry to ops/reports/content-log.md (pages added + register items ticked, pins, credits left and

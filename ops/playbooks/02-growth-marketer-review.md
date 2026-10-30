@@ -11,7 +11,10 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
 2. Read 05-plan-register.md and list every OPEN item owned by GROWTH that is due by next Sunday. Do them in this run.
 
 ## B. Measure
-3. Rank pins by outbound clicks, then saves.
+3. Rank pins by outbound clicks, then saves. Then the RECOVERY GATE (growth plan Engine 1): for pins published in the
+   last 7 days, average impressions per pin (get_pin_analytics or list_top_pins IMPRESSION) – record it in the report
+   and decide: hold 1/day, step up (≥15 two weeks running and clicks rising – add slots with create_timeslot), or drop
+   back. Write the decision as a numbered plan item.
 4. Rank guides by visits and affiliate-link clicks (Awin/Amazon where visible). Mark the top 3 guides for Amazon
    clicks – they matter most for the 3-sale deadline.
 5. Search Console: note queries with impressions; flag pages with impressions but low clicks (title/description fixes).

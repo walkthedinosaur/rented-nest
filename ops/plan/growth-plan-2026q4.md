@@ -3,10 +3,20 @@ Board doc: https://claude.ai/code/artifact/90711058-0ed7-4f5e-ae04-849400527272
 Every scheduled agent reads this and works its part. The CEO report tracks each engine weekly.
 
 ## Engine 1 – Pinterest (Content + Growth)
-- Volume (approved by Dylan 12 Oct): 5/day now; **8/day from Mon 19 Oct; 10/day from Mon 2 Nov** (= ~300 credits/month,
-  no extra cost). The first content run on/after each date adds Tailwind timeslots (create_timeslot, spread across
-  07:00–22:00 UK, never two within 60 min) to reach the new daily count. Above 10/day needs Dylan (more credits).
-  Pause increases if Pinterest shows any spam warning.
+- **Volume – RESET 30 Oct 2026 (board meeting, approved by Dylan).** The 8/day ramp (from 20 Oct) was followed by
+  Pinterest all but stopping distribution: every new pin since ~20 Oct got 2–3 impressions in total, outbound clicks
+  went 19 (11–15 Oct) → 6 (16–23 Oct) → 1 (24–28 Oct). Tailwind's own guidance for NEW accounts is 3–5 fresh pins a
+  WEEK and a 7-day gap between pins to the same URL; we were at ~56/week with no gap (10 pins to one guide in 14 days).
+  **Now: 1 pin a day (7 a week), 1 Tailwind slot a day at ~19:00.** 51 queued pins were moved back to drafts – reuse
+  them first (scheduling a draft costs 1 credit).
+- **Spacing rule (hard):** never schedule a pin whose destination page (URL without the #anchor) has a pin published
+  or queued in the last/next 7 days. Check tools/tailwind_queue.json and list_posts (queued + sent, last 7 days)
+  before every create_post/schedule_post. Tailwind's own Pin Spacing (7 days) to be switched on by Dylan (register #53).
+- **Recovery gate (Growth review, weekly):** average impressions per pin in its first 7 days, for pins published that
+  week. Step up to 2/day only if it is ≥15 for two weeks running AND outbound clicks are rising; to 3/day after two
+  more good weeks. Never above 3/day before the January review. Drop back to 1/day if it falls under 5.
+- No engagement swaps or bulk saving of other creators' pins (Tailwind Turbo/"Quick saves") – Pinterest treats
+  artificial engagement as spam. Pause everything and tell Dylan if Pinterest shows any warning.
 - Variety: 3–5 different designs per guide (different photo, headline angle, keyword, anchor). Never reuse an image.
 - Boards: grow from 6 to 12–15 keyword-named boards (e.g. "Condensation & Damp Fixes UK", "Small Bedroom Storage
   Ideas", "Renting Tips UK", "Black Friday Home Deals UK", "Student House Share Ideas"), 2 per content run until done.

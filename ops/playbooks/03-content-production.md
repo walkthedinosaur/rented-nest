@@ -41,12 +41,13 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
     (added 23 Oct 2026).
 
 ## E. Pins
-11. Work out how many pins to make: Tailwind get_schedule (next 7 days) and get_account_usage. Make enough to fill
-    every open slot to ~6 days ahead – at 8/day ~26–30 per run, at 10/day ~33–37. Then check credits: credits left
-    must cover (days to the reset × daily volume). If not, make fewer, keep the rest for the most-clicked guides, and
-    note it in the log.
-12. Choose the mix: follow the latest growth review's per-guide split – winners (outbound clicks) get the most pins;
-    new pages get 2–3 each.
+11. Pin volume (reset 30 Oct – read growth-plan Engine 1): fill only the OPEN slots in the next 4 days (1 slot a day
+    at present, so Tue run ≤4 pins, Fri run ≤3). FIRST use the Tailwind drafts (list_posts status draft) whose
+    destination page passes the 7-day spacing rule – schedule_post with useNextOpenSlot. Only make new pins for new
+    pages or when no draft passes the rule. Never add timeslots; the Growth review owns any step-up.
+12. Choose the mix: winners by outbound clicks first (gift guides in Nov–Dec), then new pages – but every pin must
+    pass the 7-day spacing rule (no other pin to the same page, without #anchor, published or queued within 7 days
+    either side; check tools/tailwind_queue.json + list_posts queued/sent). One pin per page per week at most.
 13. Add the entries to tools/pins.json: slug v2-…, layout photo2, unique photo, headline ≤7 words, sub line, label,
     guide URL with a #anchor that exists, board, title ≤100 chars, description starting "Ad – " ≤500 chars, alt.
 14. Render with tools/make_pins.py and view a contact sheet: text fits, nothing overlaps. Fix and re-render failures.
