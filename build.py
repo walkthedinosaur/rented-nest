@@ -221,21 +221,45 @@ def render_links(p, guides):
 </div></article>"""
 
 
+POP = [("#ff5c8a", "#1d1b3a"), ("#ffb627", "#1d1b3a"), ("#3d6bff", "#ffffff"), ("#c6f432", "#1d1b3a"),
+       ("#8b5cf6", "#ffffff"), ("#ff7a3d", "#1d1b3a"), ("#14b8a6", "#ffffff")]
+
+
+def label_colour(label, order):
+    """Stable bright colour per topic label (same as the Instagram 'pop' palette)."""
+    return POP[order.index(label) % len(POP)] if label in order else POP[0]
+
+
 def render_home(home, guides):
+    counts = {}
+    for g in guides:
+        counts[g.get("label", "Guide")] = counts.get(g.get("label", "Guide"), 0) + 1
+    order = sorted(counts, key=lambda k: (-counts[k], k))
+    chips = '<button class="chip on" data-f="">All guides</button>' + "".join(
+        f'<button class="chip" data-f="{html.escape(l)}" style="--c:{label_colour(l, order)[0]};--t:{label_colour(l, order)[1]}">{html.escape(l)}</button>'
+        for l in order[:7])
     cards = "\n".join(
-        f"""<a class="card" href="{g['url']}">
+        f"""<a class="card" href="{g['url']}" data-label="{html.escape(g.get('label', 'Guide'))}" style="--c:{label_colour(g.get('label', 'Guide'), order)[0]};--t:{label_colour(g.get('label', 'Guide'), order)[1]}">
   <div class="swatch {g.get('card', 'sw-sage')}"{f' style="background:url(/photos/{g["hero"]}) center/cover"' if g.get("hero") else ""}><span>{html.escape(g.get('label', 'Guide'))}</span></div>
-  <div class="body"><h3>{html.escape(g['title'])}</h3><p>{html.escape(g['description'])}</p></div>
+  <div class="body"><h3>{html.escape(g['title'])}</h3><p>{html.escape(g['description'])}</p><span class="go">Read the guide →</span></div>
 </a>"""
         for g in guides
     )
     return f"""{home['body']}
 <section class="wrap" id="guides">
 <h2 class="section-title">Latest guides</h2>
+<div class="chips" role="group" aria-label="Filter guides by topic">{chips}</div>
 <div class="grid">
 {cards}
 </div>
-</section>"""
+</section>
+<script>
+document.querySelectorAll('.chip').forEach(function(b){{b.addEventListener('click',function(){{
+  var f=b.getAttribute('data-f');
+  document.querySelectorAll('.chip').forEach(function(x){{x.classList.toggle('on',x===b)}});
+  document.querySelectorAll('.grid .card').forEach(function(c){{c.style.display=(!f||c.getAttribute('data-label')===f)?'':'none'}});
+}})}});
+</script>"""
 
 
 def main():

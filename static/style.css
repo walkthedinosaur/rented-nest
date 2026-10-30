@@ -131,3 +131,85 @@ article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 
 .linklist.featured .linkbtn { background: var(--sage-deep); color: #faf6ef; border-color: transparent; }
 
 .related .follow{margin-top:1.2rem;font-weight:600}
+
+/* ===== Brighter look (30 Oct 2026) – same palette as the Instagram posts ===== */
+:root { --pink:#ff5c8a; --sun:#ffb627; --blue:#3d6bff; --lime:#c6f432; --violet:#8b5cf6; --navy:#1d1b3a; }
+.site-header { background: var(--cream); position: relative; }
+.site-header::after { content:""; position:absolute; left:0; right:0; bottom:-1px; height:5px;
+  background: linear-gradient(90deg, var(--pink) 0 20%, var(--sun) 20% 40%, var(--blue) 40% 60%, var(--lime) 60% 80%, var(--violet) 80% 100%); }
+.nav a { font-weight: 600; color: var(--navy); }
+.nav a:hover { color: var(--pink); }
+
+/* Hero */
+.hero-grid { display:grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items:center; }
+.hero h1 .mark { background: linear-gradient(transparent 58%, var(--lime) 58% 92%, transparent 92%); padding: 0 .08em; }
+.eyebrow { color: var(--pink); }
+.hero-ctas { display:flex; flex-wrap:wrap; gap:12px; margin-top: 26px; }
+.pill { display:inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 700; text-decoration:none; font-size: 16px; }
+.pill-pink { background: var(--pink); color: var(--navy); box-shadow: 4px 4px 0 var(--navy); }
+.pill-pink:hover { color: var(--navy); transform: translate(-1px,-1px); box-shadow: 5px 5px 0 var(--navy); }
+.pill-ghost { border: 2px solid var(--navy); color: var(--navy); }
+.pill-ghost:hover { background: var(--navy); color: #fff; }
+.collage { position: relative; height: 420px; }
+.collage img { position:absolute; width: 62%; aspect-ratio: 4/5; object-fit: cover; border-radius: 18px; border: 6px solid #fff; box-shadow: 0 14px 30px rgba(29,27,58,.18); }
+.collage .t1 { left: 0; top: 30px; transform: rotate(-6deg); outline: 6px solid var(--sun); }
+.collage .t2 { right: 0; top: 0; width: 52%; transform: rotate(5deg); outline: 6px solid var(--blue); }
+.collage .t3 { left: 26%; bottom: -10px; width: 46%; transform: rotate(2deg); outline: 6px solid var(--pink); }
+.collage .sticker { position:absolute; right: 2%; bottom: 18px; background: var(--lime); color: var(--navy); font-family: var(--serif); font-weight:700;
+  font-size: 20px; line-height:1.1; padding: 16px 18px; border-radius: 50%; width: 132px; height: 132px; display:flex; align-items:center; justify-content:center;
+  text-align:center; transform: rotate(10deg); box-shadow: 3px 3px 0 var(--navy); }
+
+/* Topic chips */
+.chips { display:flex; flex-wrap:wrap; gap:10px; margin: -4px 0 24px; }
+.chip { --c: var(--navy); --t:#fff; font: 600 14.5px var(--sans); border: 2px solid var(--c); background: #fff; color: var(--navy); padding: 7px 14px; border-radius: 999px; cursor:pointer; }
+.chip:hover { background: var(--c); color: var(--t); }
+.chip.on { background: var(--c); color: var(--t); }
+
+/* Cards */
+.card { --c: var(--pink); --t: var(--navy); border: 0; box-shadow: 0 2px 0 rgba(29,27,58,.06), 0 6px 18px rgba(29,27,58,.06); border-bottom: 6px solid var(--c); }
+.card:hover { transform: translateY(-4px) rotate(-.3deg); box-shadow: 6px 6px 0 var(--c); }
+.card .swatch span { background: var(--c); color: var(--t); font-family: var(--sans); font-weight: 700; font-size: 13px; letter-spacing: .02em; }
+.card .go { display:inline-block; margin-top: 14px; font-weight: 700; font-size: 14.5px; color: var(--navy); border-bottom: 3px solid var(--c); }
+.section-title { font-size: 34px; }
+
+/* Guides */
+article .eyebrow { display:inline-block; background: var(--lime); color: var(--navy); padding: 3px 12px; border-radius: 999px; }
+article h2 { position: relative; padding-bottom: 10px; }
+article h2::after { content:""; position:absolute; left:0; bottom:0; width: 72px; height: 6px; border-radius: 6px; background: var(--pink); }
+article h2:nth-of-type(5n+2)::after { background: var(--sun); }
+article h2:nth-of-type(5n+3)::after { background: var(--blue); }
+article h2:nth-of-type(5n+4)::after { background: var(--lime); }
+article h2:nth-of-type(5n+5)::after { background: var(--violet); }
+.idea { border: 0; border-left: 8px solid var(--pink); box-shadow: 0 4px 16px rgba(29,27,58,.06); }
+.idea:nth-of-type(5n+2) { border-left-color: var(--sun); }
+.idea:nth-of-type(5n+3) { border-left-color: var(--blue); }
+.idea:nth-of-type(5n+4) { border-left-color: var(--lime); }
+.idea:nth-of-type(5n+5) { border-left-color: var(--violet); }
+.idea .shop a, .shop-line a { background: var(--navy); }
+.idea .shop a:hover, .shop-line a:hover { background: var(--pink); color: var(--navy); }
+.tip { border-left: 0; background: #fff6d6; border-radius: 12px; padding: 14px 18px; color: var(--navy); }
+.tip::before { content: "Tip  "; font-weight: 800; color: #b07800; }
+article .hero { box-shadow: 8px 8px 0 var(--sun); }
+.related { border-top: 0; background: #fff; border-radius: 16px; padding: 24px 24px 20px; box-shadow: 0 4px 16px rgba(29,27,58,.06); }
+.related .follow a { color: var(--pink); }
+.btn { background: var(--pink); color: var(--navy) !important; box-shadow: 3px 3px 0 var(--navy); }
+.signup { background: #efe9ff; }
+
+/* Footer */
+.site-footer { background: var(--navy); color: #d9d6ea; border-top: 0; }
+.site-footer a { color: #fff; }
+.site-footer a:hover { color: var(--lime); }
+
+@media (max-width: 820px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+  .collage { height: 300px; max-width: 420px; }
+  .collage .sticker { width: 104px; height: 104px; font-size: 16px; }
+}
+@media (max-width: 560px) { .section-title { font-size: 28px; } }
+article img.hero { padding: 0; }
+section.hero { overflow-x: clip; }
+.linklist.featured li:nth-child(5n+1) .linkbtn { background: var(--pink); color: var(--navy); }
+.linklist.featured li:nth-child(5n+2) .linkbtn { background: var(--sun); color: var(--navy); }
+.linklist.featured li:nth-child(5n+3) .linkbtn { background: var(--blue); color: #fff; }
+.linklist.featured li:nth-child(5n+4) .linkbtn { background: var(--lime); color: var(--navy); }
+.linklist.featured li:nth-child(5n+5) .linkbtn { background: var(--violet); color: #fff; }
