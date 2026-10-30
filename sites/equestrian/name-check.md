@@ -30,7 +30,11 @@ Dylan doesn't want "Edit" (not common usage); "Page" or "Editorial" read better.
 
 Also free: thehorseypages and horseypage (.co.uk and .com) – worth buying alongside to protect the name if cheap (Dylan's call).
 
-**Recommendation (replaces the one below):** The Horsey Page (first choice) or Saddle & Sundry (backup).
+## Decision 30 Oct 2026 – Dylan: **Saddle & Sundry** (domain saddleandsundry.co.uk)
+Also free on 30 Oct: saddleandsundry.com, saddle-and-sundry.co.uk/.com, saddlesundry.co.uk/.com (Nominet/Verisign RDAP, no registration found).
+Still to do before buying (Dylan, EQ #49): UK IPO trade mark search, registrar price check, Pinterest/Instagram handle check.
+
+~~**Recommendation (replaces the one below):** The Horsey Page (first choice) or Saddle & Sundry (backup).~~
 
 ~~**Recommendation:** The Horsey Edit (first choice) or Saddle & Sundry (backup).~~ Before buying: UK IPO trademark search,
 registrar price check, and Pinterest/Instagram handle check (all Dylan, launch checklist EQ #49).

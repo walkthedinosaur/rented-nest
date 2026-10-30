@@ -11,8 +11,8 @@ pre-launch runs only write drafts here.
 - Not covered: vet/health advice (always "speak to your vet"; cite BHS/vet sources only for general facts),
   competition news, product testing.
 - Audience: leisure and riding-club riders, parents of pony-mad children, returning adult riders, gift buyers.
-- Brand: not chosen yet. Shortlist after the 30 Oct name check (name-check.md): The Horsey Page (first choice), Saddle & Sundry (backup).
-  Dylan: no "Edit" in the name – "Page" or "Editorial" read better. Avoid anything close to Horse & Hound, Your Horse or retailer brands.
+- Brand: **Saddle & Sundry** – chosen by Dylan 30 Oct 2026 (domain saddleandsundry.co.uk, not yet bought; see name-check.md).
+  Backup: The Horsey Page. Dylan: no "Edit" in names. Avoid anything close to Horse & Hound, Your Horse or retailer brands.
 
 ## Money
 - Awin (publisher 3120264, shared with The Rented Nest – a second "promotional space" will be added for the new
