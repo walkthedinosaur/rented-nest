@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Render Instagram carousel posts (1080x1350 PNG slides) from ops/instagram/posts.json.
 
-Each post: {"slug", "week" (YYYY-MM-DD), "theme" (sage|clay|oat|pine), "photo" (file in static/photos, cover only),
-            "label", "headline", "sub", "tips": [{"title","text"}, ...] (3-6), "guide", "caption"}
+Each post: {"slug", "week" (YYYY-MM-DD), "theme" (sage|clay|oat|pine), "photo" (file in static/photos, cover),
+            "label", "headline", "sub", "tips": [{"title","text","photo"?}, ...] (3-6; tip photo optional, shown top half), "guide", "caption"}
 Output: static/social/<week>/<slug>/01.png ... + caption.txt, and static/social/index.html (phone-friendly page for Dylan)
 Run: python3 tools/make_ig.py [slug ...]   (needs Playwright + Chromium)
 """
@@ -58,7 +58,26 @@ def cover(p, a, b):
 </div>""")
 
 
+def photo_css(name):
+    data = base64.b64encode((ROOT / "static" / "photos" / name).read_bytes()).decode()
+    return f"background:url(data:image/jpeg;base64,{data}) center/cover;"
+
+
 def tip(i, n, t, a, b):
+    foot = f'''<div class="foot" style="justify-content:space-between;"><span style="display:flex;align-items:center;gap:16px;">{LOGO}The Rented Nest</span><span style="color:#8a857b;">{i}/{n}</span></div>'''
+    if t.get("photo"):  # photo top, text below
+        return wrap(f"""
+<div class="s" style="background:#faf6ef;">
+  <div style="height:780px;{photo_css(t['photo'])}position:relative;">
+    <div class="num" style="position:absolute;left:70px;bottom:-60px;background:#faf6ef;color:{b};font-size:110px;width:170px;height:170px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:8px solid {a};">{i}</div>
+  </div>
+  <div style="flex:1;display:flex;flex-direction:column;padding:130px 80px 70px;">
+    <h2 style="font-size:72px;">{html.escape(t['title'])}</h2>
+    <p style="color:#4a4740;font-size:42px;margin-top:28px;">{html.escape(t['text'])}</p>
+    <div style="flex:1"></div>
+    {foot}
+  </div>
+</div>""")
     return wrap(f"""
 <div class="s" style="background:#faf6ef;padding:110px 90px 80px;">
   <div style="flex:.6"></div>
@@ -67,7 +86,7 @@ def tip(i, n, t, a, b):
   <div style="width:120px;height:10px;background:{b};border-radius:10px;margin:44px 0;"></div>
   <p style="color:#4a4740;font-size:44px;">{html.escape(t['text'])}</p>
   <div style="flex:1"></div>
-  <div class="foot" style="justify-content:space-between;"><span style="display:flex;align-items:center;gap:16px;">{LOGO}The Rented Nest</span><span style="color:#8a857b;">{i}/{n}</span></div>
+  {foot}
 </div>""")
 
 

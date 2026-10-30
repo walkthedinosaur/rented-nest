@@ -15,7 +15,9 @@ featured list is content/links.html – keep it to the 4 most timely guides).
    home/decor idea. Skip any guide used on Instagram in the last 14 days (check ops/instagram/posts.json).
 2. For each, add an entry to ops/instagram/posts.json: week = next Monday's date, slug, theme, cover photo already in
    static/photos (Unsplash free licence, already credited), label, headline ≤12 words, sub line, 4–6 tips taken ONLY
-   from the guide's own content (no new claims, no prices), guide URL, caption.
+   from the guide's own content (no new claims, no prices), guide URL, caption. Give each tip a "photo" from
+   static/photos that actually shows that item or idea (prefer the guide's own section photos; check the alt text) –
+   if nothing fits, leave the photo out and the slide renders text-only. Never use a photo that implies we tested it.
 3. Caption: hook line, 1–2 lines of value, a question to invite comments, "link in bio", then "#ad – our website guide
    contains affiliate links." if the guide has affiliate links, then 10–15 relevant hashtags (UK renter/home terms).
    No product prices, no testing claims, no invented stats.
