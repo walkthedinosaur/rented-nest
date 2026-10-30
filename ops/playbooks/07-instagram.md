@@ -37,3 +37,12 @@ featured list is content/links.html – keep it to the 4 most timely guides).
 5. Build, commit, push with the site. Check https://therentednest.co.uk/social/ returns 200 and shows the new posts.
 6. Log "IG: <slugs> for week of <date>" in the content-log entry. The Monday CEO message reminds Dylan the week's
    posts are ready at therentednest.co.uk/social/.
+
+## Following (30 Oct 2026)
+- Followed (all checked as real, active accounts): @stephkaluza, @emmajanepalin, @charlottejacklin, @londonrentersunion,
+  @georgiewebart, @apartmenttherapy, @ikeauk, @ourcuratedabode, @dunelmuk, @habitatuk. The account follows 44 in total
+  (Dylan also followed some himself).
+- Limit: new account – at most 10 new follows a day, spaced out, and no mass unfollowing. Agents follow only
+  when Dylan asks. Not found / wrong account: @shelter (Australian gym), @generationrent, @citizensadvice, @dunelm,
+  @livingetc (Australian shop) – don't follow these.
+- Growth comes from comments: a helpful, non-salesy comment on @stephkaluza / @emmajanepalin posts beats more follows.
