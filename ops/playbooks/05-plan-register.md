@@ -12,7 +12,7 @@ Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/e
 | # | Item | Owner | Due | Status |
 |---|------|-------|-----|--------|
 | 1 | Add Tailwind timeslots to reach 8 pins/day (spread 07:00–22:00, ≥60 min apart) | CONTENT | Tue 20 Oct | DONE 20 Oct – 21 slots added (10:15, 14:30, 16:45 UK, every day); 35 → 56 slots = 8/day |
-| 2 | Add timeslots to reach 10 pins/day | CONTENT | first run on/after Mon 2 Nov | OPEN |
+| 2 | Add timeslots to reach 10 pins/day | CONTENT | first run on/after Mon 2 Nov | OPEN – CEO 30 Oct: only 1 outbound click 22–28 Oct, so do this only if the Sun 1 Nov growth review (#39) says to; otherwise stay at 8/day and note why |
 | 3 | Grow boards to 12–15 (2 per run) | CONTENT | until done | DONE 23 Oct – Student House Share Ideas (1111474451728025256) + Small Bedroom Storage Ideas (1111474451728025257) created; 14 keyword boards, target met |
 | 4 | Brief for "renter winter damp" data page (English Housing Survey) | SEO | Wed 21 Oct | DONE 21 Oct – ops/seo/briefs/renter-damp-data-england.md (EHS 2024-25 figures, to re-verify at writing) |
 | 5 | Write and publish the winter damp data page | QUESTIONS | Thu 29 Oct (deadline 2 Nov) | DONE 22 Oct – /guides/damp-mould-rented-homes-england-data.html (EHS 2024-25 figures re-checked on GOV.UK 22 Oct, stat row + bar chart, Kit form, ads: none); linked from condensation + dehumidifier guides |
@@ -61,6 +61,8 @@ Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/e
 | 48 | EQ – Launch week build: site from template, drafts live, photos, pins, DNS, IndexNow; create site #2 scheduled runs (Content Mon+Thu, SEO Sat) from sites/equestrian/playbooks/; add Site #2 sections to 01 CEO and 02 Growth playbooks; Awin applications after Dylan's yes | CEO (with Dylan) | Mon 11 Jan 2027 | OPEN |
 | 49 | EQ – Dylan's launch checklist (domain, GitHub repo, Pinterest, Tailwind plan, Awin space, Amazon tracking ID, GoatCounter site, Search Console) | DYLAN | w/c Mon 4 Jan 2027 | OPEN |
 | 50 | EQ – 3-month gate: visits, pin clicks, approvals, first sales vs The Rented Nest at the same age → keep / change / stop | CEO | Mon 12 Apr 2027 | OPEN |
+| 51 | GoatCounter public dashboard can't be read by agents: WebFetch refuses it (robots.txt disallows, found 30 Oct), and fetching it another way isn't allowed. Options (free, Dylan's call): (a) create a read-only GoatCounter API token and put it in the CEO/Growth/SEO scheduled-task prompts (not the repo); (b) open therentednest.goatcounter.com yourself on Mondays and paste the 7-day visits into chat; (c) keep Cloudflare via the built-in browser (Google sign-in blocked) | DYLAN (CEO flags) | Mon 2 Nov | OPEN |
+| 52 | Homebase Black Friday offers live 29 Oct–2 Dec (Awin email 29 Oct, tracking links supplied by Awin – not guessed). Add the relevant Homebase BF category link(s) (home accessories / sofas & chairs, the ones that fit) to the Black Friday page with the offer's end date, rel="sponsored nofollow noopener"; check the Awin redirect returns 302 (Homebase itself bot-checks cloud runs) | CONTENT | Tue 3 Nov | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
