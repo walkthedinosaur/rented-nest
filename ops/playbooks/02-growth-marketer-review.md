@@ -48,3 +48,7 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
    action per line), the chosen topics with their evidence, and any approved Awin retailer whose links should be
    added. Add a register row for any new commitment that has a date.
 10. Commit and push. No message to Dylan (the CEO report carries it).
+
+## Instagram (added 30 Oct 2026)
+- Record weekly: followers, posts published, Instagram visits in GoatCounter (utm_source=instagram, l.instagram.com referrer), and which post's guide got the most Instagram visits. Recommend next week's 3 Instagram topics (Mon/Wed/Fri) in the plan – favour what drove visits and anything seasonal.
+- Site also links to Instagram/Pinterest from every footer and a follow line under each guide (utm_source=site) – note if site→Instagram clicks appear.

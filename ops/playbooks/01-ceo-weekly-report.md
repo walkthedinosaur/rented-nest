@@ -40,3 +40,7 @@ Second line: outbound clicks to retailers (Amazon + Awin), the leading indicator
 
 Review gates: end Dec 2026 and end Jan 2027 – if tracking at/below base case, add a recommendation on whether to keep
 paying for Tailwind (Dylan decides).
+
+## Instagram (added 30 Oct 2026)
+- In the report: @therentednestonline followers and posts this week (public profile, built-in browser: https://www.instagram.com/therentednestonline/ – if unreachable, say "not checked"), and visits from Instagram in GoatCounter (referrer instagram.com / l.instagram.com or campaign utm_source=instagram).
+- Remind Dylan in the message that this week's posts are at therentednest.co.uk/social/ (Mon/Wed/Fri; the Instagram reminder task pings him on the day).

@@ -106,7 +106,7 @@ def end(p, a, b):
     return wrap(f"""
 <div class="s" style="background:{b};color:#faf6ef;padding:120px 90px 90px;">
   <h2 style="font-size:88px;">The full guide is one tap away</h2>
-  <p style="margin-top:44px;opacity:.95;">Prices, retailers and the details are on our website – tap the link in our bio.</p>
+  <p style="margin-top:44px;opacity:.95;">{html.escape(p.get("end_text", "Prices, retailers and the details are on our website – tap the link in our bio."))}</p>
   <p style="margin-top:36px;opacity:.95;">Save this post for later ↓</p>
   <div style="flex:1"></div>
   <div class="foot" style="background:#faf6ef;color:#2b2a27;border-radius:999px;padding:12px 28px 12px 14px;align-self:flex-start;">{LOGO}<span>therentednest.co.uk</span></div>

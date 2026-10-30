@@ -24,7 +24,7 @@ featured list is content/links.html – keep it to the 4 most timely guides).
 ## Steps (Friday content run, after the pins)
 1. Pick 3 guides for next week (Mon, Wed, Fri – one each): one gift/seasonal (Nov–Dec), one renter problem (damp, cold, deposit, rules), one
    home/decor idea. Skip any guide used on Instagram in the last 14 days (check ops/instagram/posts.json).
-2. For each, add an entry to ops/instagram/posts.json: week = next Monday's date, day = its Mon/Wed/Fri date, slug, theme, cover photo already in
+2. For advice guides (no prices) set "end_text" so the last slide doesn't mention prices. For each, add an entry to ops/instagram/posts.json: week = next Monday's date, day = its Mon/Wed/Fri date, slug, theme, cover photo already in
    static/photos (Unsplash free licence, already credited), label, headline ≤12 words, sub line, 4–6 tips taken ONLY
    from the guide's own content (no new claims, no prices), guide URL, caption. Give each tip a "photo" from
    static/photos that actually shows that item or idea (prefer the guide's own section photos; check the alt text) –

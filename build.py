@@ -115,6 +115,8 @@ def page(meta, inner):
     <a href="/tools/drying-heating-cost-calculator.html">Running-cost calculator</a>
     <a href="/editorial-policy.html">Editorial policy</a>
     <a href="/privacy.html">Privacy</a>
+    <a href="https://www.instagram.com/therentednestonline/" rel="me">Instagram</a>
+    <a href="https://www.pinterest.com/therentednestuk/" rel="me">Pinterest</a>
   </nav>
 </div></footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "20c59278defa48748115ad49217b7e0d"}}'></script><!-- End Cloudflare Web Analytics -->
@@ -124,7 +126,7 @@ def page(meta, inner):
 """
 
 
-GROUPS = [("dehumidifier", "airer", "warm"), ("christmas", "santa", "gift"), ("storage", "living-room")]
+GROUPS = [("rent-up", "deposit", "mould", "condensation", "notice", "landlord", "evict", "repairs"), ("dehumidifier", "airer", "warm"), ("christmas", "santa", "gift"), ("storage", "living-room")]
 
 
 def group_of(url):
@@ -136,7 +138,8 @@ def group_of(url):
 
 def jsonld(meta):
     org = {"@type": "Organization", "name": "The Rented Nest", "url": SITE + "/",
-           "logo": SITE + "/profile-picture.png"}
+           "logo": SITE + "/profile-picture.png",
+           "sameAs": ["https://www.instagram.com/therentednestonline/", "https://www.pinterest.com/therentednestuk/"]}
     if meta.get("kind") == "guide":
         data = [{
             "@context": "https://schema.org", "@type": "Article",
@@ -168,7 +171,10 @@ def related_block(g, guides):
     rest = [o for o in others if group_of(o["url"]) != mine]
     pick = (same + rest)[:3]
     items = "\n".join(f'<li><a href="{o["url"]}">{html.escape(o["title"])}</a> – {html.escape(o["description"])}</li>' for o in pick)
-    return f'<section class="related"><h2>More guides for renters</h2><ul>{items}</ul></section>'
+    follow = ('<p class="follow">New renter tips three times a week – follow us on '
+              '<a href="https://www.instagram.com/therentednestonline/?utm_source=site&amp;utm_medium=guide">Instagram</a> and '
+              '<a href="https://www.pinterest.com/therentednestuk/">Pinterest</a>.</p>')
+    return f'<section class="related"><h2>More guides for renters</h2><ul>{items}</ul>{follow}</section>'
 
 
 def anchor_ids(body):

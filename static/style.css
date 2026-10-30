@@ -129,3 +129,5 @@ article .section-img { display:block; width:100%; height:auto; aspect-ratio: 16 
 .linklist { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 12px; }
 .linkbtn { display: block; padding: 16px 18px; border-radius: 14px; border: 1.5px solid currentColor; text-decoration: none; font-weight: 600; line-height: 1.35; }
 .linklist.featured .linkbtn { background: var(--sage-deep); color: #faf6ef; border-color: transparent; }
+
+.related .follow{margin-top:1.2rem;font-weight:600}
