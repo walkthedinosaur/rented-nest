@@ -15,7 +15,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 - [ ] riding air vest – how they work and who needs one (check BETA/BE on the day)
 
 ## Horse kit
-- [ ] horse rug weights explained (lightweight, medium, heavyweight, grams of fill)
+- [x] horse rug weights explained (lightweight, medium, heavyweight, grams of fill)
 - [ ] how to measure a horse for a rug
 - [ ] turnout rug vs stable rug – which do you need
 - [ ] when to rug a horse uk (point to vet/BHS for welfare questions)
@@ -42,7 +42,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 
 ## Gifts
 - [ ] gifts for horse lovers uk
-- [ ] gifts for horse riders (practical)
+- [x] gifts for horse riders (practical)
 - [ ] gifts for pony mad girls / kids
 - [ ] horse gifts under £20
 - [ ] horse gifts under £50
