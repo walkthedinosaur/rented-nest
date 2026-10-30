@@ -22,7 +22,14 @@ THEMES = {
     "clay": ("#e8b799", "#b9643f"),
     "oat": ("#f1e6d3", "#8a6d45"),
     "pine": ("#7f9a83", "#34503f"),
+    "pop": ("#ff5c8a", "#1d1b3a"),
+    "halloween": ("#ff7518", "#16121c"),
 }
+POP = [("#ff5c8a", "#1d1b3a"), ("#ffb627", "#1d1b3a"), ("#3d6bff", "#ffffff"), ("#c6f432", "#1d1b3a"),
+       ("#8b5cf6", "#ffffff"), ("#ff7a3d", "#1d1b3a")]  # theme "pop": bright, one colour per slide
+SPOOKY = [("#ff7518", "#16121c"), ("#6b2fd6", "#ffffff"), ("#a3ff3c", "#16121c"), ("#16121c", "#ff7518"),
+          ("#e0218a", "#ffffff"), ("#ffd23f", "#16121c")]  # theme "halloween"
+CYCLES = {"pop": POP, "halloween": SPOOKY}
 CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@500;700&display=swap');
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -63,28 +70,32 @@ def photo_css(name):
     return f"background:url(data:image/jpeg;base64,{data}) center/cover;"
 
 
-def tip(i, n, t, a, b):
-    foot = f'''<div class="foot" style="justify-content:space-between;"><span style="display:flex;align-items:center;gap:16px;">{LOGO}The Rented Nest</span><span style="color:#8a857b;">{i}/{n}</span></div>'''
+def tip(i, n, t, a, b, pop=None):
+    bg, fg, sub = "#faf6ef", "#2b2a27", "#4a4740"
+    if pop:
+        bg, fg = pop[(i - 1) % len(pop)]
+        sub = fg
+    foot = f'''<div class="foot" style="justify-content:space-between;color:{fg};"><span style="display:flex;align-items:center;gap:16px;">{LOGO}The Rented Nest</span><span style="opacity:.75;">{i}/{n}</span></div>'''
+    badge_bg, badge_fg, badge_bd = ("#ffffff", "#1d1b3a", "#1d1b3a") if pop else ("#faf6ef", b, a)
     if t.get("photo"):  # photo top, text below
         return wrap(f"""
-<div class="s" style="background:#faf6ef;">
+<div class="s" style="background:{bg};">
   <div style="height:780px;{photo_css(t['photo'])}position:relative;">
-    <div class="num" style="position:absolute;left:70px;bottom:-60px;background:#faf6ef;color:{b};font-size:110px;width:170px;height:170px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:8px solid {a};">{i}</div>
+    <div class="num" style="position:absolute;left:70px;bottom:-60px;background:{badge_bg};color:{badge_fg};font-size:110px;width:170px;height:170px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:8px solid {badge_bd};transform:rotate(-8deg);">{i}</div>
   </div>
-  <div style="flex:1;display:flex;flex-direction:column;padding:130px 80px 70px;">
+  <div style="flex:1;display:flex;flex-direction:column;padding:130px 80px 70px;color:{fg};">
     <h2 style="font-size:72px;">{html.escape(t['title'])}</h2>
-    <p style="color:#4a4740;font-size:42px;margin-top:28px;">{html.escape(t['text'])}</p>
+    <p style="color:{sub};font-size:42px;margin-top:28px;">{html.escape(t['text'])}</p>
     <div style="flex:1"></div>
     {foot}
   </div>
 </div>""")
     return wrap(f"""
-<div class="s" style="background:#faf6ef;padding:110px 90px 80px;">
+<div class="s" style="background:{bg};color:{fg};padding:110px 90px 80px;">
   <div style="flex:.6"></div>
-  <div class="num" style="color:{a};">{i}</div>
-  <h2 style="font-size:76px;margin-top:30px;">{html.escape(t['title'])}</h2>
-  <div style="width:120px;height:10px;background:{b};border-radius:10px;margin:44px 0;"></div>
-  <p style="color:#4a4740;font-size:44px;">{html.escape(t['text'])}</p>
+  <div class="num" style="background:{badge_bg};color:{badge_fg};width:200px;height:200px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:8px solid {badge_bd};transform:rotate(-8deg);">{i}</div>
+  <h2 style="font-size:84px;margin-top:50px;">{html.escape(t['title'])}</h2>
+  <p style="color:{sub};font-size:46px;margin-top:40px;">{html.escape(t['text'])}</p>
   <div style="flex:1"></div>
   {foot}
 </div>""")
@@ -114,7 +125,7 @@ def main():
             d = OUT / p["week"] / p["slug"]
             d.mkdir(parents=True, exist_ok=True)
             slides = [cover(p, a, b)]
-            slides += [tip(i, len(p["tips"]), t, a, b) for i, t in enumerate(p["tips"], 1)]
+            slides += [tip(i, len(p["tips"]), t, a, b, CYCLES.get(p.get("theme"))) for i, t in enumerate(p["tips"], 1)]
             slides.append(end(p, a, b))
             for k, s in enumerate(slides, 1):
                 page.set_content(s, wait_until="networkidle")
