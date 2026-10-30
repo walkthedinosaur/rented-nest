@@ -7,6 +7,7 @@ Output: static/social/<week>/<slug>/01.png ... + caption.txt, and static/social/
 Run: python3 tools/make_ig.py [slug ...]   (needs Playwright + Chromium)
 """
 import base64
+import datetime as dt
 import html
 import json
 import sys
@@ -140,13 +141,16 @@ def main():
 def write_index(posts):
     """Phone page: newest week first; tap-and-hold to save each slide, caption in a box to copy."""
     blocks = []
-    for p in sorted(posts, key=lambda x: x["week"], reverse=True):
+    for p in sorted(posts, key=lambda x: (x.get("posted", False), x.get("day", x["week"]))):
         d = OUT / p["week"] / p["slug"]
         if not d.exists():
             continue
         imgs = "".join(f'<img src="{p["week"]}/{p["slug"]}/{f.name}?v={int(f.stat().st_mtime)}" loading="lazy" alt="slide {f.stem}">'
                        for f in sorted(d.glob("*.png")))
-        blocks.append(f"""<section><h2>Post week of {p['week']}: {html.escape(p['headline'])}</h2>
+        when = f"Post on {dt.date.fromisoformat(p['day']).strftime('%a %-d %b')}" if p.get("day") else f"Post week of {p['week']}"
+        if p.get("posted"):
+            when = "Posted ✓"
+        blocks.append(f"""<section><h2>{when}: {html.escape(p['headline'])}</h2>
 <p class="m">{len(list(d.glob('*.png')))} slides – save them in order, post as one carousel.</p>
 <div class="row">{imgs}</div>
 <textarea readonly onclick="this.select()">{html.escape(p['caption'].strip())}</textarea></section>""")
@@ -158,7 +162,7 @@ section{{margin:0 0 40px}} h2{{font-size:18px}} .m{{color:#6b665d;font-size:14px
 .row{{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory}} .row img{{width:78vw;max-width:360px;scroll-snap-align:start;border-radius:8px}}
 textarea{{width:100%;height:220px;margin-top:10px;font:15px system-ui;padding:10px;border-radius:8px;border:1px solid #ccc;box-sizing:border-box}}
 </style></head><body><h1>Instagram posts to schedule</h1>
-<p class="m">Newest first. For each post: save the slides (tap and hold), then in Instagram or Meta Business Suite add them as one carousel and paste the caption.</p>
+<p class="m">Next post first. For each post: save the slides (tap and hold), then in Instagram or Meta Business Suite add them as one carousel and paste the caption.</p>
 {''.join(blocks)}</body></html>""")
 
 

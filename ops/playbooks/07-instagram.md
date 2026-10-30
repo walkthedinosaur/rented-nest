@@ -10,10 +10,21 @@ featured list is content/links.html – keep it to the 4 most timely guides).
 - 3 carousel posts a week, no more, until the Growth review shows Instagram visits growing (GoatCounter campaign
   utm_source=instagram). Never post the same guide twice in 14 days.
 
+## Schedule and reminders (set 30 Oct 2026)
+- Dylan posts Mon, Wed and Fri. Each post in posts.json has "day" (YYYY-MM-DD, the Mon/Wed/Fri it goes out).
+  /social/ lists the next post first, labelled "Post on <day>"; set "posted": true once a post is up (check the
+  public profile https://www.instagram.com/therentednestonline/ – posts newer than the last run).
+- Scheduled task "The Rented Nest – Instagram reminder" (Mon/Wed/Fri 11:47) pushes Dylan a one-line reminder with
+  that day's post. If no post exists for the day it tells him so – then the next content run must fill the gap first.
+- Visual style: theme "pop" (bright colour panel per slide) for everyday posts, "halloween" or another seasonal
+  palette for events. Every tip gets a photo that actually shows it; leave it out rather than use a mismatch.
+- Seasonal/timely posts (Halloween, Bonfire Night, Black Friday, Christmas, January sales) beat evergreen ones in
+  their week – check the calendar when picking guides.
+
 ## Steps (Friday content run, after the pins)
-1. Pick 3 guides for next week: one gift/seasonal (Nov–Dec), one renter problem (damp, cold, deposit, rules), one
+1. Pick 3 guides for next week (Mon, Wed, Fri – one each): one gift/seasonal (Nov–Dec), one renter problem (damp, cold, deposit, rules), one
    home/decor idea. Skip any guide used on Instagram in the last 14 days (check ops/instagram/posts.json).
-2. For each, add an entry to ops/instagram/posts.json: week = next Monday's date, slug, theme, cover photo already in
+2. For each, add an entry to ops/instagram/posts.json: week = next Monday's date, day = its Mon/Wed/Fri date, slug, theme, cover photo already in
    static/photos (Unsplash free licence, already credited), label, headline ≤12 words, sub line, 4–6 tips taken ONLY
    from the guide's own content (no new claims, no prices), guide URL, caption. Give each tip a "photo" from
    static/photos that actually shows that item or idea (prefer the guide's own section photos; check the alt text) –
