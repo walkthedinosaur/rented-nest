@@ -18,5 +18,19 @@ Method (all checked 30 Oct 2026, ~10:10–10:30 UTC):
 | 4 | **Muddy Boots Guide** (muddybootsguide) | No registration found | **Registered** | Several "Muddy Boots" companies (MUDDY BOOTS LIMITED, MUDDY BOOTS LTD, MUDDY BOOTS ADVENTURES LTD …) | Common phrase; not clearly equestrian | .com taken; crowded name |
 | 5 | **Yard & Rein** (yardandrein) | **Registered** (14 Jul 2026, expires 14 Jul 2027) | **Registered** | No close match | None found | Both domains taken – drop unless Dylan wants a different domain form |
 
-**Recommendation:** The Horsey Edit (first choice) or Saddle & Sundry (backup). Before buying: UK IPO trademark search,
+## Update 30 Oct 2026 – Dylan: no "Edit" in the name
+Dylan doesn't want "Edit" (not common usage); "Page" or "Editorial" read better. "Edit" names are dropped. Same checks, 30 Oct 2026:
+
+| Rank | Name | .co.uk | .com | Companies House | Clashes seen |
+|---|---|---|---|---|---|
+| 1 | **The Horsey Page** (thehorseypage) | No registration found | No registration found | No close match | None found in web search |
+| 2 | **Saddle & Sundry** (saddleandsundry) | No registration found | No registration found | No exact match | None found |
+| – | The Horsey Editorial (thehorseyeditorial) | No registration found | No registration found | No close match | Not searched; long and harder to say/type |
+| – | The Tack Room Page (thetackroompage) | No registration found | No registration found | Many "Tack Room …" companies | Same retailer-confusion risk as before |
+
+Also free: thehorseypages and horseypage (.co.uk and .com) – worth buying alongside to protect the name if cheap (Dylan's call).
+
+**Recommendation (replaces the one below):** The Horsey Page (first choice) or Saddle & Sundry (backup).
+
+~~**Recommendation:** The Horsey Edit (first choice) or Saddle & Sundry (backup).~~ Before buying: UK IPO trademark search,
 registrar price check, and Pinterest/Instagram handle check (all Dylan, launch checklist EQ #49).
