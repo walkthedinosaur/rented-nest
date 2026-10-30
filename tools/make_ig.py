@@ -133,7 +133,7 @@ def write_index(posts):
         d = OUT / p["week"] / p["slug"]
         if not d.exists():
             continue
-        imgs = "".join(f'<img src="{p["week"]}/{p["slug"]}/{f.name}" loading="lazy" alt="slide {f.stem}">'
+        imgs = "".join(f'<img src="{p["week"]}/{p["slug"]}/{f.name}?v={int(f.stat().st_mtime)}" loading="lazy" alt="slide {f.stem}">'
                        for f in sorted(d.glob("*.png")))
         blocks.append(f"""<section><h2>Post week of {p['week']}: {html.escape(p['headline'])}</h2>
 <p class="m">{len(list(d.glob('*.png')))} slides – save them in order, post as one carousel.</p>
