@@ -56,8 +56,12 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 15. `python3 build.py`, commit, push.
 16. Wait ~70s, then check every new page and pin PNG returns 200.
 17. Run `python3 tools/indexnow.py <new and changed page URLs>`.
-18. Schedule each pin: Tailwind create_post with mediaUrl https://therentednest.co.uk/pins/<slug>.png, title,
-    description, url, boardId, altText, useNextOpenSlot:true. Record post IDs in tools/tailwind_queue.json.
+18. Schedule the NEW pins in one batch (added 2 Nov 2026): Tailwind create_posts (account 1658314) with one entry per
+    pin – mediaUrl https://therentednest.co.uk/pins/<slug>.png, title, description, url, boardId, altText,
+    useNextOpenSlot:true. Poll get_post_batch every ~10s until completed; record each created postId in
+    tools/tailwind_queue.json. For failed entries: if the reason says the Pin may exist, check list_posts first; then
+    resend only those entries with retryOfBatchId. Never resend a whole batch to "retry" – an identical batch within
+    7 days returns the original, and a changed one double-posts. (Drafts from step 11 still go through schedule_post.)
 
 ## F2. Instagram (Fridays only)
 18a. Follow ops/playbooks/07-instagram.md – make next week's 3 Instagram carousel posts.

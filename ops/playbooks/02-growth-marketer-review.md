@@ -15,6 +15,10 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
    last 7 days, average impressions per pin (get_pin_analytics or list_top_pins IMPRESSION) – record it in the report
    and decide: hold 1/day, step up (≥15 two weeks running and clicks rising – add slots with create_timeslot), or drop
    back. Write the decision as a numbered plan item.
+   Timeslot rule for any step-up (added 2 Nov 2026): run list_timeslots first and place each new slot so every day's
+   times stay between 07:00 and 22:00 UK and at least 60 minutes apart – never two inside the same hour. Re-run
+   list_timeslots after the change and record the day's times in the report. Never use rebuild_schedule (it discards
+   every existing time). For a drop-back, delete the slots added last.
 4. Rank guides by visits and affiliate-link clicks (Awin/Amazon where visible). Mark the top 3 guides for Amazon
    clicks – they matter most for the 3-sale deadline.
 5. Search Console: note queries with impressions; flag pages with impressions but low clicks (title/description fixes).
