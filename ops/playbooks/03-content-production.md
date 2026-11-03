@@ -45,6 +45,9 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
     at present, so Tue run ≤4 pins, Fri run ≤3). FIRST use the Tailwind drafts (list_posts status draft) whose
     destination page passes the 7-day spacing rule – schedule_post with useNextOpenSlot. Only make new pins for new
     pages or when no draft passes the rule. Never add timeslots; the Growth review owns any step-up.
+    If an unschedule_post (or any Tailwind write) is refused, stop filling at the last day that still has only one pin –
+    useNextOpenSlot can't skip a slot, so scheduling more would double up a day. Log it, message Dylan the postIds to
+    unschedule by hand, and leave the rest of the plan to the next run (added 3 Nov 2026).
 12. Choose the mix: winners by outbound clicks first (gift guides in Nov–Dec), then new pages – but every pin must
     pass the 7-day spacing rule (no other pin to the same page, without #anchor, published or queued within 7 days
     either side; check tools/tailwind_queue.json + list_posts queued/sent). One pin per page per week at most.

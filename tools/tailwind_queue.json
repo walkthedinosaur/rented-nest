@@ -259,5 +259,13 @@
       "v2-bf-bench": "6ae474e7Y1YtRw0dHht00"
     },
     "window": "Tue 3 Nov 16:45 to Fri 6 Nov 14:30 GMT (useNextOpenSlot)"
+  },
+  "batch_2026_11_03_content": {
+    "note": "Queue fix #60 (part): v2 SS under £10 6ae474e3EmrGcxzYF8FAe unscheduled to draft. Drafts scheduled with useNextOpenSlot: black mould 6ae08084QprK2CNJoGSED -> Wed 4 Nov 19:03; feel-like-home 6ae47478nb10Z7VqKzOsV -> Thu 5 Nov 19:04. New boiler pins saved as DRAFTS (not scheduled) – schedule v2-boiler-wait first (Tue 10 earliest), v2-boiler-rent 7+ days later. Still queued from before the reset (unschedule blocked this run): 6ae4748a0KtcBQqybCjDh Tue 3 19:02, 6ae47490c18Vm2MLxQGs_ Wed 4 10:15, 6ae474e5sosCw_4bysiit Fri 6 12:15.",
+    "post_ids": {
+      "v2-boiler-wait": "6ae9bf10CNCEAc5TnVVBV",
+      "v2-boiler-rent": "6ae9bf11B4Q-UHN4E420U"
+    },
+    "create_posts_batch": "1265aca3dde25a182c308a3877538f93"
   }
 }
