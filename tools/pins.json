@@ -2754,5 +2754,41 @@
   "description": "Ad – Left without heating for weeks? Don't stop paying rent – arrears can put your home at risk. How to get the council involved, claim compensation instead, and keep warm while you wait. Based on Shelter and HSE guidance. England only, not legal advice.",
   "alt": "A metal kettle pouring steaming water into a flask in a cold kitchen.",
   "layout": "photo2"
+ },
+ {
+  "slug": "v3-boiler-check",
+  "layout": "checklist",
+  "palette": "forest",
+  "font": "space",
+  "label": "Boiler broken?",
+  "headline": "No heating? Do this today",
+  "points": [
+   "Report it – then put it in writing",
+   "Log room temperatures and receipts",
+   "Keep paying rent",
+   "Call the council if it drags on"
+  ],
+  "sub": "",
+  "photo": "1547186577-a3f4fa07c2ef.jpg",
+  "guide": "/guides/no-heating-hot-water-landlord-england.html#report-in-writing",
+  "board": "Warm & Dry Flat Ideas UK",
+  "title": "No Heating or Hot Water in Your Rented Flat? What to Do First (England)",
+  "description": "Ad – Boiler broken and the landlord's slow to fix it? Report it the same day, confirm in writing, log the temperatures and keep receipts. Why you shouldn't withhold rent, when to call the council, and how to keep warm safely while you wait. England guide, not legal advice.",
+  "alt": "The glowing orange bars of an electric heater in a dark room."
+ },
+ {
+  "slug": "v3-boiler-rent",
+  "layout": "split",
+  "palette": "navy",
+  "font": "dmserif",
+  "label": "Renting rules · England",
+  "headline": "Landlord won't fix the boiler?",
+  "sub": "Don't withhold rent – what to do instead",
+  "photo": "1788238025571-31c4310a4f7e.jpg",
+  "guide": "/guides/no-heating-hot-water-landlord-england.html#landlord-wont-fix",
+  "board": "Renter Friendly Home Ideas UK",
+  "title": "Landlord Won't Fix the Boiler? Rent, the Council and Compensation (England)",
+  "description": "Ad – Left without heating for weeks? Don't stop paying rent – arrears can put your home at risk. How to get the council involved, claim compensation instead, and keep warm while you wait. Based on Shelter and HSE guidance. England only, not legal advice.",
+  "alt": "A metal kettle pouring steaming water into a flask in a cold kitchen."
  }
 ]

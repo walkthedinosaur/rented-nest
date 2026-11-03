@@ -7,8 +7,8 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
   Pinterest all but stopping distribution: every new pin since ~20 Oct got 2–3 impressions in total, outbound clicks
   went 19 (11–15 Oct) → 6 (16–23 Oct) → 1 (24–28 Oct). Tailwind's own guidance for NEW accounts is 3–5 fresh pins a
   WEEK and a 7-day gap between pins to the same URL; we were at ~56/week with no gap (10 pins to one guide in 14 days).
-  **Now: 1 pin a day (7 a week), 1 Tailwind slot a day at ~19:00.** 51 queued pins were moved back to drafts – reuse
-  them first (scheduling a draft costs 1 credit).
+  **Now: 1 pin a day (7 a week), 1 Tailwind slot a day at ~19:00.** 51 queued pins were moved back to drafts. **From 3 Nov
+  (Dylan): don't reuse those drafts** – they all share one template. Make fresh v3 pins instead (same 1 credit).
 - **Spacing rule (hard):** never schedule a pin whose destination page (URL without the #anchor) has a pin published
   or queued in the last/next 7 days. Check tools/tailwind_queue.json and list_posts (queued + sent, last 7 days)
   before every create_post/schedule_post. Tailwind's own Pin Spacing (7 days) to be switched on by Dylan (register #53).
@@ -18,6 +18,8 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - No engagement swaps or bulk saving of other creators' pins (Tailwind Turbo/"Quick saves") – Pinterest treats
   artificial engagement as spam. Pause everything and tell Dylan if Pinterest shows any warning.
 - Variety: 3–5 different designs per guide (different photo, headline angle, keyword, anchor). Never reuse an image.
+  **Visual variety (Dylan, 3 Nov 2026):** 9 layouts × 12 palettes × 6 fonts in tools/make_pins.py; no two pins in a row
+  share a layout, palette or font; tools/check_pin_variety.py enforces it. Growth review: compare saves/clicks by layout.
 - Boards: grow from 6 to 12–15 keyword-named boards (e.g. "Condensation & Damp Fixes UK", "Small Bedroom Storage
   Ideas", "Renting Tips UK", "Black Friday Home Deals UK", "Student House Share Ideas"), 2 per content run until done.
 - Topics: pick new guides from Pinterest Trends + Search Console.

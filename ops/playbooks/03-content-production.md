@@ -42,18 +42,27 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 
 ## E. Pins
 11. Pin volume (reset 30 Oct – read growth-plan Engine 1): fill only the OPEN slots in the next 4 days (1 slot a day
-    at present, so Tue run ≤4 pins, Fri run ≤3). FIRST use the Tailwind drafts (list_posts status draft) whose
-    destination page passes the 7-day spacing rule – schedule_post with useNextOpenSlot. Only make new pins for new
-    pages or when no draft passes the rule. Never add timeslots; the Growth review owns any step-up.
+    at present, so Tue run ≤4 pins, Fri run ≤3). Make every pin FRESH in a v3 style (step 13) –
+    do NOT schedule the old Tailwind drafts: they are all the same photo2 template, and Dylan asked on 3 Nov 2026 for
+    real variety. A fresh pin costs the same 1 credit as scheduling a draft. Use the growth review's pin order for
+    WHICH page and hook, but render a new v3 design for it. Leave the old drafts unscheduled (don't delete them). Never add timeslots; the Growth review owns any step-up.
     If an unschedule_post (or any Tailwind write) is refused, stop filling at the last day that still has only one pin –
     useNextOpenSlot can't skip a slot, so scheduling more would double up a day. Log it, message Dylan the postIds to
     unschedule by hand, and leave the rest of the plan to the next run (added 3 Nov 2026).
 12. Choose the mix: winners by outbound clicks first (gift guides in Nov–Dec), then new pages – but every pin must
     pass the 7-day spacing rule (no other pin to the same page, without #anchor, published or queued within 7 days
     either side; check tools/tailwind_queue.json + list_posts queued/sent). One pin per page per week at most.
-13. Add the entries to tools/pins.json: slug v2-…, layout photo2, unique photo, headline ≤7 words, sub line, label,
-    guide URL with a #anchor that exists, board, title ≤100 chars, description starting "Ad – " ≤500 chars, alt.
-14. Render with tools/make_pins.py and view a contact sheet: text fits, nothing overlaps. Fix and re-render failures.
+13. Add the entries to tools/pins.json: slug v3-…, a v3 layout + palette + font (see tools/make_pins.py docstring:
+    overlay, split, poster, checklist, frame, numbered, arch, duo, script; 12 palettes; 6 fonts), unique photo,
+    headline ≤7 words, sub line, label, guide URL with a #anchor that exists, board, title ≤100 chars, description
+    starting "Ad – " ≤500 chars, alt. Rotate hard (changed 3 Nov 2026 – Dylan: "the pins all look the same"):
+    no two pins in a row share a layout, palette or font; no layout or palette more than twice per run; match the
+    palette to the topic where it helps (berry/forest for Christmas, mustard/terracotta for Black Friday, teal/mint
+    for damp, navy/charcoal for renting rules) but never the same one twice running. Checklist pins (3–4 short
+    points) and numbered pins ("7 ways…") are the save-friendly formats – use at least one per run.
+14. Render with tools/make_pins.py, then run `python3 tools/check_pin_variety.py <new slugs>` – it must pass. View a
+    contact sheet of the batch next to the previous run's pins: text fits, nothing overlaps, and the batch looks
+    clearly different from last time. Fix and re-render failures.
 
 ## F. Publish and schedule
 15. `python3 build.py`, commit, push.

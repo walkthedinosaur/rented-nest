@@ -13,7 +13,7 @@ consulted ONLY on things that cost money, and on actions the safety rules reserv
 - Photos: Unsplash free licence only (images.unsplash.com, never plus.unsplash.com); find via WebFetch on
   https://unsplash.com/s/photos/<query>?license=free, download `?fm=jpg&q=75&w=1200&auto=format&fit=crop` into
   static/photos/, add the IDs to static/photos/CREDITS.md.
-- Pins: definitions in tools/pins.json (layout "photo2"), rendered by `python3 tools/make_pins.py <slugs>` (Playwright)
+- Pins: definitions in tools/pins.json (v3 layouts – overlay/split/poster/checklist/frame/numbered/arch/duo/script, each with a palette + font; photo2 retired 3 Nov 2026 because every pin looked the same; `python3 tools/check_pin_variety.py <slugs>` must pass), rendered by `python3 tools/make_pins.py <slugs>` (Playwright)
   into static/pins/. After pushing, the PNG is public at https://therentednest.co.uk/pins/<slug>.png.
 - Pinterest via Tailwind MCP: account 1658314. Boards: Renter Friendly Home Ideas UK 1111474451727973093,
   No Drill Storage Ideas …094, Small Living Room Ideas …095, Christmas Gift Ideas UK …096, Small Flat Decor UK …097,
