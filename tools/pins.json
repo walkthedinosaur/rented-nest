@@ -2790,5 +2790,37 @@
   "title": "Landlord Won't Fix the Boiler? Rent, the Council and Compensation (England)",
   "description": "Ad – Left without heating for weeks? Don't stop paying rent – arrears can put your home at risk. How to get the council involved, claim compensation instead, and keep warm while you wait. Based on Shelter and HSE guidance. England only, not legal advice.",
   "alt": "A metal kettle pouring steaming water into a flask in a cold kitchen."
+ },
+ {
+  "slug": "v3-mould-week",
+  "layout": "numbered",
+  "palette": "teal",
+  "font": "archivo",
+  "num": "4",
+  "label": "Damp & mould · England",
+  "headline": "things to do about black mould this week",
+  "sub": "Photograph it, clean it safely, report it in writing, chase it",
+  "photo": "1627905646269-7f034dcc5738.jpg",
+  "guide": "/guides/black-mould-rented-flat-what-to-do-uk.html#record-evidence",
+  "board": "Condensation & Damp Fixes UK",
+  "title": "Black Mould in a Rented Flat? What to Do This Week (UK Renters)",
+  "description": "Ad – mould everywhere in your rented flat? Photograph it before you clean, wipe small patches gently with soapy water, report it in writing and keep copies. Plus what to do if your landlord ignores it – England guide, not legal advice.",
+  "alt": "Hands in blue gloves wiping a surface with a cloth and spray bottle.",
+  "size": 78
+ },
+ {
+  "slug": "v3-home-feel",
+  "layout": "overlay",
+  "palette": "mustard",
+  "font": "bricolage",
+  "label": "No decorating needed",
+  "headline": "Make a rented flat feel like home",
+  "sub": "Change what you bring, not what you fix",
+  "photo": "1586023492125-27b2c045efd7.jpg",
+  "guide": "/guides/make-rented-flat-feel-like-home-uk.html#first-weekend",
+  "board": "Renter Friendly Home Ideas UK",
+  "title": "How to Make a Rented Flat Feel Like Home (Without Decorating) – UK",
+  "description": "Ad – Change what you bring, not what you fix: warm light, a big throw, plants, your own bedding and leaned art make a rented flat feel like yours without touching the walls or your deposit. A first-weekend list and bigger buys you take with you.",
+  "alt": "A mustard armchair beside a brass floor lamp in a bright room."
  }
 ]
