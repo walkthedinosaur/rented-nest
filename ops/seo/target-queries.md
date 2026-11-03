@@ -8,6 +8,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] how to dry clothes in a flat without a balcony
 - [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
 - [ ] how to keep a rented flat warm without central heating (largely answered by /guides/stay-warm-cold-rented-flat-uk.html – only brief if Search Console shows the query)
+- [x] no heating or hot water landlord won't fix boiler england (/guides/no-heating-hot-water-landlord-england.html, 3 Nov – growth review 2 Nov, register #62)
 - [x] draught proofing a rented flat without damaging it (/guides/draught-proofing-a-rented-flat-uk.html, 16 Oct)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk (SERP 21 Oct: Which? dominates the cost angle – low priority)
 

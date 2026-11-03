@@ -2726,5 +2726,33 @@
   "description": "Ad – On a joint tenancy, one tenant's notice can end it for everyone, so talk to your housemates first. What happens if some of you want to stay, plus a notice template and leaving-date examples. Based on GOV.UK and Shelter.",
   "alt": "Friends around a table playing cards and sharing snacks.",
   "layout": "photo2"
+ },
+ {
+  "slug": "v2-boiler-wait",
+  "theme": "clay",
+  "label": "Keeping warm",
+  "headline": "Boiler broken? Do this first",
+  "sub": "Report it, log it, stay warm – England",
+  "photo": "1547186577-a3f4fa07c2ef.jpg",
+  "guide": "/guides/no-heating-hot-water-landlord-england.html#report-in-writing",
+  "board": "Warm & Dry Flat Ideas UK",
+  "title": "No Heating or Hot Water in Your Rented Flat? What to Do First (England)",
+  "description": "Ad – Boiler broken and the landlord's slow to fix it? Report it the same day, confirm in writing, log the temperatures and keep receipts. Why you shouldn't withhold rent, when to call the council, and how to keep warm safely while you wait. England guide, not legal advice.",
+  "alt": "The glowing orange bars of an electric heater in a dark room.",
+  "layout": "photo2"
+ },
+ {
+  "slug": "v2-boiler-rent",
+  "theme": "clay",
+  "label": "Renting rules",
+  "headline": "Can I withhold rent?",
+  "sub": "Landlord won't fix the boiler – England",
+  "photo": "1788238025571-31c4310a4f7e.jpg",
+  "guide": "/guides/no-heating-hot-water-landlord-england.html#landlord-wont-fix",
+  "board": "Renter Friendly Home Ideas UK",
+  "title": "Landlord Won't Fix the Boiler? Rent, the Council and Compensation (England)",
+  "description": "Ad – Left without heating for weeks? Don't stop paying rent – arrears can put your home at risk. How to get the council involved, claim compensation instead, and keep warm while you wait. Based on Shelter and HSE guidance. England only, not legal advice.",
+  "alt": "A metal kettle pouring steaming water into a flask in a cold kitchen.",
+  "layout": "photo2"
  }
 ]
