@@ -18,6 +18,10 @@ Steps
    Only log "requested" when Search Console shows its "Indexing requested" confirmation (28 Oct: with the pane hidden the
    live-test dialog closed with no result – log it as "attempted, unconfirmed" and re-try next run). Use the top search box;
    inspect/?id= URLs can't be typed directly (404).
+   4 Nov: (a) the request only completes while the browser pane is DISPLAYED – when hidden, the live test's status polls are
+   aborted and the dialog closes with no result. Check tabs_context first; if hidden, don't retry – log "not requested – pane
+   hidden" and rely on the sitemap (check its "Last read" date). (b) On the inspection page, clicking by ref lands off-target;
+   take a screenshot and click by coordinate. Read results with javascript_tool (page text returns the old report).
 2b. Bing Webmaster Tools (built-in browser: bing.com/webmasters, property therentednest.co.uk – verified by import
    from Search Console on 12 Oct 2026): search performance, the AI Performance / Copilot citations report, crawl or
    indexing issues. Note anything Google and Bing disagree on.

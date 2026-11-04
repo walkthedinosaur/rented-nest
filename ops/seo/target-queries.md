@@ -10,6 +10,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] how to keep a rented flat warm without central heating (largely answered by /guides/stay-warm-cold-rented-flat-uk.html – only brief if Search Console shows the query)
 - [x] no heating or hot water landlord won't fix boiler england (/guides/no-heating-hot-water-landlord-england.html, 3 Nov – growth review 2 Nov, register #62)
 - [x] draught proofing a rented flat without damaging it (/guides/draught-proofing-a-rented-flat-uk.html, 16 Oct)
+- [b] how to use storage heaters cheaply / storage heaters on a prepayment meter (brief storage-heaters-cheaply-renters-uk.md, 4 Nov – register #63)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk (SERP 21 Oct: Which? dominates the cost angle – low priority)
 
 ## Storage and decor (renter rules)
@@ -18,14 +19,16 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] how to make a rented flat feel like home without decorating → /guides/make-rented-flat-feel-like-home-uk.html (30 Oct)
 - [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
+- [b] how to hang christmas decorations in a rented flat without damaging walls (brief christmas-decorations-rented-flat-no-damage-uk.md, 4 Nov – publish by 13 Nov)
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
-- [ ] section 21 abolished – what happens now
+- [b] section 21 abolished – what happens now → tenant side covered by "section 8 notice what to do" (brief section-8-notice-what-to-do-tenant-england.md, 4 Nov); RRA guide stays the background page
+- [b] can my landlord come into my flat without permission uk (brief landlord-enter-without-notice-england.md, 4 Nov)
 - [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
 - [x] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
-- [ ] damp and mould rules for private landlords (Awaab's Law – check status)
+- [ ] damp and mould rules for private landlords (Awaab's Law) – NO separate page (4 Nov): already covered on condensation, black mould, damp data and RRA guides; consultation closes 18 Dec 2026 – update those pages when the government responds
 
 ## Tools (link magnets)
 - [x] heated airer vs tumble dryer cost calculator (/tools/drying-heating-cost-calculator.html, 15 Oct)
@@ -46,3 +49,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
   "tenement flat cold" (pos 47 – Scottish wording; stay-warm guide is England/UK-general), "blinds for landlords" (pos 97, off-target)
 - Skipped 28 Oct: "pet-proof a rented flat" (already a full section on /guides/ask-landlord-for-a-pet-england.html#pet-proofing),
   "best small dehumidifier for a bedroom" (dehumidifier guide covers it; Meaco blog + Ideal Home rank)
+
+## Seen in Search Console (4 Nov, data to 2 Nov)
+- New: "small heated clothes airer" (37.5), "heated airer" (55), "dehumidifier for 1 bed flat" (79 → dehumidifier guide).
+  "drying laundry indoors" (pos 7, 3 impr). Heated airers title now leads with "Small heated airers" (4 Nov).
