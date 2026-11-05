@@ -2822,5 +2822,41 @@
   "title": "How to Make a Rented Flat Feel Like Home (Without Decorating) – UK",
   "description": "Ad – Change what you bring, not what you fix: warm light, a big throw, plants, your own bedding and leaned art make a rented flat feel like yours without touching the walls or your deposit. A first-weekend list and bigger buys you take with you.",
   "alt": "A mustard armchair beside a brass floor lamp in a bright room."
+ },
+ {
+  "slug": "v3-storage-dials",
+  "layout": "checklist",
+  "palette": "cobalt",
+  "font": "fraunces",
+  "label": "Keeping warm · UK renters",
+  "headline": "Storage heaters costing a fortune?",
+  "sub": "Check these before you touch the boost",
+  "points": [
+   "You're on an off-peak tariff",
+   "Input set by the season",
+   "Output low until evening",
+   "Boost only as a last resort"
+  ],
+  "photo": "1763812384061-06b86c23ede6.jpg",
+  "guide": "/guides/storage-heaters-cheaply-rented-flat-uk.html#input-output",
+  "board": "Warm & Dry Flat Ideas UK",
+  "title": "How to Use Storage Heaters Cheaply: Input and Output Dials Explained (UK Renters)",
+  "description": "Ad – storage heaters eating your top-ups? Check you're really on Economy 7 or another off-peak tariff (even on a prepayment meter), set input by the season, keep output low until evening and skip the daytime boost. Plus what to ask your landlord and help with bills.",
+  "alt": "A book, a mug of hot chocolate and lit candles on a cosy table."
+ },
+ {
+  "slug": "v3-section8-steps",
+  "layout": "frame",
+  "palette": "charcoal",
+  "font": "space",
+  "label": "Renting rules · England",
+  "headline": "Section 8 notice? Don’t move out yet",
+  "sub": "Your landlord still needs a court order",
+  "photo": "1633360821222-7e8df83639fb.jpg",
+  "guide": "/guides/section-8-notice-tenant-england.html#check-notice",
+  "board": "Renter Friendly Home Ideas UK",
+  "title": "Section 8 Notice? What Tenants Should Do Now (England, Form 3A)",
+  "description": "A section 8 notice is the start of a process, not an eviction – your landlord needs a court order. How to check your Form 3A notice, the steps from notice to court, the 14-day defence form and where to get free legal help. England only, not legal advice.",
+  "alt": "A fountain pen and brass cap resting on sheets of writing paper and envelopes."
  }
 ]

@@ -1,5 +1,5 @@
 # Brief: My landlord has given me a section 8 notice – what happens now? (England, from 1 May 2026)
-Written: 2026-11-04 (SEO run) · For: a Thu QUESTIONS run · Status: UNWRITTEN
+Written: 2026-11-04 (SEO run) · For: a Thu QUESTIONS run · Status: WRITTEN 5 Nov 2026 (QUESTIONS run)
 Suggested slug: /guides/section-8-notice-tenant-england.html · Suggested label: Renting rules · YMYL – re-verify on GOV.UK at writing
 
 ## Target query

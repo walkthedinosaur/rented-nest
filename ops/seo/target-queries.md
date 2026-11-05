@@ -10,7 +10,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [ ] how to keep a rented flat warm without central heating (largely answered by /guides/stay-warm-cold-rented-flat-uk.html – only brief if Search Console shows the query)
 - [x] no heating or hot water landlord won't fix boiler england (/guides/no-heating-hot-water-landlord-england.html, 3 Nov – growth review 2 Nov, register #62)
 - [x] draught proofing a rented flat without damaging it (/guides/draught-proofing-a-rented-flat-uk.html, 16 Oct)
-- [b] how to use storage heaters cheaply / storage heaters on a prepayment meter (brief storage-heaters-cheaply-renters-uk.md, 4 Nov – register #63)
+- [x] how to use storage heaters cheaply / storage heaters on a prepayment meter → /guides/storage-heaters-cheaply-rented-flat-uk.html (5 Nov)
 - [ ] are electric blankets safe / cheapest way to keep warm in bed uk (SERP 21 Oct: Which? dominates the cost angle – low priority)
 
 ## Storage and decor (renter rules)
@@ -23,7 +23,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
-- [b] section 21 abolished – what happens now → tenant side covered by "section 8 notice what to do" (brief section-8-notice-what-to-do-tenant-england.md, 4 Nov); RRA guide stays the background page
+- [x] section 21 abolished – what happens now → tenant side: /guides/section-8-notice-tenant-england.html (5 Nov); RRA guide stays the background page
 - [b] can my landlord come into my flat without permission uk (brief landlord-enter-without-notice-england.md, 4 Nov)
 - [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)

@@ -1,5 +1,5 @@
 # Brief: How to use storage heaters cheaply in a rented flat (incl. prepayment meters)
-Written: 2026-11-04 (SEO run, register #63) · For: Thu 5 Nov (QUESTIONS) or Fri 6 Nov (CONTENT) · Status: UNWRITTEN
+Written: 2026-11-04 (SEO run, register #63) · For: Thu 5 Nov (QUESTIONS) or Fri 6 Nov (CONTENT) · Status: WRITTEN 5 Nov 2026 (QUESTIONS run)
 Suggested slug: /guides/storage-heaters-cheaply-rented-flat-uk.html · Suggested label: Keeping warm
 
 ## Target query
