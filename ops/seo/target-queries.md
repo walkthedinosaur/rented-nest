@@ -19,12 +19,12 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] how to make a rented flat feel like home without decorating → /guides/make-rented-flat-feel-like-home-uk.html (30 Oct)
 - [x] how to cover magnolia walls in a rental (/guides/cover-magnolia-walls-rental-uk.html, 20 Oct)
 - [x] how to remove adhesive hooks without damaging paint (deposit) – answered on /guides/command-strips-rented-flat-uk.html
-- [b] how to hang christmas decorations in a rented flat without damaging walls (brief christmas-decorations-rented-flat-no-damage-uk.md, 4 Nov – publish by 13 Nov)
+- [x] how to hang christmas decorations in a rented flat without damaging walls – /guides/christmas-decorations-rented-flat-uk.html, 6 Nov (brief christmas-decorations-rented-flat-no-damage-uk.md, 4 Nov – publish by 13 Nov)
 
 ## Renters' Rights Act (England) – YMYL, verify on GOV.UK
 - [x] renters rights act what does it mean for tenants (/guides/renters-rights-act-what-changed-uk.html, 15 Oct)
 - [x] section 21 abolished – what happens now → tenant side: /guides/section-8-notice-tenant-england.html (5 Nov); RRA guide stays the background page
-- [b] can my landlord come into my flat without permission uk (brief landlord-enter-without-notice-england.md, 4 Nov)
+- [x] can my landlord come into my flat without permission uk – /guides/landlord-enter-without-notice-england.html, 6 Nov (brief landlord-enter-without-notice-england.md, 4 Nov)
 - [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
 - [x] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)

@@ -1,5 +1,5 @@
 # Brief: Christmas decorations in a rented flat – without damaging the walls (or your deposit)
-Written: 2026-11-04 (SEO run) · For: next content run – SEASONAL, publish by Fri 13 Nov at the latest · Status: UNWRITTEN
+Written: 2026-11-04 (SEO run) · For: next content run – SEASONAL, publish by Fri 13 Nov at the latest · Status: WRITTEN 6 Nov 2026 (content run)
 Suggested slug: /guides/christmas-decorations-rented-flat-uk.html · Suggested label: Renting rules (or Seasonal)
 
 ## Target query

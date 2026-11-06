@@ -2858,5 +2858,72 @@
   "title": "Section 8 Notice? What Tenants Should Do Now (England, Form 3A)",
   "description": "A section 8 notice is the start of a process, not an eviction – your landlord needs a court order. How to check your Form 3A notice, the steps from notice to court, the 14-day defence form and where to get free legal help. England only, not legal advice.",
   "alt": "A fountain pen and brass cap resting on sheets of writing paper and envelopes."
+ },
+ {
+  "slug": "v3-s10-handwarm",
+  "layout": "poster",
+  "palette": "berry",
+  "font": "playfair",
+  "label": "Secret Santa · under £10",
+  "headline": "£10 Secret Santa they’ll actually use",
+  "sub": "Hand warmers, bed socks, hot chocolate – house-share approved",
+  "photo": "1640116682712-94bf1c17abe2.jpg",
+  "guide": "/guides/secret-santa-ideas-under-10-uk.html#hand-warmers",
+  "board": "Secret Santa Ideas UK",
+  "title": "Secret Santa Ideas Under £10 for Housemates – Cosy & Useful (UK)",
+  "description": "Ad – stuck on a £10 Secret Santa for your house share? Hand warmers, thick bed socks, posh hot chocolate, a pocket card game or battery fairy lights – cheap, useful and easy to wrap. More ideas under £10 from UK shops, check current prices before you buy.",
+  "alt": "A group of wrapped presents on a table."
+ },
+ {
+  "slug": "v3-ffg-movein",
+  "layout": "checklist",
+  "palette": "terracotta",
+  "font": "fraunces",
+  "label": "First-flat gifts",
+  "headline": "Move-in day gifts they’ll use",
+  "points": [
+   "A compact toolkit",
+   "A rechargeable torch",
+   "A surge-protected extension lead",
+   "A low-light houseplant"
+  ],
+  "sub": "",
+  "photo": "1600725935160-f67ee4f6084a.jpg",
+  "guide": "/guides/first-flat-gifts-uk.html#a-compact-home-toolkit",
+  "board": "Christmas Gift Ideas UK",
+  "title": "Gifts for Someone Moving Into Their First Flat – Move-In Day Kit (UK)",
+  "description": "Ad – moving into a first rented flat? The gifts that get used on day one: a compact toolkit, a rechargeable torch, a surge-protected extension lead and a low-light houseplant. Renter-friendly, nothing that needs drilling. Save for your next housewarming.",
+  "alt": "Brown cardboard moving boxes stacked on a wooden table."
+ },
+ {
+  "slug": "v3-xg-friend",
+  "layout": "arch",
+  "palette": "lilac",
+  "font": "dmserif",
+  "label": "Christmas gifts for renters",
+  "headline": "What to buy a friend who rents",
+  "sub": "Compact, useful – and nothing that needs a drill",
+  "photo": "1548246671-c518156dcc6d.jpg",
+  "guide": "/guides/christmas-gifts-for-renters-uk.html#a-good-quality-toolkit-in-a-small-case",
+  "board": "Christmas Gift Ideas UK",
+  "title": "What to Buy a Friend Who Rents – Christmas Gift Ideas for Small Flats (UK)",
+  "description": "Ad – Christmas gifts for a friend who rents: a toolkit in a small case, matching storage baskets, a heated throw, a self-watering windowsill planter or a sunrise alarm clock. Compact, useful, from UK shops – and nothing that needs a drill or risks their deposit.",
+  "alt": "A red bauble resting on a brown paper-wrapped gift box."
+ },
+ {
+  "slug": "v3-xdec-nonail",
+  "layout": "script",
+  "palette": "cream",
+  "font": "bricolage",
+  "label": "Christmas in a rented flat",
+  "kicker": "no nails needed",
+  "headline": "Deck a rented flat, keep your deposit",
+  "sub": "Hang, clip, lean or stand – never stick",
+  "photo": "1733590634463-f8e8f9019e44.jpg",
+  "guide": "/guides/christmas-decorations-rented-flat-uk.html#hang-dont-stick",
+  "board": "Small Flat Decor UK",
+  "title": "Christmas Decorations in a Rented Flat – No Nails, No Damage (UK Renters)",
+  "description": "Ad – decorating a rented flat for Christmas? Hang, clip, lean or stand instead of sticking or nailing: over-door hooks, curtain-pole clips, tension rods, battery fairy lights and an over-door wreath hanger. Plus fairy light safety and taking it all down without marking the walls.",
+  "alt": "A small Christmas tree in a bowl on a table."
  }
 ]

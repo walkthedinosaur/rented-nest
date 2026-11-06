@@ -1,5 +1,5 @@
 # Brief: Can my landlord come into my flat without permission? (England, with email template)
-Written: 2026-11-04 (SEO run) · For: a Thu QUESTIONS or Tue/Fri content run · Status: UNWRITTEN
+Written: 2026-11-04 (SEO run) · For: a Thu QUESTIONS or Tue/Fri content run · Status: WRITTEN 6 Nov 2026 (content run)
 Suggested slug: /guides/landlord-enter-without-notice-england.html · Suggested label: Renting rules · YMYL – re-verify at writing
 
 ## Target query
