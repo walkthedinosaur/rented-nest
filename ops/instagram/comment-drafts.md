@@ -1,25 +1,26 @@
-# Instagram comment drafts – 2026-11-03 (Tue)
+# Instagram comment drafts – 2026-11-06 (Fri)
 
 Drafted by the Social agent. Nothing posted – awaiting Dylan's yes per comment.
+(Tuesday 3 Nov drafts were not approved/posted; those posts are now outside the 3-day window.)
 
-1. **@emmajanepalin** · https://www.instagram.com/p/DfMdSE-CAXu/
-   Post: "Homeware I loved but left behind" from the Mabledon Manor estate sale – rugs, desks and "THAT SOFA" (1 Nov).
-   Draft: "Seeing pieces in-situ is such a good way to judge scale – measuring doorways and stairwells before falling for a sofa saves so much heartache, especially in a rental. That sofa though 👀"
+1. **@stephkaluza** · https://www.instagram.com/stephkaluza/reel/DfShTpmOwWC/
+   Post: DIY Miffy Christmas wreath craft – "Is it too early for Christmas crafts!?!" (3 Nov).
+   Draft: "A handmade wreath is such a lovely way to make a rented front door feel festive – and an over-the-door hook means no nails needed. Not too early at all! 🎄"
 
-2. **@stephkaluza** · https://www.instagram.com/p/DfO_dl7Dr5J/
-   Post: "Cute things I saw in the Christmas Miffy store" – Miffy lamps and festive shelves, "My bank balance can't take it" (2 Nov).
-   Draft: "Those little Miffy lamps would give the cosiest glow in a small flat this time of year – no wonder your bank balance is nervous! 🎄"
+2. **@georgiewebart** · https://www.instagram.com/georgiewebart/p/DfZwsULiH4L/
+   Post: Teaser for her small LOVE WINNETS art collection (originals, prints, stickers, bookmarks) inspired by in-jokes with your best people, launching next week (6 Nov).
+   Draft: "Art built around the in-jokes you share with your best people is exactly what makes a home feel personal – and having prints, stickers and bookmarks means there's something for every budget. Good luck with the launch next week! 💖"
 
-3. **@charlottejacklin** · https://www.instagram.com/p/DfPPrD0CH14/
-   Post: November TV and cinema watchlist for cosy nights in on the sofa (2 Nov).
-   Draft: "Saving this for the dark evenings – a soft throw, a lamp instead of the big light and this list sounds like the perfect November night in."
+3. **@ourcuratedabode** · https://www.instagram.com/ourcuratedabode/reel/DfSkrxlopFM/
+   Post: "November new-in" reel from her Ramsgate homeware shop, asking what's on followers' gift lists (3 Nov).
+   Draft: "November new-in is perfect alliteration! A few well-chosen pieces from an independent shop do so much to make a rented space feel personal – and they make the most thoughtful gifts too ✨"
 
-4. **@georgiewebart** · https://www.instagram.com/p/DfQKosFiJRF/
-   Post: Process behind her new painting "After the Party" – cowboy boots, disco balls and dogs, "for the secret home bodies" (2 Nov).
-   Draft: "Cowboy boots, disco balls and dogs is such a joyful mix – art like this is the easiest way to give a home personality, especially when you can't paint the walls ✨"
+4. **@apartmenttherapy** · https://www.instagram.com/apartmenttherapy/reel/DfUu26EgTF0/
+   Post: Tour of a 430 sq ft Toronto rental made to work for two with DIYs, custom-built/repurposed furniture and creative storage (4 Nov).
+   Draft: "Custom-built and repurposed pieces are such a smart answer to rental quirks – when standard furniture doesn't fit, making it fit is what lets 430 sq ft work for two."
 
-5. **@apartmenttherapy** · https://www.instagram.com/p/DfKUqMYAR2a/
-   Post: Tour of Lily Starbuck's Brooklyn apartment – a "temporary" move she made a real home (31 Oct).
-   Draft: "\"Even if I am only going to be somewhere for a few weeks, I put my soul into it\" – such a good mindset for renters. A temporary home still deserves to feel like yours."
+5. **@ikeauk** · https://www.instagram.com/ikeauk/p/DfXmaoCApKZ/
+   Post: Festive hosting – the IKEA 365+ serving plate for mince pies and cinnamon buns (5 Nov).
+   Draft: "A big serving plate is a small-flat hosting hero – one platter of mince pies on the coffee table and you don't need a dining table at all 🥧"
 
-Skipped: @londonrentersunion (only recent post is a job advert / campaign content), @emmajanepalin + @ourcuratedabode Halloween post, Charlotte Jacklin's older #ad posts.
+Skipped: @emmajanepalin (only new post is a personal anniversary), @charlottejacklin (Glasgow/Edinburgh travel posts), @londonrentersunion (rent-tribunal campaign post – political), @apartmenttherapy gift guide (shopping promo).
