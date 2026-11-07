@@ -17,7 +17,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 ## Horse kit
 - [x] horse rug weights explained (lightweight, medium, heavyweight, grams of fill)
 - [x] how to measure a horse for a rug
-- [ ] turnout rug vs stable rug – which do you need
+- [x] turnout rug vs stable rug – which do you need
 - [ ] when to rug a horse uk (point to vet/BHS for welfare questions)
 - [ ] how to wash and reproof a horse rug
 - [ ] saddle pad vs numnah – what's the difference
@@ -46,7 +46,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 - [x] gifts for pony mad girls / kids
 - [ ] horse gifts under £20
 - [ ] horse gifts under £50
-- [ ] stocking fillers for horse riders
+- [x] stocking fillers for horse riders
 - [ ] personalised horse gifts uk
 - [ ] gifts for a new horse owner
 
