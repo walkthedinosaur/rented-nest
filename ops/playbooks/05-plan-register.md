@@ -80,6 +80,13 @@ Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/e
 | 67 | CTR re-check of the #64 title changes (Command strips, draught-proofing, heated airers): clicks/CTR/position for 4 Nov–1 Dec vs the 4 Nov baseline (21 impr pos 6.5; 32 impr pos 12.6; 10 impr pos 36.5; all 0 clicks) | SEO | Wed 2 Dec | OPEN |
 | 68 | Optional, free, ~2 min: when at the computer with the Claude app's browser pane showing, open Search Console → URL inspection → Request indexing for /guides/black-friday-deals-renters-uk.html and /guides/no-heating-hot-water-landlord-england.html (agents' requests fail while the pane is hidden) | DYLAN (CEO mentions once) | before Fri 20 Nov | OPEN |
 
+| 69 | Christmas sprint 9 Nov – 20 Dec (board 8 Nov): ≥5 of each week's 7 pins to money pages (Secret Santa house share, Christmas gifts for renters, under £20, under £10, first-flat gifts, Black Friday, Christmas decorations), 7-day rule still applies; 2 of 3 Instagram posts gift/Christmas | CONTENT + GROWTH | weekly to 20 Dec | OPEN |
+| 70 | Instagram Reels: make reel.mp4 for every post (tools/make_reel.py, playbook 07 step 4b); /social/ links it. First 3 made 8 Nov (no-heating, Secret Santa house share, Christmas decorations) | CONTENT | every Fri run | OPEN |
+| 71 | Home page Christmas gift strip (content/index.html, "seasonal" comment) – live 8 Nov; REMOVE after 24 Dec | CONTENT | Tue 29 Dec | OPEN |
+| 72 | Pinterest Ads test proposal (£5/day × 14 days, 2 proven pins, from 16 Nov) – Dylan's decision; if yes, agents send exact Ads Manager settings and report daily | DYLAN | Sun 15 Nov | OPEN |
+| 73 | TikTok account for the Reels (free) – Dylan's decision; if yes, Dylan creates it and agents add TikTok captions to /social/ | DYLAN | Sun 15 Nov | OPEN |
+| 74 | Growth review task: Dylan switches off "Require this computer" in the Claude app so it runs in the cloud (fixes #61 for that task) | DYLAN | Sun 15 Nov | OPEN |
+
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
 - Any new commitment made anywhere (board meeting, growth review, Dylan's message) gets a row here the same day.

@@ -153,6 +153,7 @@ def write_index(posts):
         blocks.append(f"""<section><h2>{when}: {html.escape(p['headline'])}</h2>
 <p class="m">{len(list(d.glob('*.png')))} slides – save them in order, post as one carousel.</p>
 <div class="row">{imgs}</div>
+{f'<p class="m"><a href="{p["week"]}/{p["slug"]}/reel.mp4" download>⬇ Reel version (video, 9:16)</a> – post it as a Reel too, a day or two after the carousel, and add a trending sound in Instagram.</p>' if (d / "reel.mp4").exists() else ""}
 <textarea readonly onclick="this.select()">{html.escape(p['caption'].strip())}</textarea></section>""")
     (OUT / "index.html").write_text(f"""<!doctype html><html lang="en-GB"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">

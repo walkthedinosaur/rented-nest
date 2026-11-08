@@ -34,6 +34,7 @@ featured list is content/links.html – keep it to the 4 most timely guides).
    No product prices, no testing claims, no invented stats.
 4. `python3 tools/make_ig.py <slugs>` – renders slides into static/social/<week>/<slug>/ and rebuilds
    static/social/index.html (noindex, robots-disallowed). View slide 1 and one tip slide; fix text that overflows.
+4b. `python3 tools/make_reel.py <slugs>` – makes reel.mp4 (9:16, ~17 s, no audio) for each post; /social/ shows a download link. Dylan posts the Reel 1–2 days after the carousel with a trending sound from Instagram's library (never add music ourselves – licensing).
 5. Build, commit, push with the site. Check https://therentednest.co.uk/social/ returns 200 and shows the new posts.
 6. Log "IG: <slugs> for week of <date>" in the content-log entry. The Monday CEO message reminds Dylan the week's
    posts are ready at therentednest.co.uk/social/.

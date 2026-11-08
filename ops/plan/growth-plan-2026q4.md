@@ -2,6 +2,15 @@
 Board doc: https://claude.ai/code/artifact/90711058-0ed7-4f5e-ae04-849400527272
 Every scheduled agent reads this and works its part. The CEO report tracks each engine weekly.
 
+## CHRISTMAS SPRINT – 9 Nov to 20 Dec 2026 (board meeting 8 Nov, ops/reports/board-2026-11-08.md)
+Reach is the bottleneck, and the money window is Black Friday (27 Nov) + Christmas. Until 20 Dec every channel leads
+with the pages that already earn clicks: Secret Santa house share, Christmas gifts for renters, gifts under £20,
+Secret Santa under £10, first-flat gifts, Black Friday, Christmas decorations (register #69).
+- Pinterest: ≥5 of 7 weekly pins to those pages (7-day rule still holds). Gate on 15 Nov decides 1/day vs 2/day.
+- Instagram: carousel + Reel for every post (#70); 2 of 3 weekly posts gift/Christmas.
+- Home page gift strip live until 24 Dec (#71). Thursday advice pages continue for search.
+- Pending Dylan: Pinterest Ads test £70 (#72), TikTok (#73), GoatCounter token (#51), Growth task cloud switch (#74).
+
 ## Engine 1 – Pinterest (Content + Growth)
 - **Volume – RESET 30 Oct 2026 (board meeting, approved by Dylan).** The 8/day ramp (from 20 Oct) was followed by
   Pinterest all but stopping distribution: every new pin since ~20 Oct got 2–3 impressions in total, outbound clicks
@@ -23,7 +32,7 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Boards: grow from 6 to 12–15 keyword-named boards (e.g. "Condensation & Damp Fixes UK", "Small Bedroom Storage
   Ideas", "Renting Tips UK", "Black Friday Home Deals UK", "Student House Share Ideas"), 2 per content run until done.
 - Topics: pick new guides from Pinterest Trends + Search Console.
-- Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Do not propose paid ads again unless organic data shows a clear case.
+- Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Re-raised once at the 8 Nov board (Dylan asked for more reach; organic data now shows which pins convert) – £5/day × 14 days on 2 proven pins, register #72. If declined again, don't raise it before January.
 
 ## Engine 2 – Search (SEO)
 - Bing Webmaster Tools verified 12 Oct 2026 (imported from Search Console). Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
@@ -45,8 +54,9 @@ Every scheduled agent reads this and works its part. The CEO report tracks each 
 - Never store Kit API keys or webhook URLs in this repo.
 - Next: "Move-out deposit checklist" lead magnet for storage/decor guides. Price-drop alert sign-up later.
 
-## Engine 4 – Short video (blocked until Dylan sets up Buffer + IG/TikTok/YouTube and sends an API key)
-- Prepare 3 test slideshow videos (python/ffmpeg from our photos + copy, "Ad" label first). 60-day test once live.
+## Engine 4 – Short video (PARTLY LIVE 8 Nov 2026)
+- Instagram Reels made from every carousel by tools/make_reel.py (no audio – Dylan adds a trending sound in-app). Dylan posts by hand.
+- TikTok: same videos once Dylan creates an account (#73). Buffer/API automation still not set up – posting stays manual.
 
 ## Engine 5 – Revenue per visitor
 - Black Friday page live (/guides/black-friday-deals-renters-uk.html). From 20 Nov: daily content runs add live
