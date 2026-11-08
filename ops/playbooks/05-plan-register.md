@@ -82,9 +82,9 @@ Site #2 (equestrian, rows marked EQ): CONTENT-BANK = Sat pre-launch run (sites/e
 | 69 | Christmas sprint 9 Nov – 20 Dec (board 8 Nov): ≥5 of each week's 7 pins to money pages (Secret Santa house share, Christmas gifts for renters, under £20, under £10, first-flat gifts, Black Friday, Christmas decorations), 7-day rule still applies; 2 of 3 Instagram posts gift/Christmas | CONTENT + GROWTH | weekly to 20 Dec | OPEN |
 | 70 | Instagram Reels: make reel.mp4 for every post (tools/make_reel.py, playbook 07 step 4b); /social/ links it. First 3 made 8 Nov (no-heating, Secret Santa house share, Christmas decorations) | CONTENT | every Fri run | OPEN |
 | 71 | Home page Christmas gift strip (content/index.html, "seasonal" comment) – live 8 Nov; REMOVE after 24 Dec | CONTENT | Tue 29 Dec | OPEN |
-| 72 | Pinterest Ads test proposal (£5/day × 14 days, 2 proven pins, from 16 Nov) – Dylan's decision; if yes, agents send exact Ads Manager settings and report daily | DYLAN | Sun 15 Nov | OPEN |
-| 73 | TikTok account for the Reels (free) – Dylan's decision; if yes, Dylan creates it and agents add TikTok captions to /social/ | DYLAN | Sun 15 Nov | OPEN |
-| 74 | Growth review task: Dylan switches off "Require this computer" in the Claude app so it runs in the cloud (fixes #61 for that task) | DYLAN | Sun 15 Nov | OPEN |
+| 72 | Pinterest Ads test proposal (£5/day × 14 days, 2 proven pins) – Dylan 8 Nov: "not yet – wait for 15 Nov". CEO puts it back to him with the 15 Nov recovery-gate result (#56); if yes, agents send exact Ads Manager settings and report daily | CEO → DYLAN | Mon 16 Nov | OPEN |
+| 73 | TikTok account for the Reels – Dylan 8 Nov: not this week. Don't re-raise before the 13 Dec Instagram review (#59) | DYLAN | Sun 13 Dec | PARKED |
+| 74 | Growth review task (Dylan agreed 8 Nov): Dylan switches off "Require this computer" in the Claude app so it runs in the cloud (fixes #61 for that task) | DYLAN | Sun 15 Nov | OPEN |
 
 ## CEO weekly check (part of 01-ceo-weekly-report.md)
 - Every OPEN item past its due date goes in the report as "late" with the reason.
