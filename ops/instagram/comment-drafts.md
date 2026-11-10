@@ -1,26 +1,26 @@
-# Instagram comment drafts – 2026-11-06 (Fri)
+# Instagram comment drafts – 2026-11-10 (Tue)
 
-Drafted by the Social agent. All 5 approved by Dylan and posted 10 Nov (see comments-log.md).
-(Tuesday 3 Nov drafts were not approved/posted; those posts are now outside the 3-day window.)
+Drafted by the Social agent; awaiting Dylan's approval. Note: 5 comments were already posted earlier on 10 Nov
+(playbook cap ~5/day), so approved ones from this batch should go up on Wed 11 Nov or later.
 
-1. **@stephkaluza** · https://www.instagram.com/stephkaluza/reel/DfShTpmOwWC/
-   Post: DIY Miffy Christmas wreath craft – "Is it too early for Christmas crafts!?!" (3 Nov).
-   Draft: "A handmade wreath is such a lovely way to make a rented front door feel festive – and an over-the-door hook means no nails needed. Not too early at all! 🎄"
+1. **@charlottejacklin** · https://www.instagram.com/charlottejacklin/reel/DffLil4Ny8b/
+   Post: No-bake Bonfire Night Oreo truffles made with smooth cottage cheese – four ingredients, no oven (8 Nov).
+   Draft: "No-bake, four ingredients and no oven needed – that's a perfect recipe for a tiny rental kitchen! Cottage cheese instead of cream cheese is a genius swap too."
 
-2. **@georgiewebart** · https://www.instagram.com/georgiewebart/p/DfZwsULiH4L/
-   Post: Teaser for her small LOVE WINNETS art collection (originals, prints, stickers, bookmarks) inspired by in-jokes with your best people, launching next week (6 Nov).
-   Draft: "Art built around the in-jokes you share with your best people is exactly what makes a home feel personal – and having prints, stickers and bookmarks means there's something for every budget. Good luck with the launch next week! 💖"
+2. **@dunelmuk** · https://www.instagram.com/dunelmuk/reel/Dfjue50xgFi/
+   Post: Burgundy velvet frill tree skirt (£16) around a decorated Christmas tree (10 Nov).
+   Draft: "A tree skirt is such an underrated renter win – it hides the plastic stand and catches the needles before they reach the carpet 🎄"
 
-3. **@ourcuratedabode** · https://www.instagram.com/ourcuratedabode/reel/DfSkrxlopFM/
-   Post: "November new-in" reel from her Ramsgate homeware shop, asking what's on followers' gift lists (3 Nov).
-   Draft: "November new-in is perfect alliteration! A few well-chosen pieces from an independent shop do so much to make a rented space feel personal – and they make the most thoughtful gifts too ✨"
+3. **@habitatuk** · https://www.instagram.com/habitatuk/p/Dfg3KOFly48/
+   Post: Festive tree mood board – tortoiseshell glass bauble, mercury red baubles, ribbed champagne coupes (9 Nov).
+   Draft: "Tortoiseshell and deep red is such a cosy combination – picking a two-colour palette like this makes even a small tree in a small flat look really pulled together."
 
-4. **@apartmenttherapy** · https://www.instagram.com/apartmenttherapy/reel/DfUu26EgTF0/
-   Post: Tour of a 430 sq ft Toronto rental made to work for two with DIYs, custom-built/repurposed furniture and creative storage (4 Nov).
-   Draft: "Custom-built and repurposed pieces are such a smart answer to rental quirks – when standard furniture doesn't fit, making it fit is what lets 430 sq ft work for two."
+4. **@apartmenttherapy** · https://www.instagram.com/apartmenttherapy/p/DfhmsvOk5oU/
+   Post: Trevor Ball's Victoria apartment – his own typographic art, colourful accessories, white walls, "curated creative studio" feel (9 Nov).
+   Draft: "This is proof that white walls don't have to mean a blank space – bold art and colourful accessories bring all the personality, and they're easy to take with you when you move."
 
-5. **@ikeauk** · https://www.instagram.com/ikeauk/p/DfXmaoCApKZ/
-   Post: Festive hosting – the IKEA 365+ serving plate for mince pies and cinnamon buns (5 Nov).
-   Draft: "A big serving plate is a small-flat hosting hero – one platter of mince pies on the coffee table and you don't need a dining table at all 🥧"
-
-Skipped: @emmajanepalin (only new post is a personal anniversary), @charlottejacklin (Glasgow/Edinburgh travel posts), @londonrentersunion (rent-tribunal campaign post – political), @apartmenttherapy gift guide (shopping promo).
+Skipped: @stephkaluza (newest is a silver-clay jewellery craft tagged to a kit brand; wreath reel already commented),
+@emmajanepalin (no new posts since the anniversary post), @charlottejacklin style-uniform post (fashion),
+@georgiewebart (another launch promo for the collection we commented on today), @londonrentersunion (only campaign/action posts),
+@apartmenttherapy small-studio dining reel (paid partnership), @ikeauk (Zelda joke post, not home-related),
+@ourcuratedabode (nothing new in the last 3 days).
