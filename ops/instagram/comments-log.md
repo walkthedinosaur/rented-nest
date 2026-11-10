@@ -1,3 +1,8 @@
 # Instagram comments posted
 
 - 2026-10-30 · @emmajanepalin · https://www.instagram.com/p/DfAkb1FIICQ/ · "Secondhand is the best-kept secret for renters – a good old armchair and a lamp make a rented room feel like yours, and they come with you when you move. What a location for it too!"
+- 2026-11-10 · @stephkaluza · https://www.instagram.com/stephkaluza/reel/DfShTpmOwWC/ · "A handmade wreath is such a lovely way to make a rented front door feel festive – and an over-the-door hook means no nails needed. Not too early at all! 🎄"
+- 2026-11-10 · @georgiewebart · https://www.instagram.com/georgiewebart/p/DfZwsULiH4L/ · "Art built around the in-jokes you share with your best people is exactly what makes a home feel personal – and having prints, stickers and bookmarks means there's something for every budget. Good luck with the launch next week! 💖"
+- 2026-11-10 · @ourcuratedabode · https://www.instagram.com/ourcuratedabode/reel/DfSkrxlopFM/ · "November new-in is perfect alliteration! A few well-chosen pieces from an independent shop do so much to make a rented space feel personal – and they make the most thoughtful gifts too ✨"
+- 2026-11-10 · @apartmenttherapy · https://www.instagram.com/apartmenttherapy/reel/DfUu26EgTF0/ · "Custom-built and repurposed pieces are such a smart answer to rental quirks – when standard furniture doesn't fit, making it fit is what lets 430 sq ft work for two."
+- 2026-11-10 · @ikeauk · https://www.instagram.com/ikeauk/p/DfXmaoCApKZ/ · "A big serving plate is a small-flat hosting hero – one platter of mince pies on the coffee table and you don't need a dining table at all 🥧"

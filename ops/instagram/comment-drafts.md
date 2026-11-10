@@ -1,6 +1,6 @@
 # Instagram comment drafts – 2026-11-06 (Fri)
 
-Drafted by the Social agent. Nothing posted – awaiting Dylan's yes per comment.
+Drafted by the Social agent. All 5 approved by Dylan and posted 10 Nov (see comments-log.md).
 (Tuesday 3 Nov drafts were not approved/posted; those posts are now outside the 3-day window.)
 
 1. **@stephkaluza** · https://www.instagram.com/stephkaluza/reel/DfShTpmOwWC/
