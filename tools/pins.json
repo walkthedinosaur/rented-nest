@@ -2925,5 +2925,51 @@
   "title": "Christmas Decorations in a Rented Flat – No Nails, No Damage (UK Renters)",
   "description": "Ad – decorating a rented flat for Christmas? Hang, clip, lean or stand instead of sticking or nailing: over-door hooks, curtain-pole clips, tension rods, battery fairy lights and an over-door wreath hanger. Plus fairy light safety and taking it all down without marking the walls.",
   "alt": "A small Christmas tree in a bowl on a table."
+ },
+ {
+  "slug": "v3-bf-warm3",
+  "layout": "numbered",
+  "palette": "terracotta",
+  "font": "archivo",
+  "num": "3",
+  "label": "Black Friday 2026 · renters",
+  "headline": "warm buys worth waiting for",
+  "sub": "Heated throw, electric blanket, oil-filled radiator – check it's a real deal",
+  "photo": "1773847400278-3b409bd5aa76.jpg",
+  "guide": "/guides/black-friday-deals-renters-uk.html#a-heated-throw",
+  "board": "Black Friday Home Deals UK",
+  "title": "Black Friday 2026: 3 Warm Buys Renters Often Wait For (UK)",
+  "description": "Ad – heating every room of a rented flat costs a fortune. Three warm buys to watch in the Black Friday sales: a heated throw for the sofa, an electric blanket with an auto-off timer, and an oil-filled radiator with a thermostat. How to check a deal is real before you buy – live deals added from around 20 November.",
+  "alt": "A cosy living room with two armchairs beside a stone fireplace."
+ },
+ {
+  "slug": "v3-u20-mug",
+  "layout": "split",
+  "palette": "navy",
+  "font": "playfair",
+  "label": "Christmas gifts under £20",
+  "headline": "Under £20 gifts they’ll use every day",
+  "sub": "A good mug, bed socks, fairy lights, a herb kit",
+  "photo": "1699806501284-75aae11935dc.jpg",
+  "guide": "/guides/christmas-gifts-under-20-uk.html#a-good-mug",
+  "board": "Christmas Gift Ideas UK",
+  "title": "Christmas Gifts Under £20 They'll Use Every Day – Mugs, Socks & More (UK)",
+  "description": "Ad – Christmas gifts under £20 that actually get used: a good mug (nobody in a house share has enough), thick bed socks, battery fairy lights, a windowsill herb kit or a hot water bottle with a knitted cover. Small, useful presents from UK shops – check current prices before you buy.",
+  "alt": "A mug tied with a ribbon bow next to a woven basket."
+ },
+ {
+  "slug": "v3-ssh-house",
+  "layout": "overlay",
+  "palette": "forest",
+  "font": "space",
+  "label": "Secret Santa · house shares",
+  "headline": "Secret Santa for the whole house",
+  "sub": "Agree a budget, draw names online, keep gifts useful",
+  "photo": "1777438027310-d35258f77a39.jpg",
+  "guide": "/guides/secret-santa-house-share-uk.html#a-labelled-set-of-fridge-storage-tubs",
+  "board": "Secret Santa Ideas UK",
+  "title": "Secret Santa Ideas for House Shares – Budget, Draw & Useful Gifts (UK)",
+  "description": "Ad – doing Secret Santa in your house share? Agree a budget in the group chat (£10–£15 is common), draw names with a free online tool, set a swap date before everyone goes home – then pick something housemates keep: labelled fridge tubs, a card game, a hot water bottle or battery fairy lights.",
+  "alt": "A pile of wrapped Christmas presents beside a window."
  }
 ]
