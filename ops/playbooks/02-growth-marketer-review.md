@@ -30,9 +30,20 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
    Access (22 Oct 2026): Reddit is blocked for WebFetch and the built-in browser. Use Quora search in the built-in
    browser (https://www.quora.com/search?q=<terms>&type=question; read question links with javascript_tool), plus
    Google "People also ask" for target queries. Skip US/Canada questions.
-6b. Pinterest Trends (added 19 Oct 2026): in the built-in browser open
-   https://trends.pinterest.com/detail/?country=GB&terms=<keyword> for each keyword in
-   ops/seo/pinterest-trends-keywords.md (the fixed list, plus up to 3 new candidates from steps 5–6). For each, record
+   Update 10 Nov 2026: Quora now shows a Cloudflare "Just a moment…" check (403) in the built-in browser – agents
+   can't pass it. Try Quora once; if blocked, use the MoneySavingExpert forum board via WebFetch:
+   https://forums.moneysavingexpert.com/categories/house-buying-renting-selling (and /p2, /p3, /p4 – mostly buyers
+   and landlords, pick the tenant threads), then WebFetch each thread for date, facts and the renter's own words.
+   Top up with WebSearch for "forums.moneysavingexpert.com tenant <topic>". Record which source was used.
+6b. Pinterest Trends (added 19 Oct 2026; URL fixed 10 Nov 2026): the UK region code is **GB+IE**, not GB (country=GB
+   gave the blank/"unavailable" pages of 22 Oct and 2 Nov). Most single keywords in the fixed list still say "Keyword
+   unavailable for this region" on detail pages, and detail pages show a graph but no % figures. So in the built-in
+   browser open the search page filtered by word –
+   https://trends.pinterest.com/search/?country=GB%2BIE&keywordsToInclude=<word> – for each filter word in
+   ops/seo/pinterest-trends-keywords.md (wait ~5 s, read the table with javascript_tool: keyword | weekly | monthly |
+   yearly). It lists only GROWING keywords containing that word; a fixed-list keyword that doesn't appear is "not
+   shown", not falling. (Detail pages, if needed: /detail/?country=GB%2BIE&terms=<kw>&dateRange=365D&aggregationLevel=2.)
+   Also check the fixed list plus up to 3 new candidates from steps 5–6. For each, record
    in a "Pinterest Trends" table in this week's growth review: keyword, weekly/monthly/yearly change as shown, and
    rising/flat/falling. Only record numbers you can see on the page – never estimate. Add any keyword that shows as
    rising to the fixed list. If Trends doesn't load (blank page, signed out, unreachable), write "Trends: not
