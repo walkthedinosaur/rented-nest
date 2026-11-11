@@ -15,7 +15,7 @@ Second line: outbound clicks to retailers (Amazon + Awin), the leading indicator
 2. Pinterest: Tailwind get_account_usage (credits left), get_schedule next 7 days (open slots), list_posts status
    sent for the last 7 days (count), list_posts status failed/missed, get_account_analytics / get_pin_analytics if
    available (impressions, saves, outbound clicks).
-3. Website: GoatCounter (public, no login, works from the cloud even when Dylan's computer is offline): https://therentednest.goatcounter.com/?period-start=YYYY-MM-DD&period-end=YYYY-MM-DD – read it with WebFetch or curl. Counts start 28 Oct 2026; Cloudflare (built-in browser, often signed out) is only a fallback for earlier dates.
+3. Website: GoatCounter API (read-only token, created 11 Nov 2026 – the token is in the scheduled-task prompt only, never in this repo). Works from the cloud even when Dylan's computer is offline. Endpoints: /api/v0/stats/total, /stats/hits, /stats/toprefs, /stats/campaigns (start/end as ISO dates). Counts start 28 Oct 2026; Cloudflare (built-in browser, often signed out) is only a fallback for earlier dates.
    Last 7 days: visits, top pages, referrers (Pinterest/Google).
 4. Awin (built-in browser, ui.awin.com/awin/affiliate/3120264): programme statuses (Joined/Pending/Rejected) and
    any clicks/commission; update ops/awin-applications.xlsx Status + Date decided.
