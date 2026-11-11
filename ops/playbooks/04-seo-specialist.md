@@ -22,6 +22,8 @@ Steps
    aborted and the dialog closes with no result. Check tabs_context first; if hidden, don't retry – log "not requested – pane
    hidden" and rely on the sitemap (check its "Last read" date). (b) On the inspection page, clicking by ref lands off-target;
    take a screenshot and click by coordinate. Read results with javascript_tool (page text returns the old report).
+   11 Nov: a newline typed into the search box does NOT submit – type the URL, then send the Enter key as a separate
+   key action. Confirm each result is new (the inspect?id= value in location.search changes per URL) before logging it.
 2b. Bing Webmaster Tools (built-in browser: bing.com/webmasters, property therentednest.co.uk – verified by import
    from Search Console on 12 Oct 2026): search performance, the AI Performance / Copilot citations report, crawl or
    indexing issues. Note anything Google and Bing disagree on.

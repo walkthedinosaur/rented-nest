@@ -4,6 +4,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Damp, condensation, heating (winter priority)
 - [x] is condensation the landlord's responsibility uk
 - [x] black mould in rented flat what to do (/guides/black-mould-rented-flat-what-to-do-uk.html, 27 Oct)
+- [b] mould in wardrobe / on clothes in a rented flat (brief mould-in-wardrobe-rented-flat-uk.md, 11 Nov)
 - [ ] can i use a dehumidifier in a rented flat / best small dehumidifier for a bedroom uk
 - [x] how to dry clothes in a flat without a balcony
 - [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
@@ -35,6 +36,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] renter winter damp data page from the English Housing Survey (/guides/damp-mould-rented-homes-england-data.html, 22 Oct)
 
 ## Moving and deposits
+- [b] landlord deducting deposit for cleaning / carpets / redecoration – how to dispute (brief dispute-deposit-deductions-england.md, 11 Nov, register #76)
+- [b] deposit not protected what can i do (brief deposit-not-protected-england.md, 11 Nov)
 - [x] how much notice do i need to give my landlord uk → /guides/give-notice-to-landlord-england.html (30 Oct)
 - [x] how to get your full deposit back uk checklist – served by /guides/move-out-deposit-checklist-england.html (29 Oct)
 - [x] moving out cleaning checklist for renters uk – answered on /guides/move-out-deposit-checklist-england.html (29 Oct, + PDF)
@@ -42,7 +45,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 
 ## Gifts (Nov–Dec)
 - [x] gifts for someone moving into their first flat uk (brief first-flat-gifts-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-gifts-uk.html
-- [x] secret santa ideas for housemates under £10 (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)
+- [x] secret santa ideas for housemates under £10
+- [b] january sales what to buy for a flat – renter angle (brief january-sales-renters-uk.md, 11 Nov, for register #15 on Tue 22 Dec) (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)
 
 ## Seen in Search Console (28 Oct, last 28 days) – watch, no page yet
 - "small heated clothes dryer" (pos 45 → heated airers guide), "tenant christmas gift ideas" (pos 45 → Christmas gifts guide),
@@ -53,3 +57,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Seen in Search Console (4 Nov, data to 2 Nov)
 - New: "small heated clothes airer" (37.5), "heated airer" (55), "dehumidifier for 1 bed flat" (79 → dehumidifier guide).
   "drying laundry indoors" (pos 7, 3 impr). Heated airers title now leads with "Small heated airers" (4 Nov).
+
+## Seen in Search Console (11 Nov, all data 11 Oct–9 Nov)
+- New: "draught free" (3 impr, pos 83). "small heated clothes airer" 3 impr, pos 32 (was 37.5). "drying laundry indoors" still pos 7.
+- Skipped 11 Nov: "how to stop condensation on windows overnight" – SERP is Homes & Gardens, Ideal Home, Livingetc,
+  HomeServe, Saga (big publishers answering it well) and our condensation guide already covers the habits.
