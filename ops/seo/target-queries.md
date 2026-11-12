@@ -36,8 +36,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] renter winter damp data page from the English Housing Survey (/guides/damp-mould-rented-homes-england-data.html, 22 Oct)
 
 ## Moving and deposits
-- [b] landlord deducting deposit for cleaning / carpets / redecoration – how to dispute (brief dispute-deposit-deductions-england.md, 11 Nov, register #76)
-- [b] deposit not protected what can i do (brief deposit-not-protected-england.md, 11 Nov)
+- [x] landlord deducting deposit for cleaning / carpets / redecoration – how to dispute – /guides/dispute-deposit-deductions-england.html (12 Nov, Thu run, register #76 brief)
+- [x] deposit not protected what can i do – /guides/deposit-not-protected-england.html (12 Nov, Thu run)
 - [x] how much notice do i need to give my landlord uk → /guides/give-notice-to-landlord-england.html (30 Oct)
 - [x] how to get your full deposit back uk checklist – served by /guides/move-out-deposit-checklist-england.html (29 Oct)
 - [x] moving out cleaning checklist for renters uk – answered on /guides/move-out-deposit-checklist-england.html (29 Oct, + PDF)

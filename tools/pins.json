@@ -2971,5 +2971,41 @@
   "title": "Secret Santa Ideas for House Shares – Budget, Draw & Useful Gifts (UK)",
   "description": "Ad – doing Secret Santa in your house share? Agree a budget in the group chat (£10–£15 is common), draw names with a free online tool, set a swap date before everyone goes home – then pick something housemates keep: labelled fridge tubs, a card game, a hot water bottle or battery fairy lights.",
   "alt": "A pile of wrapped Christmas presents beside a window."
+ },
+ {
+  "slug": "v3-ddd-dontagree",
+  "layout": "checklist",
+  "palette": "cobalt",
+  "font": "dmserif",
+  "label": "Deposit deductions · England",
+  "headline": "Deposit deductions? Don't agree yet",
+  "sub": "What landlords can and can't take – and a reply email",
+  "points": [
+   "Ask for an itemised list",
+   "No charge for fair wear and tear",
+   "Old carpet? Pay a share, not new",
+   "The dispute service is free"
+  ],
+  "photo": "1779119507174-377fd3d44785.jpg",
+  "guide": "/guides/dispute-deposit-deductions-england.html#can-and-cant",
+  "board": "Renting Tips UK",
+  "title": "Landlord Keeping Your Deposit for Cleaning or Carpets? How to Dispute It (England)",
+  "description": "Moving out and your landlord wants money from your deposit for cleaning, carpets or a full redecoration? Don't agree yet. What they can and can't charge for, why the age of the carpet matters, a copy-and-adapt reply email and how the free deposit dispute service works. England, general information – not legal advice.",
+  "alt": "An empty room with pale green walls, a wooden floor and a window."
+ },
+ {
+  "slug": "v3-dnp-check3",
+  "layout": "poster",
+  "palette": "charcoal",
+  "font": "fraunces",
+  "label": "Renters in England",
+  "headline": "Is your deposit actually protected?",
+  "sub": "Check all 3 schemes in two minutes – here's what to do if it isn't",
+  "photo": "1763621605783-307c1743e308.jpg",
+  "guide": "/guides/deposit-not-protected-england.html#how-to-check",
+  "board": "Renting Tips UK",
+  "title": "Landlord Didn't Protect Your Deposit? How to Check and What You Can Do (England)",
+  "description": "Your landlord must protect your deposit within 30 days. How to check the three schemes (DPS, mydeposits, TDS) in two minutes, what counts as a deposit, a copy-and-adapt letter to your landlord, settling in writing and what it means for eviction. England, general information – not legal advice.",
+  "alt": "A hand holding a house key above rows of small model houses."
  }
 ]

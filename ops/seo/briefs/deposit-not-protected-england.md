@@ -1,5 +1,5 @@
 # Brief: My landlord didn't protect my deposit – what can I do? (England)
-Written: 2026-11-11 (SEO run) · For: a Thu QUESTIONS run (19 Nov) or Tue/Fri content run · Status: UNWRITTEN
+Written: 2026-11-11 (SEO run) · For: a Thu QUESTIONS run (19 Nov) or Tue/Fri content run · Status: WRITTEN 12 Nov 2026 (Thu QUESTIONS run)
 Suggested slug: /guides/deposit-not-protected-england.html · Suggested label: Renting rules · YMYL – re-verify every fact at writing
 
 ## Target query

@@ -1,5 +1,5 @@
 # Brief: Landlord taking money from your deposit for cleaning, carpets or redecoration? How to dispute it (England)
-Written: 2026-11-11 (SEO run, register #76) · For: Thu 12 Nov (QUESTIONS) or Tue 17 Nov (CONTENT) · Status: UNWRITTEN
+Written: 2026-11-11 (SEO run, register #76) · For: Thu 12 Nov (QUESTIONS) or Tue 17 Nov (CONTENT) · Status: WRITTEN 12 Nov 2026 (Thu QUESTIONS run)
 Suggested slug: /guides/dispute-deposit-deductions-england.html · Suggested label: Renting rules · YMYL – re-verify every fact at writing
 
 ## Target query
