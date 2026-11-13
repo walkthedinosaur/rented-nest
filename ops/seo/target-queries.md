@@ -46,6 +46,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Gifts (Nov–Dec)
 - [x] gifts for someone moving into their first flat uk (brief first-flat-gifts-uk.md, 21 Oct) – live 23 Oct /guides/first-flat-gifts-uk.html
 - [x] secret santa ideas for housemates under £10
+- [x] stocking fillers uk / stocking fillers for renters and house shares (register #75, Trends 10 Nov) – live 13 Nov /guides/stocking-fillers-renters-uk.html
 - [b] january sales what to buy for a flat – renter angle (brief january-sales-renters-uk.md, 11 Nov, for register #15 on Tue 22 Dec) (/guides/secret-santa-ideas-under-10-uk.html, 20 Oct)
 
 ## Seen in Search Console (28 Oct, last 28 days) – watch, no page yet
