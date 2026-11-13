@@ -1,6 +1,7 @@
 # Instagram comment drafts – 2026-11-13 (Fri)
 
-Drafted by the Social agent; awaiting Dylan's approval. Max 5 per run, one per account.
+Drafted by the Social agent. Dylan approved all 5 on 13 Nov, but NOT POSTED yet: the link to his computer's browser dropped
+before posting. Post these exactly as written once the browser is back, then move them to comments-log.md.
 
 1. **@apartmenttherapy** · https://www.instagram.com/apartmenttherapy/p/Dfm46KdE06n/
    Post: Alea's (@wherelovelylives) prewar Kansas City apartment in a 102-year-old building, styled with renter-friendly elements (11 Nov).
