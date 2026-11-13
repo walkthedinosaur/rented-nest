@@ -39,6 +39,9 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
     Test the destination page first. Homebase and La Redoute show a bot check (403) to cloud runs, so their new
     destination URLs can't be verified here – never guess a category URL; hand it to a run with the built-in browser
     (added 23 Oct 2026).
+    Cloud runs (from 13 Nov 2026) can't WebFetch an awin1.com link (permission prompt, nobody to answer): find the
+    destination via WebSearch, confirm it's live with WebFetch, add the link, and leave the click-through test to the
+    next run with the built-in browser (note it in register #18).
 
 ## E. Pins
 11. Pin volume (reset 30 Oct – read growth-plan Engine 1): fill only the OPEN slots in the next 4 days (1 slot a day
