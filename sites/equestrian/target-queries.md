@@ -8,7 +8,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 - [ ] how to measure your head for a riding hat
 - [ ] how often should you replace a riding hat
 - [ ] body protector levels explained uk (BETA levels – check BETA on the day)
-- [ ] jodhpurs vs breeches – what's the difference
+- [x] jodhpurs vs breeches – what's the difference
 - [ ] long riding boots vs jodhpur boots and half chaps
 - [ ] what to wear horse riding in winter uk
 - [ ] best riding gloves for winter (buyer's guide, no testing claims)
@@ -33,7 +33,7 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 - [ ] stable bedding types compared (straw, shavings, pellets)
 
 ## Beginner and returning riders
-- [ ] what to wear for your first riding lesson uk
+- [x] what to wear for your first riding lesson uk
 - [ ] beginner horse riding kit list and cost uk
 - [ ] getting back into horse riding as an adult
 - [ ] how much do riding lessons cost uk (sources + date; no invented prices)
