@@ -4,7 +4,9 @@ Account: @therentednestonline (https://www.instagram.com/therentednestonline/), 
 Agents CANNOT post to Instagram (no connector; publishing on Dylan's behalf needs his yes each time). So agents MAKE the
 posts and Dylan schedules them (Meta Business Suite or Instagram's own scheduler) – about 10 minutes a week.
 Bio link: https://therentednest.co.uk/links?utm_source=instagram (page /links lists featured + 12 newest guides; the
-featured list is content/links.html – keep it to the 4 most timely guides).
+featured list is content/links.html – max 5: the guides behind next week's 3 posts + the top 2 Amazon-click guides from the
+latest growth review; nothing out of season. Updated every Friday run in step 5a – /links is the site's #1 landing page
+(GoatCounter 28 Oct–15 Nov: 13 of 49 visits), and on 15 Nov it still led with Halloween).
 
 ## Volume (new account – same lesson as Pinterest, 30 Oct)
 - 3 carousel posts a week, no more, until the Growth review shows Instagram visits growing (GoatCounter campaign
@@ -35,6 +37,7 @@ featured list is content/links.html – keep it to the 4 most timely guides).
 4. `python3 tools/make_ig.py <slugs>` – renders slides into static/social/<week>/<slug>/ and rebuilds
    static/social/index.html (noindex, robots-disallowed). View slide 1 and one tip slide; fix text that overflows.
 4b. `python3 tools/make_reel.py <slugs>` – makes reel.mp4 (9:16, ~17 s, no audio) for each post; /social/ shows a download link. Dylan posts the Reel 1–2 days after the carousel with a trending sound from Instagram's library (never add music ourselves – licensing).
+5a. Update the featured list in content/links.html for next week (rule above).
 5. Build, commit, push with the site. Check https://therentednest.co.uk/social/ returns 200 and shows the new posts.
 6. Log "IG: <slugs> for week of <date>" in the content-log entry. The Monday CEO message reminds Dylan the week's
    posts are ready at therentednest.co.uk/social/.
