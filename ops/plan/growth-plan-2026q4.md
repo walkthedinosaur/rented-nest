@@ -24,6 +24,10 @@ Secret Santa under £10, first-flat gifts, Black Friday, Christmas decorations (
 - **Recovery gate (Growth review, weekly):** average impressions per pin in its first 7 days, for pins published that
   week. Step up to 2/day only if it is ≥15 for two weeks running AND outbound clicks are rising; to 3/day after two
   more good weeks. Never above 3/day before the January review. Drop back to 1/day if it falls under 5.
+- **Search-first pins (16 Nov 2026, Dylan approved):** new pins get ~0.5 impressions from the feed, so every pin leads
+  with one exact UK search phrase in title, first description line, image text and alt text (playbook 03 step 13a).
+  Growth review compares lead phrases from 22 Nov. Board clean-up (non-agent pins/boards, Instagram auto-publish,
+  repins) and Pin Spacing are Dylan's (#78, #53); ads test decision by Wed 18 Nov (#72).
 - No engagement swaps or bulk saving of other creators' pins (Tailwind Turbo/"Quick saves") – Pinterest treats
   artificial engagement as spam. Pause everything and tell Dylan if Pinterest shows any warning.
 - Variety: 3–5 different designs per guide (different photo, headline angle, keyword, anchor). Never reuse an image.

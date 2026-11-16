@@ -63,6 +63,15 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
     palette to the topic where it helps (berry/forest for Christmas, mustard/terracotta for Black Friday, teal/mint
     for damp, navy/charcoal for renting rules) but never the same one twice running. Checklist pins (3–4 short
     points) and numbered pins ("7 ways…") are the save-friendly formats – use at least one per run.
+13a. Search wording (added 16 Nov 2026 – Dylan approved; Pinterest reach for new pins is ~0.5 impressions, so pins
+    must be found through Pinterest SEARCH, not the feed). For every pin pick ONE exact UK search phrase people type
+    (e.g. "secret santa ideas uk", "stocking fillers under 10", "christmas gifts for renters", "black friday
+    dehumidifier deals", "christmas decorations rented flat") – from Pinterest Trends / the growth review / the
+    guide's target query, never invented stats. Put that phrase, word for word: (1) at the START of the pin title,
+    (2) in the first sentence of the description straight after "Ad – ", (3) in the headline or sub line on the image
+    where it reads naturally, (4) in the alt text. Add 2–3 close variants later in the description in plain sentences
+    (no hashtag lists). The board must match the phrase's topic. No two pins in one run use the same lead phrase.
+    Log each pin's lead phrase in tools/pins.json as "keyword" so the growth review can compare phrases.
 14. Render with tools/make_pins.py, then run `python3 tools/check_pin_variety.py <new slugs>` – it must pass. View a
     contact sheet of the batch next to the previous run's pins: text fits, nothing overlaps, and the batch looks
     clearly different from last time. Fix and re-render failures.
