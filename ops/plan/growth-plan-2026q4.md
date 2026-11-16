@@ -27,7 +27,7 @@ Secret Santa under £10, first-flat gifts, Black Friday, Christmas decorations (
 - **Search-first pins (16 Nov 2026, Dylan approved):** new pins get ~0.5 impressions from the feed, so every pin leads
   with one exact UK search phrase in title, first description line, image text and alt text (playbook 03 step 13a).
   Growth review compares lead phrases from 22 Nov. Board clean-up (non-agent pins/boards, Instagram auto-publish,
-  repins) and Pin Spacing are Dylan's (#78, #53); ads test decision by Wed 18 Nov (#72).
+  repins) and Pin Spacing are Dylan's (#78, #53); ads test declined 16 Nov (#72) – organic only until January.
 - No engagement swaps or bulk saving of other creators' pins (Tailwind Turbo/"Quick saves") – Pinterest treats
   artificial engagement as spam. Pause everything and tell Dylan if Pinterest shows any warning.
 - Variety: 3–5 different designs per guide (different photo, headline angle, keyword, anchor). Never reuse an image.
@@ -36,7 +36,7 @@ Secret Santa under £10, first-flat gifts, Black Friday, Christmas decorations (
 - Boards: grow from 6 to 12–15 keyword-named boards (e.g. "Condensation & Damp Fixes UK", "Small Bedroom Storage
   Ideas", "Renting Tips UK", "Black Friday Home Deals UK", "Student House Share Ideas"), 2 per content run until done.
 - Topics: pick new guides from Pinterest Trends + Search Console.
-- Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Re-raised once at the 8 Nov board (Dylan asked for more reach; organic data now shows which pins convert) – £5/day × 14 days on 2 proven pins, register #72. If declined again, don't raise it before January.
+- Pinterest Ads test: DECLINED by Dylan (12 Oct 2026). Re-raised once at the 8 Nov board (Dylan asked for more reach; organic data now shows which pins convert) – £5/day × 14 days on 2 proven pins, register #72. If declined again, don't raise it before January. **Declined again 16 Nov 2026 – next possible review: January.**
 
 ## Engine 2 – Search (SEO)
 - Bing Webmaster Tools verified 12 Oct 2026 (imported from Search Console). Bing/IndexNow live: after every publish run `python3 tools/indexnow.py <new/changed URLs>` (key in tools/).
