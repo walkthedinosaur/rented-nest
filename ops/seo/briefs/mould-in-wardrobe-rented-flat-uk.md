@@ -1,5 +1,5 @@
 # Brief: Mould in your wardrobe or on your clothes in a rented flat – what to do (UK)
-Written: 2026-11-11 (SEO run) · For: next Tue/Fri content run (winter – publish by end of Nov) · Status: UNWRITTEN
+Written: 2026-11-11 (SEO run) · For: next Tue/Fri content run (winter – publish by end of Nov) · Status: WRITTEN 17 Nov 2026 (Tue content run)
 Suggested slug: /guides/mould-in-wardrobe-rented-flat-uk.html · Suggested label: Damp & condensation
 
 ## Target query

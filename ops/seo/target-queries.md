@@ -4,7 +4,7 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 ## Damp, condensation, heating (winter priority)
 - [x] is condensation the landlord's responsibility uk
 - [x] black mould in rented flat what to do (/guides/black-mould-rented-flat-what-to-do-uk.html, 27 Oct)
-- [b] mould in wardrobe / on clothes in a rented flat (brief mould-in-wardrobe-rented-flat-uk.md, 11 Nov)
+- [x] mould in wardrobe / on clothes in a rented flat (brief mould-in-wardrobe-rented-flat-uk.md, 11 Nov) – live 17 Nov /guides/mould-in-wardrobe-rented-flat-uk.html
 - [ ] can i use a dehumidifier in a rented flat / best small dehumidifier for a bedroom uk
 - [x] how to dry clothes in a flat without a balcony
 - [x] is it cheaper to use a heated airer or tumble dryer uk (answered on /tools/drying-heating-cost-calculator.html)
