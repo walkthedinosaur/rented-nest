@@ -1,28 +1,21 @@
-# Instagram comment drafts – 2026-11-13 (Fri)
+# Instagram comment drafts – 2026-11-17 (Tue)
 
-Drafted by the Social agent. Dylan approved all 5 on 13 Nov; all 5 POSTED 13 Nov via Chrome (signed in as
-@therentednestonline) and logged in comments-log.md.
+Drafted by the Social agent. Awaiting Dylan's approval – nothing posted yet.
+Note: the browser on Dylan's Mac disconnected partway through, so only 3 drafts this run (the extra accounts
+@apartmenttherapy, @habitatuk and @ourcuratedabode weren't checked). Posting needs the computer back online.
 
-1. **@apartmenttherapy** · https://www.instagram.com/apartmenttherapy/p/Dfm46KdE06n/
-   Post: Alea's (@wherelovelylives) prewar Kansas City apartment in a 102-year-old building, styled with renter-friendly elements (11 Nov).
-   Draft: "Working with a building's original charm instead of against it is such a smart renter approach – a few renter-friendly touches and that prewar architecture does the rest ✨"
+1. **@charlottejacklin** · https://www.instagram.com/charlottejacklin/reel/Df2eh6ZN2Xo/
+   Post: "Love Where You Live" rented bathroom refresh after 8 years – woodwork matched to the pink walls, kept the chrome, softer lighting, homemade sink skirt and shower curtain, all under £200 (17 Nov).
+   Draft: "Proof you don't need to rip anything out to fall back in love with a rented bathroom – the sink skirt and ditching the big light make it feel so soft and calm. Under £200 is brilliant 💗"
 
-2. **@dunelmuk** · https://www.instagram.com/dunelmuk/p/DfrYSLFEc_Z/
-   Post: Festive guest bedroom – bauble-print burgundy bedding, garland on the headboard, a small tree on the bedside table (13 Nov).
-   Draft: "A little tree on the bedside table is such a good idea for a small flat or spare room – all the festive feeling without giving up any floor space 🎄"
+2. **@stephkaluza** · https://www.instagram.com/stephkaluza/reel/DfwshaqOV6x/
+   Post: "Me and gold stars" – a gold star garland draped across a pink-walled room's ceiling (15 Nov).
+   Draft: "A star garland across the ceiling is such a magical, low-commitment way to transform a room – light enough for removable hooks, so it's perfect for renters too ⭐"
 
-3. **@habitatuk** · https://www.instagram.com/habitatuk/p/DfmAtQql409/
-   Post: "A green theme for your Christmas?" – green tables, vase, cushions, rug, lamp and baubles (11 Nov).
-   Draft: "A one-colour Christmas looks so calm – and going green means the cushions, vase and rug can stay out long after the baubles go back in the box 🌿"
+3. **@georgiewebart** · https://www.instagram.com/georgiewebart/reel/Df0FiIJPZ4d/
+   Post: New burgundy cow-print cowboy boots art prints, "for those who feel like they're just making it up as they go along" (16 Nov).
+   Draft: "Making it up as you go along is the most relatable art caption ever 🤠 That burgundy is gorgeous – a print like this is such an easy way to give a rented bedroom real personality."
 
-4. **@ourcuratedabode** · https://www.instagram.com/ourcuratedabode/reel/Dfphn2JI2s4/
-   Post: Announcing a second Our Curated Abode shop coming soon on Addington Street (12 Nov).
-   Draft: "Huge congratulations – a second shop is such exciting news! Independent homeware shops are where so many people find the pieces that make a rented place feel like home ✨"
-
-5. **@georgiewebart** · https://www.instagram.com/georgiewebart/p/DfpwfO0JceC/
-   Post: New art collection out now – original paintings, prints, stickers and bookmarks (cowboy boots, disco balls, pigeons) (12 Nov).
-   Draft: "Congratulations on the launch! Disco balls, pigeons and cowboy boots in one collection is pure joy – prints are such an easy way to bring personality to a rented home 🪩"
-
-Skipped: @stephkaluza (newest is the kiln-free clay craft post, skipped 10 Nov), @emmajanepalin (no posts in the last 3 days),
-@charlottejacklin (newest is an AD with Dunelm; previous is fashion), @londonrentersunion (nothing new in 3 days),
-@dunelmuk Black Friday giveaway (tag-a-friend comp), @ikeauk (£2 goblet promo / jokes).
+Skipped: @emmajanepalin (newest post is about losing her dog George – personal/sad), @londonrentersunion (political
+demo call-out for 21 Nov), @stephkaluza glass-stirrer workshop (craft event, not home – used her star garland reel instead),
+@charlottejacklin AD posts (Next hosting AD, craft night AD).
