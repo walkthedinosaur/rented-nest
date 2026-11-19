@@ -17,7 +17,8 @@ latest growth review; nothing out of season. Updated every Friday run in step 5a
   /social/ lists the next post first, labelled "Post on <day>"; set "posted": true once a post is up (check the
   public profile https://www.instagram.com/therentednestonline/ – posts newer than the last run).
 - Scheduled task "The Rented Nest – Instagram reminder" (Mon/Wed/Fri 11:47) pushes Dylan a one-line reminder with
-  that day's post. If no post exists for the day it tells him so – then the next content run must fill the gap first.
+  that day's post. Expected reminder wording from 19 Nov: "post the carousel, then share the Story with a Link sticker to
+  <guide URL>" (the Story is the only clickable route to the site; update the scheduled task's prompt only when asked). If no post exists for the day it tells him so – then the next content run must fill the gap first.
 - Visual style: theme "pop" (bright colour panel per slide) for everyday posts, "halloween" or another seasonal
   palette for events. Every tip gets a photo that actually shows it; leave it out rather than use a mismatch.
 - Seasonal/timely posts (Halloween, Bonfire Night, Black Friday, Christmas, January sales) beat evergreen ones in
@@ -34,8 +35,17 @@ latest growth review; nothing out of season. Updated every Friday run in step 5a
 3. Caption: hook line, 1–2 lines of value, a question to invite comments, "link in bio", then "#ad – our website guide
    contains affiliate links." if the guide has affiliate links, then 10–15 relevant hashtags (UK renter/home terms).
    No product prices, no testing claims, no invented stats.
-4. `python3 tools/make_ig.py <slugs>` – renders slides into static/social/<week>/<slug>/ and rebuilds
-   static/social/index.html (noindex, robots-disallowed). View slide 1 and one tip slide; fix text that overflows.
+4. `python3 tools/make_ig.py <slugs>` – renders slides + story.png into static/social/<week>/<slug>/ and rebuilds
+   static/social/index.html (noindex, robots-disallowed). View slide 1, one tip slide and story.png; fix text that overflows.
+4a. Story with a Link sticker (added 19 Nov 2026 – carousel slides and captions can't carry clickable links, so Dylan
+   couldn't click through from the last slide). Every post gets story.png (1080x1920): the cover without the swipe chip
+   in the top two-thirds, "Tap the link below ↓" + a one-line hook, and a dashed "place link sticker here" box. Set
+   "story_hook" in posts.json (one line, ≤45 characters, e.g. "The full list of stocking fillers, with prices"; default
+   "All N ideas + the details in our full guide"). Keep the top 120px and bottom 250px free of key text (Instagram UI).
+   `python3 tools/make_ig.py --story [slugs]` re-renders only the Story images (posts with a hand-made "story" in
+   posts.json are kept unless named). /social/ shows the Story under each carousel with: "Post the carousel, then share
+   a Story with a Link sticker → <guide URL> (the only clickable link Instagram allows)". Dylan adds the Link sticker
+   (sticker icon → Link → paste the guide URL with ?utm_source=instagram&utm_medium=story if he likes) over the dashed box.
 4b. `python3 tools/make_reel.py <slugs>` – makes reel.mp4 (9:16, ~17 s, no audio) for each post; /social/ shows a download link. Dylan posts the Reel 1–2 days after the carousel with a trending sound from Instagram's library (never add music ourselves – licensing).
 5a. Update the featured list in content/links.html for next week (rule above).
     Same step: refresh the "Black Friday & Christmas picks" block under it (added 19 Nov, register #89) – seasonal, max 6

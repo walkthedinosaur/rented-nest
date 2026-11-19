@@ -3,8 +3,11 @@
 
 Each post: {"slug", "week" (YYYY-MM-DD), "theme" (sage|clay|oat|pine), "photo" (file in static/photos, cover),
             "label", "headline", "sub", "tips": [{"title","text","photo"?}, ...] (3-6; tip photo optional, shown top half), "guide", "caption"}
-Output: static/social/<week>/<slug>/01.png ... + caption.txt, and static/social/index.html (phone-friendly page for Dylan)
-Run: python3 tools/make_ig.py [slug ...]   (needs Playwright + Chromium)
+            optional "story_hook" (one line under "Tap the link below" on the Story; defaults to "sub")
+Output: static/social/<week>/<slug>/01.png ... + story.png (1080x1920 Story for a Link sticker) + caption.txt,
+        and static/social/index.html (phone-friendly page for Dylan)
+Run: python3 tools/make_ig.py [slug ...]            slides + story (needs Playwright + Chromium)
+     python3 tools/make_ig.py --story [slug ...]    story.png only (skips posts with a hand-made "story" unless named)
 """
 import base64
 import datetime as dt
@@ -113,27 +116,62 @@ def end(p, a, b):
 </div>""")
 
 
+def story(p, a, b):
+    """1080x1920 Story: cover (no swipe chip) in the top two-thirds, then a call to tap the Link sticker.
+    Safe zones: nothing important in the top 120px or bottom 250px (Instagram UI)."""
+    bg = photo_css(p["photo"]) if p.get("photo") else f"background:{a};"
+    hook = p.get("story_hook") or f"All {len(p['tips'])} ideas + the details in our full guide"
+    return f"""<!doctype html><html><head><meta charset='utf-8'><style>{CSS}
+body {{ height:1920px; background:#faf6ef; }}</style></head><body>
+<div style="width:1080px;height:1920px;position:relative;overflow:hidden;background:#faf6ef;">
+  <div style="position:absolute;left:0;right:0;top:0;height:10px;background:linear-gradient(90deg,#ff5c8a 0 20%,#ffb627 20% 40%,#3d6bff 40% 60%,#c6f432 60% 80%,#8b5cf6 80%);"></div>
+  <div style="position:absolute;left:40px;right:40px;top:130px;height:1110px;border-radius:44px;{bg}box-shadow:14px 14px 0 {b};overflow:hidden;">
+    <div style="background:#faf6ef;margin:48px;padding:52px 52px 56px;border-radius:30px;border-bottom:12px solid {b};">
+      <div class="label" style="color:{b};font-size:26px;">{html.escape(p['label'])}</div>
+      <h1 style="font-size:{min(p.get('size', 96), 92)}px;margin-top:22px;">{html.escape(p['headline'])}</h1>
+      <p style="margin-top:22px;color:#6b665d;font-size:34px;">{html.escape(p['sub'])}</p>
+    </div>
+  </div>
+  <div style="position:absolute;left:70px;right:70px;top:1300px;text-align:center;">
+    <h2 style="font-size:84px;color:#1d1b3a;">Tap the link below <span style="color:#ff5c8a;">↓</span></h2>
+    <p style="margin-top:16px;font-size:36px;line-height:1.3;color:#1d1b3a;font-weight:700;">{html.escape(hook)}</p>
+  </div>
+  <div style="position:absolute;left:220px;right:220px;top:1555px;height:110px;border:5px dashed #b9b4c9;border-radius:30px;display:flex;align-items:center;justify-content:center;color:#9a95ad;font:700 34px Inter,sans-serif;">place link sticker here</div>
+</div></body></html>"""
+
+
 def main():
     posts = json.loads((ROOT / "ops" / "instagram" / "posts.json").read_text())
-    only = set(sys.argv[1:])
+    args = sys.argv[1:]
+    story_only = "--story" in args
+    only = set(a for a in args if not a.startswith("--"))
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
         page = browser.new_page(viewport={"width": 1080, "height": 1350})
+        spage = browser.new_page(viewport={"width": 1080, "height": 1920})
         for p in posts:
             if only and p["slug"] not in only:
                 continue
             a, b = THEMES[p.get("theme", "sage")]
             d = OUT / p["week"] / p["slug"]
             d.mkdir(parents=True, exist_ok=True)
-            slides = [cover(p, a, b)]
-            slides += [tip(i, len(p["tips"]), t, a, b, CYCLES.get(p.get("theme"))) for i, t in enumerate(p["tips"], 1)]
-            slides.append(end(p, a, b))
-            for k, s in enumerate(slides, 1):
-                page.set_content(s, wait_until="networkidle")
-                page.wait_for_timeout(250)
-                page.screenshot(path=str(d / f"{k:02d}.png"))
-            (d / "caption.txt").write_text(p["caption"].strip() + "\n")
-            print("rendered", p["slug"], len(slides), "slides")
+            if not story_only:
+                slides = [cover(p, a, b)]
+                slides += [tip(i, len(p["tips"]), t, a, b, CYCLES.get(p.get("theme"))) for i, t in enumerate(p["tips"], 1)]
+                slides.append(end(p, a, b))
+                for k, s in enumerate(slides, 1):
+                    page.set_content(s, wait_until="networkidle")
+                    page.wait_for_timeout(250)
+                    page.screenshot(path=str(d / f"{k:02d}.png"))
+                (d / "caption.txt").write_text(p["caption"].strip() + "\n")
+                print("rendered", p["slug"], len(slides), "slides")
+            if story_only and p.get("story") and p["slug"] not in only:
+                print("kept hand-made story", p["slug"])
+                continue
+            spage.set_content(story(p, a, b), wait_until="networkidle")
+            spage.wait_for_timeout(250)
+            spage.screenshot(path=str(d / "story.png"))
+            print("rendered", p["slug"], "story.png")
         browser.close()
     write_index(posts)
 
@@ -146,13 +184,20 @@ def write_index(posts):
         if not d.exists():
             continue
         imgs = "".join(f'<img src="{p["week"]}/{p["slug"]}/{f.name}?v={int(f.stat().st_mtime)}" loading="lazy" alt="slide {f.stem}">'
-                       for f in sorted(d.glob("*.png")))
+                       for f in sorted(d.glob("[0-9]*.png")))
+        st = d / "story.png"
+        story_html = (f'<div class="story"><img src="{p["week"]}/{p["slug"]}/story.png?v={int(st.stat().st_mtime)}" loading="lazy" alt="Story">'
+                      f'<p><b>Then the Story:</b> Post the carousel, then share a Story with a Link sticker → '
+                      f'<a href="{html.escape(p["guide"])}">{html.escape(p["guide"])}</a> (the only clickable link Instagram allows). '
+                      'Save this image, add it as a Story, tap the sticker icon → Link, paste the guide URL and drop the sticker on the dashed box.</p></div>'
+                      if st.exists() and p.get("guide") else "")
         when = f"Post on {dt.date.fromisoformat(p['day']).strftime('%a %-d %b')}" if p.get("day") else f"Post week of {p['week']}"
         if p.get("posted"):
             when = "Posted ✓"
         blocks.append(f"""<section><h2>{when}: {html.escape(p['headline'])}</h2>
-<p class="m">{len(list(d.glob('*.png')))} slides – save them in order, post as one carousel.</p>
+<p class="m">{len(list(d.glob('[0-9]*.png')))} slides – save them in order, post as one carousel.</p>
 <div class="row">{imgs}</div>
+{story_html}
 {f'<p class="m"><a href="{p["week"]}/{p["slug"]}/reel.mp4" download>⬇ Reel version (video, 9:16)</a> – post it as a Reel too, a day or two after the carousel, and add a trending sound in Instagram.</p>' if (d / "reel.mp4").exists() else ""}
 <textarea readonly onclick="this.select()">{html.escape(p['caption'].strip())}</textarea></section>""")
     (OUT / "index.html").write_text(f"""<!doctype html><html lang="en-GB"><head><meta charset="utf-8">
@@ -161,9 +206,10 @@ def write_index(posts):
 body{{font-family:system-ui,sans-serif;margin:0;padding:16px;background:#faf6ef;color:#2b2a27}}
 section{{margin:0 0 40px}} h2{{font-size:18px}} .m{{color:#6b665d;font-size:14px}}
 .row{{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory}} .row img{{width:78vw;max-width:360px;scroll-snap-align:start;border-radius:8px}}
+.story{{display:flex;gap:12px;align-items:flex-start;margin-top:12px;background:#fff;border-radius:10px;padding:10px}} .story img{{width:34vw;max-width:180px;border-radius:8px;flex:none}} .story p{{margin:0;font-size:14px;word-break:break-word}}
 textarea{{width:100%;height:220px;margin-top:10px;font:15px system-ui;padding:10px;border-radius:8px;border:1px solid #ccc;box-sizing:border-box}}
 </style></head><body><h1>Instagram posts to schedule</h1>
-<p class="m">Next post first. For each post: save the slides (tap and hold), then in Instagram or Meta Business Suite add them as one carousel and paste the caption.</p>
+<p class="m">Next post first. For each post: save the slides (tap and hold), then in Instagram or Meta Business Suite add them as one carousel and paste the caption. Then share the Story image with a Link sticker to the guide – carousel slides can't carry clickable links.</p>
 {''.join(blocks)}</body></html>""")
 
 

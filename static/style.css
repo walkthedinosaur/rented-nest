@@ -309,17 +309,22 @@ article.guide .hero { margin: 0 0 28px; }
 .guide .idea.has-img h3[id] { scroll-margin-top: calc((100vw - 32px) * .75 + 36px); }
 
 @media (min-width: 760px) {
+  /* text-only groups: tidy 2-column grid, an odd last card spans both columns */
   .ideas:not(.solo) { grid-template-columns: 1fr 1fr; gap: 22px; }
-  .ideas:not(.solo) > .idea:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .ideas:not(.solo):not(:has(> .has-img)) > .idea:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  /* groups with photos: Pinterest-style masonry columns, so a short text card never
+     stretches into an empty box next to a tall photo card (fix 19 Nov) */
+  .ideas:not(.solo):has(> .has-img) { display: block; columns: 2; column-gap: 22px; margin-bottom: 6px; }
+  .guide .ideas:not(.solo):has(> .has-img) > .idea { break-inside: avoid; margin: 0 0 22px; }
   .guide .ideas:not(.solo) > .idea.has-img h3[id] { scroll-margin-top: calc((min(100vw - 32px, var(--wide)) - 22px) / 2 * .75 + 36px); }
-  /* wide image cards (odd one out, or alone in a section): photo left, text right */
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  /* a photo card alone in its section: photo left, text right */
+  .guide .ideas.solo > .idea.has-img { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
     grid-auto-rows: min-content; align-content: center; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > .idea-fig { grid-column: 1; grid-row: 1 / span 12; margin: 0; aspect-ratio: auto; height: 100%; min-height: 300px; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > .idea-fig img { position: absolute; inset: 0; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > :not(.idea-fig):not(.tag) { grid-column: 2; margin-left: 24px; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > h3 { margin-top: 22px; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) h3[id] { scroll-margin-top: 40px; }
+  .guide .ideas.solo > .idea.has-img > .idea-fig { grid-column: 1; grid-row: 1 / span 12; margin: 0; aspect-ratio: auto; height: 100%; min-height: 300px; }
+  .guide .ideas.solo > .idea.has-img > .idea-fig img { position: absolute; inset: 0; }
+  .guide .ideas.solo > .idea.has-img > :not(.idea-fig):not(.tag) { grid-column: 2; margin-left: 24px; }
+  .guide .ideas.solo > .idea.has-img > h3 { margin-top: 22px; }
+  .guide .ideas.solo > .idea.has-img h3[id] { scroll-margin-top: 40px; }
 }
 
 /* Top-picks strip: swipe row on mobile, grid on desktop */
@@ -332,8 +337,11 @@ article.guide .hero { margin: 0 0 28px; }
   box-shadow: 0 4px 14px rgba(29,27,58,.08); counter-increment: pick; transition: transform .15s ease, box-shadow .15s ease; }
 .guide .pick:hover { color: var(--navy); transform: translateY(-3px); box-shadow: 5px 5px 0 var(--pink); }
 .guide .pick img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; background: #efe7da; }
-.guide .pick span { display: block; padding: 10px 12px 12px; font-weight: 700; font-size: 14.5px; line-height: 1.25; }
-.guide .pick span::after { content: " ↓"; color: var(--pink); }
+.guide .pick span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  min-height: calc(2 * 1.25em + 22px); padding: 11px 12px; font-weight: 700; font-size: 14.5px; line-height: 1.25; }
+.guide .pick { align-self: start; }
+.guide .pick::after { content: "↓"; position: absolute; right: 8px; top: 8px; width: 28px; height: 28px; border-radius: 50%;
+  background: rgba(255,255,255,.92); color: var(--navy); font: 700 15px/28px var(--sans); text-align: center; }
 .guide .pick::before { content: counter(pick); position: absolute; top: 8px; left: 8px; z-index: 1; width: 28px; height: 28px;
   border-radius: 50%; background: var(--sun); color: var(--navy); font: 700 14px/28px var(--sans); text-align: center; box-shadow: 2px 2px 0 var(--navy); }
 .guide .pick:nth-child(5n+2)::before { background: var(--lime); } .guide .pick:nth-child(5n+3)::before { background: var(--pink); }
