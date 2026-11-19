@@ -1,6 +1,6 @@
 # Instagram comment drafts – 2026-11-17 (Tue)
 
-Drafted by the Social agent. Awaiting Dylan's approval – nothing posted yet.
+Drafted by the Social agent. Dylan approved all 3 ("post all"); all 3 POSTED 19 Nov via the built-in browser and logged in comments-log.md.
 Note: the browser on Dylan's Mac disconnected partway through, so only 3 drafts this run (the extra accounts
 @apartmenttherapy, @habitatuk and @ourcuratedabode weren't checked). Posting needs the computer back online.
 
