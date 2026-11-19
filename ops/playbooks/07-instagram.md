@@ -38,6 +38,11 @@ latest growth review; nothing out of season. Updated every Friday run in step 5a
    static/social/index.html (noindex, robots-disallowed). View slide 1 and one tip slide; fix text that overflows.
 4b. `python3 tools/make_reel.py <slugs>` – makes reel.mp4 (9:16, ~17 s, no audio) for each post; /social/ shows a download link. Dylan posts the Reel 1–2 days after the carousel with a trending sound from Instagram's library (never add music ourselves – licensing).
 5a. Update the featured list in content/links.html for next week (rule above).
+    Same step: refresh the "Black Friday & Christmas picks" block under it (added 19 Nov, register #89) – seasonal, max 6
+    items, each = item name + `{{amazon:…|Shop on Amazon UK}}` copied exactly from a current guide + a "Why we picked it"
+    link to that guide's h3 anchor; keep the "Ad" line at the top; price only if the guide gives "typically around
+    £X–£Y at the time of writing – check current price". Out of season (from 25 Dec) swap to January-sales picks or remove
+    the block. Clicks show in GoatCounter as amazon-links (home strip: amazon-home).
 5. Build, commit, push with the site. Check https://therentednest.co.uk/social/ returns 200 and shows the new posts.
 6. Log "IG: <slugs> for week of <date>" in the content-log entry. The Monday CEO message reminds Dylan the week's
    posts are ready at therentednest.co.uk/social/.
