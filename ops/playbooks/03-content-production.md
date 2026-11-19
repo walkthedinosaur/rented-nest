@@ -94,3 +94,21 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 19. Append a 3-line run log to ops/reports/content-log.md: (1) pages added/changed and register items ticked,
     (2) pins scheduled and queue end date, (3) credits left and any playbook fix made this run.
 20. Commit and push. No message to Dylan unless something failed or credits < 40.
+
+## Visual standard (19 Nov 2026)
+Owner feedback: guide pages felt plain and text-heavy when arriving from Pinterest. build.py now gives guides a
+magazine layout (split title/hero header on desktop, wide photos, cards in a 2-column grid, photo related-guides) and
+styles four markup blocks. Use them in new and refreshed guides – especially gift/product roundups:
+- Product card with photo: `<div class="idea"><img class="idea-img" src="/photos/<file>.jpg" alt="…" loading="lazy"
+  width="800" height="800"><span class="tag">Clever buy</span><h3>Name</h3><p>Why…</p><p class="shop">{{amazon:…|Shop
+  on Amazon UK}}</p></div>`. img and tag optional (text-only cards still look fine). build.py wraps the photo and adds an
+  "Illustrative photo" label automatically – use lifestyle photos, never imply the photo is the exact product.
+  Consecutive cards form a 2-column grid on desktop; an odd last card (or a lone card) goes wide with photo left.
+  Keep h3 text stable – Pinterest pins link to the #anchor generated from it (or set `<h3 id="x">` explicitly).
+- Top-picks strip (4–8 picks, right after the intro on roundups): `<div class="picks"><a class="pick"
+  href="#<h3-anchor>"><img src="/photos/…" alt="…" loading="lazy" width="600" height="600"><span>Short name</span></a>
+  …</div>`. Swipe row on mobile, numbered grid on desktop (4 = 4-up, 5 = 5-up, 6 = 3-up/6-up, 7–8 = 4-up).
+- Gallery (2–4 photos under an h2, for mood/room inspiration): `<div class="gallery"><img …><img …></div>` – mosaic.
+- Tip callout: `<aside class="tip"><strong>Renter tip</strong> …</aside>` – one or two per guide, for renter-specific advice.
+Rule of thumb: every h2 section gets at least one visual (section-img, gallery or photo cards); never three text-only
+screens in a row on mobile. Always set width/height and loading="lazy" on body images; keep alt text descriptive.

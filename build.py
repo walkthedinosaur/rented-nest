@@ -174,11 +174,14 @@ def related_block(g, guides):
     same = [o for o in others if group_of(o["url"]) == mine]
     rest = [o for o in others if group_of(o["url"]) != mine]
     pick = (same + rest)[:3]
-    items = "\n".join(f'<li><a href="{o["url"]}">{html.escape(o["title"])}</a> – {html.escape(o["description"])}</li>' for o in pick)
+    def thumb(o):
+        return (f'<img src="/photos/{o["hero"]}" alt="" loading="lazy" width="600" height="400">'
+                if o.get("hero") else '<span class="rel-swatch"></span>')
+    items = "\n".join(f'<li><a href="{o["url"]}">{thumb(o)}<span class="rel-text"><span class="rel-title">{html.escape(o["title"])}</span> <span class="rel-desc">{html.escape(o["description"])}</span></span></a></li>' for o in pick)
     follow = ('<p class="follow">New renter tips three times a week – follow us on '
               '<a href="https://www.instagram.com/therentednestonline/?utm_source=site&amp;utm_medium=guide">Instagram</a> and '
               '<a href="https://www.pinterest.com/therentednestuk/">Pinterest</a>.</p>')
-    return f'<section class="related"><h2>More guides for renters</h2><ul>{items}</ul>{follow}</section>'
+    return f'<section class="related"><h2>More guides for renters</h2><ul class="related-list">{items}</ul>{follow}</section>'
 
 
 def anchor_ids(body):
@@ -188,17 +191,69 @@ def anchor_ids(body):
     return re.sub(r"<h3>([^<]+)</h3>", add, body)
 
 
+IDEA_IMG = re.compile(r'<img\b(?=[^>]*\bclass="idea-img")[^>]*>')
+IDEA_OPEN = re.compile(r'<div class="idea(?: [^"]*)?"')
+DIV_TAG = re.compile(r'<div\b|</div>')
+
+
+def _div_end(body, start):
+    """Index just after the </div> that closes the <div> opening at `start` (balanced)."""
+    depth = 0
+    for m in DIV_TAG.finditer(body, start):
+        depth += 1 if m.group(0).startswith("<div") else -1
+        if depth == 0:
+            return m.end()
+    return len(body)
+
+
+def visual_blocks(body):
+    """Visual standard (19 Nov 2026). Wraps .idea-img in a figure with an
+    'Illustrative photo' note, tags image cards, gives every card a running
+    accent colour, and groups consecutive .idea cards into <div class="ideas">
+    so CSS can lay them out as a grid. h3 text and ids are left untouched."""
+    body = IDEA_IMG.sub(lambda m: f'<figure class="idea-fig">{m.group(0)}'
+                        '<figcaption class="idea-note">Illustrative photo</figcaption></figure>', body)
+    out, pos, n = [], 0, 0
+    while True:
+        m = IDEA_OPEN.search(body, pos)
+        if not m:
+            out.append(body[pos:])
+            break
+        out.append(body[pos:m.start()])
+        run, cur = [], m.start()
+        while True:
+            end = _div_end(body, cur)
+            card = body[cur:end]
+            extra = f" k{n % 5}" + (" has-img" if 'class="idea-fig"' in card else "")
+            card = IDEA_OPEN.sub(lambda c: c.group(0)[:-1] + extra + '"', card, count=1)
+            run.append(card)
+            n += 1
+            nxt = IDEA_OPEN.match(body, re.compile(r"\s*").match(body, end).end())
+            if not nxt:
+                pos = end
+                break
+            cur = nxt.start()
+        kind = "ideas solo" if len(run) == 1 else "ideas"
+        out.append(f'<div class="{kind}">' + "\n".join(run) + "</div>")
+    return "".join(out)
+
+
 def render_guide(g, guides=()):
     hero = (f'<img class="hero" src="/photos/{g["hero"]}" alt="{html.escape(g.get("hero_alt", g["title"]))}" width="1200" height="800" loading="eager">'
             if g.get("hero") else "")
-    return f"""<article><div class="narrow">
+    return f"""<article class="guide{' has-hero' if hero else ''}"><div class="guide-wrap">
+<header class="guide-head"><div class="guide-intro">
 <p class="eyebrow">Guide</p>
 <h1>{html.escape(g['title'])}</h1>
 <p class="standfirst">{html.escape(g['description'])}</p>
 {'' if g.get('ads') == 'none' else DISCLOSURE}
+</div>
 {hero}
-{anchor_ids(g['body'])}
+</header>
+<div class="guide-body">
+{visual_blocks(anchor_ids(g['body']))}
 {related_block(g, guides)}
+</div>
 </div></article>"""
 
 
