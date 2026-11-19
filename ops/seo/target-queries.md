@@ -65,3 +65,18 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - New: "draught free" (3 impr, pos 83). "small heated clothes airer" 3 impr, pos 32 (was 37.5). "drying laundry indoors" still pos 7.
 - Skipped 11 Nov: "how to stop condensation on windows overnight" – SERP is Homes & Gardens, Ideal Home, Livingetc,
   HomeServe, Saga (big publishers answering it well) and our condensation guide already covers the habits.
+
+## Briefed 19 Nov (catch-up SEO run for 18 Nov)
+- [b] landlord selling house do i have to move out (brief landlord-selling-house-tenant-rights-england.md) – SERP agents/solicitors/landlord press + Shelter
+- [b] landlord wants me to sign a new tenancy agreement (brief landlord-new-tenancy-agreement-england.md) – community 15 Nov Q6
+- [b] how often can a landlord do inspections (brief how-often-landlord-inspect-england.md) – SERP all landlord/agent-side; community 10 Nov Q9 + 15 Nov Q3
+- FAQs added (not new pages): "landlord asked me to suggest a fair rent" (rent-rise guide), "old deposit never collected"
+  (move-out checklist), "giving notice when buying a house" + "students in a shared house giving notice" (give-notice guide)
+
+## Seen in Search Console (19 Nov, 28 days 21 Oct–17 Nov)
+- New: "new tenancy act 2020" (5 impr, pos 26 → RRA guide), "dehumidifier for 2 bed flat" (5, pos 86) and "for 1 bed flat" (5, pos 80)
+  → dehumidifier guide (a sizing h2 could help; SERP is Meaco blog, Ideal Home, Woman&Home – no new page), section 8 grounds
+  queries (pos 63–98 → section 8 guide), landlord-entry queries incl. HMO and garden (pos 55–97), "how much notice do i have
+  to give my landlord" family (pos 64–96), "window clothes airer for flats" (pos 19), "christmas presents under 20" (pos 100).
+- Skipped 19 Nov: "what size dehumidifier for a 2 bed flat" as a new page (publishers + Meaco own it), "hosting christmas in a
+  small flat" (Livingetc, Real Homes, Ideal Home), "radiator vs window airer" (retailers + Ideal Home).
