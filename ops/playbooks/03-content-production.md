@@ -112,3 +112,13 @@ styles four markup blocks. Use them in new and refreshed guides – especially g
 - Tip callout: `<aside class="tip"><strong>Renter tip</strong> …</aside>` – one or two per guide, for renter-specific advice.
 Rule of thumb: every h2 section gets at least one visual (section-img, gallery or photo cards); never three text-only
 screens in a row on mobile. Always set width/height and loading="lazy" on body images; keep alt text descriptive.
+
+## Product picks standard (19 Nov 2026)
+Owner feedback (19 Nov): guides linked to products that "aren't very interesting". Every new or refreshed product guide
+uses the markup contract in "Visual standard" above (photo cards, picks strip, gallery, tip callout), with at least one
+card photo per two cards and every photo unique site-wide. Where the guide's angle and budget allow, at least 30% of the
+picks come from the current novel-products list (ops/seo/novel-products-YYYY-MM.md – rows marked V only; budget guides
+use only items seen at or under the budget). The Content run re-verifies that list on the first run of each month: open
+each product's UK retailer/manufacturer page again, update price/status, mark anything gone "NOT VERIFIED", add 5+ new
+finds, and save as a new month's file. Never use Amazon or retailer product images – lifestyle photos of the product
+TYPE from Unsplash only.

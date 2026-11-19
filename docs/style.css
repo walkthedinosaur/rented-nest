@@ -314,8 +314,9 @@ article.guide .hero { margin: 0 0 28px; }
   .guide .ideas:not(.solo) > .idea.has-img h3[id] { scroll-margin-top: calc((min(100vw - 32px, var(--wide)) - 22px) / 2 * .75 + 36px); }
   /* wide image cards (odd one out, or alone in a section): photo left, text right */
   .guide .ideas > .idea.has-img:last-child:nth-child(odd) { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
-    grid-auto-rows: min-content; align-content: start; }
-  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > .idea-fig { grid-column: 1; grid-row: 1 / span 12; margin: 0; aspect-ratio: auto; height: 100%; min-height: 260px; }
+    grid-auto-rows: min-content; align-content: center; }
+  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > .idea-fig { grid-column: 1; grid-row: 1 / span 12; margin: 0; aspect-ratio: auto; height: 100%; min-height: 300px; }
+  .guide .ideas > .idea.has-img:last-child:nth-child(odd) > .idea-fig img { position: absolute; inset: 0; }
   .guide .ideas > .idea.has-img:last-child:nth-child(odd) > :not(.idea-fig):not(.tag) { grid-column: 2; margin-left: 24px; }
   .guide .ideas > .idea.has-img:last-child:nth-child(odd) > h3 { margin-top: 22px; }
   .guide .ideas > .idea.has-img:last-child:nth-child(odd) h3[id] { scroll-margin-top: 40px; }
@@ -354,7 +355,8 @@ article.guide .hero { margin: 0 0 28px; }
 .guide .gallery:has(> img:nth-child(3)) > img:first-child { grid-row: span 2; }
 .guide .gallery:has(> img:nth-child(4)) { grid-template-columns: 2fr 1fr 1fr; }
 .guide .gallery:has(> img:nth-child(4)) > img:nth-child(2) { grid-column: span 2; }
-@media (min-width: 760px) { .guide .gallery { gap: 14px; } .guide .gallery img { border-radius: 18px; } }
+@media (min-width: 760px) { .guide .gallery { gap: 14px; grid-auto-rows: clamp(180px, 30vw, 320px); } .guide .gallery img { border-radius: 18px; }
+  .guide .gallery:has(> img:nth-child(3)) { grid-auto-rows: clamp(110px, 18vw, 210px); } }
 
 /* Tip callout */
 .guide .tip { background: #fff6d6; border-left: 6px solid var(--sun); border-radius: 14px; padding: 14px 18px 14px 18px; color: var(--navy); }
