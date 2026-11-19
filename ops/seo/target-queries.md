@@ -29,6 +29,8 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
 - [x] can my landlord put the rent up – new rules – answered on /guides/can-landlord-put-rent-up-england.html (29 Oct)
 - [x] can my landlord refuse a pet uk (/guides/ask-landlord-for-a-pet-england.html, 22 Oct)
 - [x] what is a periodic tenancy – covered inside "how much notice do I need to give my landlord uk" (brief give-notice-to-landlord-england.md, 28 Oct)
+- [x] how much rent in advance can a landlord ask for uk / no payslip renting (community-2026-11-15.md Q7) – /guides/rent-in-advance-rules-england.html (19 Nov, Thu run; includes bidding ban)
+- [x] can a landlord refuse tenants on benefits / with children – "no DSS" (RRA discrimination rules) – /guides/landlord-refuse-tenants-benefits-children-england.html (19 Nov, Thu run)
 - [ ] damp and mould rules for private landlords (Awaab's Law) – NO separate page (4 Nov): already covered on condensation, black mould, damp data and RRA guides; consultation closes 18 Dec 2026 – update those pages when the government responds
 
 ## Tools (link magnets)
