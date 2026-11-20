@@ -1,6 +1,6 @@
 # Instagram comment drafts – 2026-11-20 (Fri)
 
-Drafted by the Social agent. Awaiting Dylan's approval – nothing posted yet.
+Drafted by the Social agent. Dylan approved all 4 ("Approved"); all 4 POSTED 20 Nov via the built-in browser and logged in comments-log.md.
 Window: posts from 17–20 Nov. Only 1 usable post from the five core accounts, so 3 more came from other followed accounts.
 
 1. **@charlottejacklin** · https://www.instagram.com/charlottejacklin/reel/Df5GO6TNfsi/
