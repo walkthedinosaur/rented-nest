@@ -27,6 +27,9 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 6. Research: gather the facts and sources for each page. Price bands only from a source checked today, written as
    "typically around £X–£Y at the time of writing – check current price".
 7. Photos: one unique Unsplash photo per h2 section, downloaded into static/photos/, IDs added to CREDITS.md.
+   If unsplash.com can't be fetched (cloud runs, 20 Nov 2026: WebFetch permission prompt with nobody to answer), don't
+   fetch it another way: for pins use photos already in static/photos that no pin or Instagram post has used (check
+   tools/pins.json + ops/instagram/posts.json by script); a new page waits for a run that can fetch Unsplash.
 8. Write each page in the house format (see existing guides): 900–1,400 words, answer first, 4–5 h2 sections each
    with its section photo, 8–14 .idea cards with Amazon shortcodes, renter-specific advice, a Sources list.
    Add a "Bigger buys" angle where natural.
