@@ -349,5 +349,17 @@
    "v3-nodss-kids": "6afecf2ewE8sJOouyYAGI"
   },
   "window": "DRAFTS (Thu run, not scheduled). Renting Tips UK board; no affiliate links so no 'Ad'. Tue/Fri runs schedule under 1/day + 7-day rule; Christmas sprint (#69) puts these behind money pages."
+ },
+ "batch_2026_11_20_content": {
+  "post_ids": {
+   "v3-u10-ss-socks": "6b002351mw6i-CyqjoDkL",
+   "v3-ss-hs-mug": "6b002359gUJnMQ-rMBBYZ",
+   "v3-u20-mushroom": "6b00236d4Gn5KU4Ov-g_2",
+   "v3-deco-wreath": "6b00236eW3xsh-7uZTBhn",
+   "v3-ff-print": "6b00236fpN9ZqGWiG032d",
+   "v3-xg-projector": "6b002370-bbuAj0jK1AIn",
+   "v3-sf-adults": "6b002372LVQG6ROEfNGOa"
+  },
+  "window": "Wed 25 Nov 19:03 to Tue 1 Dec 19:02 UK, one a day (create_post, useNextOpenSlot)"
  }
 }
