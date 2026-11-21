@@ -5,12 +5,12 @@ Mark [x] when a draft exists in drafts/, [b] when a brief exists in briefs/.
 
 ## Rider kit and sizing
 - [ ] riding hat safety standards explained uk (PAS015, VG1, Snell, ASTM – check BETA + governing bodies on the day)
-- [ ] how to measure your head for a riding hat
+- [x] how to measure your head for a riding hat
 - [ ] how often should you replace a riding hat
 - [ ] body protector levels explained uk (BETA levels – check BETA on the day)
 - [x] jodhpurs vs breeches – what's the difference
 - [ ] long riding boots vs jodhpur boots and half chaps
-- [ ] what to wear horse riding in winter uk
+- [x] what to wear horse riding in winter uk
 - [ ] best riding gloves for winter (buyer's guide, no testing claims)
 - [ ] riding air vest – how they work and who needs one (check BETA/BE on the day)
 
