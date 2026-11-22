@@ -35,6 +35,10 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
    https://forums.moneysavingexpert.com/categories/house-buying-renting-selling (and /p2, /p3, /p4 – mostly buyers
    and landlords, pick the tenant threads), then WebFetch each thread for date, facts and the renter's own words.
    Top up with WebSearch for "forums.moneysavingexpert.com tenant <topic>". Record which source was used.
+   Update 22 Nov 2026: in the unattended cloud run WebFetch of the MSE forum can be refused ("permission request …
+   not answered in time – Do not retry"). Then don't retry, don't fetch it another way, and don't write drafts from
+   search-result titles (no thread read = no facts). Record "Community: not done – <reason>" in the review, mark #9
+   late, and list any titles only as topic signals. Register #98 tracks the permission fix (Dylan).
 6b. Pinterest Trends (added 19 Oct 2026; URL fixed 10 Nov 2026): the UK region code is **GB+IE**, not GB (country=GB
    gave the blank/"unavailable" pages of 22 Oct and 2 Nov). Most single keywords in the fixed list still say "Keyword
    unavailable for this region" on detail pages, and detail pages show a graph but no % figures. So in the built-in
