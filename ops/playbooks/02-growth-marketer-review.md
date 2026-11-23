@@ -50,6 +50,10 @@ items (e.g. #7 welcome emails, #9 community answers) done and ticked.
    Also check the fixed list plus up to 3 new candidates from steps 5–6. For each, record
    in a "Pinterest Trends" table in this week's growth review: keyword, weekly/monthly/yearly change as shown, and
    rising/flat/falling. Only record numbers you can see on the page – never estimate. Add any keyword that shows as
+   Cloud runs (no built-in browser, added 23 Nov 2026): open https://trends.pinterest.com/?country=GB%2BIE in headless
+   Chromium (Playwright, pre-installed) and record the public overview – "Trends in the spotlight" and "Shopping trends"
+   (outbound clicks, % MoM) – as shown. The /search/ keyword pages need a login (redirect with showUnauthModal), so the
+   fixed list stays "not checked – needs signed-in browser" on cloud runs.
    rising to the fixed list. If Trends doesn't load (blank page, signed out, unreachable), write "Trends: not
    checked – <reason>" and carry on; the CEO report flags it if it happens two weeks running.
 
