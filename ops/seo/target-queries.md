@@ -80,3 +80,9 @@ Status: [ ] not started · [b] brief written · [x] published. Volumes not verif
   to give my landlord" family (pos 64–96), "window clothes airer for flats" (pos 19), "christmas presents under 20" (pos 100).
 - Skipped 19 Nov: "what size dehumidifier for a 2 bed flat" as a new page (publishers + Meaco own it), "hosting christmas in a
   small flat" (Livingetc, Real Homes, Ideal Home), "radiator vs window airer" (retailers + Ideal Home).
+
+## SEO run 25 Nov (cloud; Search Console not read)
+- [b] mice in rented flat landlord responsibility uk (brief mice-pests-rented-flat-england.md) – SERP landlord insurers (Simply Business, Hiscox), Landlord Law Blog, CA, Shelter
+- [b] landlord says i owe rent arrears but i have paid (brief rent-arrears-but-paid-england.md) – community 22 Nov Q1; SERP CA "paying off arrears" + Which? landlord-side
+- Skipped 25 Nov: "can i withhold rent for repairs" (Shelter ×4 + Citizens Advice own it), "landlord responsibility extractor fan" as a new page
+  (already a full h2 + 2 FAQs on the condensation guide; SC query "landlord responsibility ventilation" pos 83 is a ranking problem there – don't split it)

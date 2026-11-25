@@ -2,9 +2,10 @@ title: Drying & heating running-cost calculator (UK)
 description: Work out what a heated airer, tumble dryer, dehumidifier or plug-in heater costs to run per use, week, month and winter at the current UK price cap rate.
 kind: page
 date: 2026-10-15
+updated: 2026-11-25
 ---
-<p class="meta">Last reviewed 15 October 2026 · Default rate: Ofgem price cap, 1 October to 31 December 2026 · Estimates only.</p>
-<p><strong>The short answer:</strong> on Which?'s figures, a heated airer costs roughly 6–8p an hour, so a typical load comes to around 35–40p at today's rate. A vented or condenser tumble dryer uses about 3.4kWh a load (around 89p), and a heat-pump tumble dryer about 1.3kWh (around 34p). So a heated airer is usually much cheaper than an ordinary tumble dryer, but costs about the same as a heat-pump dryer. Use the calculator below to plug in your own appliance, tariff and habits.</p>
+<p class="meta">Last reviewed 25 November 2026 · Default rate: Ofgem price cap, 1 January to 31 March 2027 · Estimates only.</p>
+<p><strong>The short answer:</strong> on Which?'s figures, a heated airer uses roughly 240–320W, which is about 8–10p an hour at the January 2027 price cap rate, so a typical load comes to around 45–50p. A vented or condenser tumble dryer uses about 3.4kWh a load (around £1.11), and a heat-pump tumble dryer about 1.3kWh (around 42p). So a heated airer is usually much cheaper than an ordinary tumble dryer, but costs about the same as a heat-pump dryer. Use the calculator below to plug in your own appliance, tariff and habits.</p>
 
 <style>
 .calc{background:#f6f3ee;border-radius:14px;padding:1.2rem;margin:1.5rem 0}
@@ -32,9 +33,9 @@ date: 2026-10-15
   </div>
   <div class="row">
     <div><label for="uses">Uses per week</label><input id="uses" type="number" min="0" step="1" value="3" inputmode="decimal"></div>
-    <div><label for="rate">Electricity unit rate (p per kWh)</label><input id="rate" type="number" min="0" step="0.01" value="26.32" inputmode="decimal"></div>
+    <div><label for="rate">Electricity unit rate (p per kWh)</label><input id="rate" type="number" min="0" step="0.01" value="32.69" inputmode="decimal"></div>
   </div>
-  <p class="hint">26.32p is Ofgem's average electricity unit rate for 1 October to 31 December 2026 (Direct Debit). Your tariff may differ – check a recent bill.</p>
+  <p class="hint">32.69p is Ofgem's average electricity unit rate for 1 January to 31 March 2027 (Direct Debit; Ofgem says no VAT applies to electricity in this period). Until 31 December the cap rate is 26.32p – type that in to see this month's cost. Your tariff may differ – check a recent bill.</p>
   <div class="out" aria-live="polite">
     <div>Per use<b id="oUse">–</b></div>
     <div>Per week<b id="oWeek">–</b></div>
@@ -106,15 +107,15 @@ date: 2026-10-15
 
 <h2>Heated airer or tumble dryer – which is cheaper?</h2>
 <img class="section-img" src="/photos/1604177420682-0c840feb01de.jpg" alt="Rows of electricity meters mounted on a wall" loading="lazy" width="1200" height="675">
-<p>Using the calculator's own figures at 26.32p per kWh, for one load:</p>
+<p>Using the calculator's own figures at 32.69p per kWh (the January–March 2027 cap), for one load:</p>
 <ul>
-  <li><strong>Winged heated airer</strong> (about 240W for 6 hours): 1.44kWh – around <strong>38p</strong>.</li>
-  <li><strong>Tower heated airer</strong> (about 320W for 4¾ hours): 1.52kWh – around <strong>40p</strong>.</li>
-  <li><strong>Drying pod</strong> (about 1,040W for 2¼ hours): 2.34kWh – around <strong>62p</strong>.</li>
-  <li><strong>Vented or condenser tumble dryer</strong>: about 3.4kWh – around <strong>89p</strong>.</li>
-  <li><strong>Heat-pump tumble dryer</strong>: about 1.3kWh – around <strong>34p</strong>.</li>
+  <li><strong>Winged heated airer</strong> (about 240W for 6 hours): 1.44kWh – around <strong>47p</strong>.</li>
+  <li><strong>Tower heated airer</strong> (about 320W for 4¾ hours): 1.52kWh – around <strong>50p</strong>.</li>
+  <li><strong>Drying pod</strong> (about 1,040W for 2¼ hours): 2.34kWh – around <strong>76p</strong>.</li>
+  <li><strong>Vented or condenser tumble dryer</strong>: about 3.4kWh – around <strong>£1.11</strong>.</li>
+  <li><strong>Heat-pump tumble dryer</strong>: about 1.3kWh – around <strong>42p</strong>.</li>
 </ul>
-<p>So at three loads a week, a heated airer comes to roughly £5 a month, against nearer £11–12 for an ordinary tumble dryer. Which?'s own testing points the same way: it found heated airers average about 39p per cotton load. It also found a heat-pump tumble dryer costs about £41 a year for three large loads a week, while drying big loads on a heated airer (which often needs more than one run) costs about £117 a year – about the same as a vented or condenser dryer.</p>
+<p>So at three loads a week, a heated airer comes to roughly £6 a month, against nearer £14–15 for an ordinary tumble dryer. Which?'s own testing (at its older unit rate) points the same way: it found heated airers average about 39p per cotton load. It also found a heat-pump tumble dryer costs about £41 a year for three large loads a week, while drying big loads on a heated airer (which often needs more than one run) costs about £117 a year – about the same as a vented or condenser dryer.</p>
 <p>A few things the numbers don't show:</p>
 <ul>
   <li><strong>Load size.</strong> Airers hold less than a drum, so a big wash may need two runs.</li>
@@ -130,13 +131,14 @@ date: 2026-10-15
   <li><strong>Cost per use</strong> = watts ÷ 1,000 × hours × unit rate. For tumble dryers it's kWh per load × unit rate.</li>
   <li><strong>The presets are estimates.</strong> Where a source gave a running cost rather than a wattage, we worked back to watts using the unit rate the source used, and say so in the note under each preset. Your own appliance's label or manual is always better – type its figure in.</li>
   <li><strong>Thermostats and humidistats</strong> switch heaters and dehumidifiers off and on, so they often use less than their rated power.</li>
-  <li><strong>Not included:</strong> the daily standing charge (54.83p a day for electricity under the October–December 2026 cap), which you pay whatever you use.</li>
+  <li><strong>Not included:</strong> the daily standing charge (54.77p a day for electricity under the January–March 2027 cap; 54.83p until 31 December), which you pay whatever you use.</li>
   <li><strong>Nothing is stored.</strong> The calculator runs in your browser and doesn't save or send what you type.</li>
 </ul>
-<p>We'll update the default rate when Ofgem announces the cap for January to March 2027.</p>
+<p>Ofgem will publish the cap for April to June 2027 by 23 February 2027; we'll update the default rate then.</p>
 
 <h2>Sources</h2>
 <ul>
+  <li><a href="https://www.ofgem.gov.uk/news/changes-energy-price-cap-between-1-january-and-31-march-2027" rel="nofollow">Ofgem – Changes to energy price cap between 1 January and 31 March 2027</a> (32.69p/kWh, 54.77p/day; published and checked 25 November 2026)</li>
   <li><a href="https://ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026" rel="nofollow">Ofgem – Changes to energy price cap between 1 October and 31 December 2026</a> (26.32p/kWh, 54.83p/day; checked 15 October 2026)</li>
   <li><a href="https://which.co.uk/news/article/are-heated-airers-worth-it-anZ006K965Pj" rel="nofollow">Which? – Are heated airers worth it? (March 2026)</a></li>
   <li><a href="https://www.which.co.uk/news/article/which-type-of-tumble-dryers-are-cheapest-to-run-aUOSv7x39Rdo" rel="nofollow">Which? – Which type of tumble dryers are cheapest to run? (October 2026)</a></li>
