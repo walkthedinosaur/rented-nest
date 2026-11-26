@@ -1,5 +1,5 @@
 # Brief: My landlord is selling the house – do I have to move out? (England)
-Written: 2026-11-19 (SEO run, catch-up for Wed 18 Nov) · For: a Thu QUESTIONS run (26 Nov or 3 Dec) · Status: UNWRITTEN
+Written: 2026-11-19 (SEO run, catch-up for Wed 18 Nov) · For: a Thu QUESTIONS run (26 Nov or 3 Dec) · Status: DRAFTED 26 Nov 2026 (Thu QUESTIONS run, cloud) – ops/seo/drafts/landlord-selling-house-tenant-rights-england.html; NOT published: facts + photos pending (register #101)
 Suggested slug: /guides/landlord-selling-house-tenant-rights-england.html · Label: Renting rules · `ads: none`
 
 ## Target query

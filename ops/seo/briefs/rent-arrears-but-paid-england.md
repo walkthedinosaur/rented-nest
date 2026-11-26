@@ -1,5 +1,5 @@
 # Brief: "My landlord says I owe rent arrears – but I've paid" (England, renter's side)
-Written: 2026-11-25 (SEO run) · For: a Thu "renter questions" run (fits the community/RRA seam) · Status: UNWRITTEN
+Written: 2026-11-25 (SEO run) · For: a Thu "renter questions" run (fits the community/RRA seam) · Status: DRAFTED 26 Nov 2026 (Thu QUESTIONS run, cloud) – ops/seo/drafts/rent-arrears-but-paid-england.html; NOT published: facts + photos pending (register #101)
 Suggested slug: /guides/rent-arrears-but-paid-england.html · Label: Renting rules · ads: none
 
 ## Target query

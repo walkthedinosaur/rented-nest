@@ -28,6 +28,11 @@ Goal: grow the renter-question SEO cluster to 30–50 pages by mid-January 2027.
    point to Shelter / Citizens Advice / GOV.UK; a "Last reviewed" date on legal pages; England-only pages say so and
    link the Scotland/Wales/NI equivalents.
 8. Affiliate links only where genuinely useful (then the "Ad" label applies; otherwise set `ads: none`).
+8a. Fetch blocked (added 26 Nov 2026): if GOV.UK/Shelter can't be fetched (WebFetch permission prompt nobody answers in
+   cloud runs; WebSearch returns titles only, which is NOT verification) or there are no unused photos and Unsplash
+   can't be fetched, don't publish. Write the pages as drafts in ops/seo/drafts/<slug>.html, mark every fact not
+   already sourced in an existing guide [VERIFY], set the brief to DRAFTED, add/update a register row to publish them,
+   and message Dylan once that the run couldn't publish. Never fill facts from memory to get a page out.
 9. Cross-link from 1–2 related guides. Mark the query [x] in target-queries.md. Tick any register item done.
 
 ## D. Publish
