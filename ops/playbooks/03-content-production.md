@@ -61,7 +61,7 @@ Output: new pins queued to ~6 days ahead, up to 2 new pages live, owned register
 12. Choose the mix: winners by outbound clicks first (gift guides in Nov–Dec), then new pages – but every pin must
     pass the 7-day spacing rule (no other pin to the same page, without #anchor, published or queued within 7 days
     either side; check tools/tailwind_queue.json + list_posts queued/sent). One pin per page per week at most.
-13. Add the entries to tools/pins.json: slug v3-…, a v3 layout + palette + font (see tools/make_pins.py docstring:
+13. Add the entries to tools/pins.json: slug v3-… (must be NEW – grep pins.json first; a reused slug overwrites a published pin's PNG, 27 Nov 2026), a v3 layout + palette + font (see tools/make_pins.py docstring:
     overlay, split, poster, checklist, frame, numbered, arch, duo, script; 12 palettes; 6 fonts), unique photo,
     headline ≤7 words, sub line, label, guide URL with a #anchor that exists, board, title ≤100 chars, description
     starting "Ad – " ≤500 chars, alt. Rotate hard (changed 3 Nov 2026 – Dylan: "the pins all look the same"):
